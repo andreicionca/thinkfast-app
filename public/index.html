@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThinkFast Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>ThinkFast Challenge</h1>
+        <p class="subtitle">
+          Testează-ți cunoștințele într-un mod distractiv și competitiv
+        </p>
+      </header>
+
+      <section class="section">
+        <h2>Mod de Joc</h2>
+        <div class="game-modes">
+          <label class="mode-card">
+            <input type="radio" name="gameType" value="image-to-text" checked />
+            <div class="card-content">
+              <span class="icon">🖼️</span>
+              <h3>Imagine ➡️ Răspuns scurt</h3>
+              <p>Recunoaște imaginea și spune răspunsul</p>
+            </div>
+          </label>
+
+          <label class="mode-card disabled">
+            <input
+              type="radio"
+              name="gameType"
+              value="image-multiple-choice"
+              disabled
+            />
+            <div class="card-content">
+              <span class="icon">🎯</span>
+              <h3>Imagine ➡️ Variante de răspuns</h3>
+              <p>Recunoaște imaginea și alege răspunsul</p>
+              <span class="badge">În curând</span>
+            </div>
+          </label>
+
+          <label class="mode-card disabled">
+            <input
+              type="radio"
+              name="gameType"
+              value="text-multiple-choice"
+              disabled
+            />
+            <div class="card-content">
+              <span class="icon">📝</span>
+              <h3>Întrebare text ➡️ Variante de răspuns</h3>
+              <p>Citește întrebarea și alege răspunsul</p>
+              <span class="badge">În curând</span>
+            </div>
+          </label>
+
+          <label class="mode-card disabled">
+            <input
+              type="radio"
+              name="gameType"
+              value="hints-to-text"
+              disabled
+            />
+            <div class="card-content">
+              <span class="icon">💡</span>
+              <h3>Indicii text ➡️ Răspuns scurt</h3>
+              <p>Citește indiciile și spune răspunsul</p>
+              <span class="badge">În curând</span>
+            </div>
+          </label>
+
+          <label class="mode-card disabled">
+            <input
+              type="radio"
+              name="gameType"
+              value="hints-multiple-choice"
+              disabled
+            />
+            <div class="card-content">
+              <span class="icon">🎲</span>
+              <h3>Indicii text ➡️ Variante de răspuns</h3>
+              <p>Citește indiciile și alege răspunsul</p>
+              <span class="badge">În curând</span>
+            </div>
+          </label>
+
+          <label class="mode-card disabled">
+            <input
+              type="radio"
+              name="gameType"
+              value="audio-to-text"
+              disabled
+            />
+            <div class="card-content">
+              <span class="icon">🎵</span>
+              <h3>Audio ➡️ Răspuns scurt</h3>
+              <p>Ascultă și spune răspunsul</p>
+              <span class="badge">În curând</span>
+            </div>
+          </label>
+
+          <label class="mode-card disabled">
+            <input
+              type="radio"
+              name="gameType"
+              value="audio-multiple-choice"
+              disabled
+            />
+            <div class="card-content">
+              <span class="icon">🎼</span>
+              <h3>Audio ➡️ Variante de raspuns</h3>
+              <p>Ascultă și alege răspunsul</p>
+              <span class="badge">În curând</span>
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Selectează categoria</h2>
+        <div class="categories-grid" id="categoriesGrid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Setări Joc</h2>
+        <div class="settings-grid">
+          <div class="settings-row three-columns">
+            <div class="setting-item">
+              <label for="playerTime">Timp Jucător</label>
+              <div class="input-group">
+                <input
+                  type="number"
+                  id="playerTime"
+                  value="50"
+                  min="10"
+                  max="300"
+                />
+                <span>sec</span>
+              </div>
+            </div>
+
+            <div class="setting-item">
+              <label for="penaltyTime">Penalizare</label>
+              <div class="input-group">
+                <input
+                  type="number"
+                  id="penaltyTime"
+                  value="5"
+                  min="1"
+                  max="30"
+                />
+                <span>sec</span>
+              </div>
+            </div>
+
+            <div class="setting-item">
+              <label for="pauseTime">Pauză Răspuns</label>
+              <div class="input-group">
+                <input
+                  type="number"
+                  id="pauseTime"
+                  value="2"
+                  min="1"
+                  max="10"
+                />
+                <span>sec</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section players-section">
+        <h2>Concurenți</h2>
+        <div class="players-grid two-columns">
+          <div class="player-item">
+            <label for="player1Name">Concurent 1</label>
+            <input
+              type="text"
+              id="player1Name"
+              placeholder="Introdu numele concurentului"
+            />
+          </div>
+
+          <div class="player-item">
+            <label for="player2Name">Concurent 2</label>
+            <input
+              type="text"
+              id="player2Name"
+              placeholder="Introdu numele concurentului"
+            />
+          </div>
+        </div>
+      </section>
+
+      <button id="loadGameBtn" class="load-button" disabled>
+        <span class="button-text">Selectează cel puțin o categorie</span>
+        <div class="loading-progress">
+          <div class="progress-bar"></div>
+        </div>
+      </button>
+    </div>
+    <script src="scripts/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "categories": {
+    "world-cities": {
+      "name": "Orașe ale Lumii",
+      "questions": [
+        {
+          "id": 1,
+          "type": "hints-to-text",
+          "difficulty": "medium",
+          "tags": ["UK", "Europe", "capital", "modern"],
+          "question": {
+            "hints": [
+              "Capitala Regatului Unit",
+              "Traversat de râul Tamisa",
+              "Aici se află Big Ben"
+            ]
+          },
+          "answer": {
+            "text": "Londra"
+          }
+        }
+      ]
+    }
+  }
+}

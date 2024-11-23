@@ -1,0 +1,22 @@
+{
+  "categories": {
+    "classical-music": {
+      "name": "Muzică Clasică",
+      "questions": [
+        {
+          "id": 1,
+          "type": "audio-to-text",
+          "difficulty": "medium",
+          "tags": ["Germany", "classical", "symphony", "1800s"],
+          "question": {
+            "media": "/assets/database/audio/classical-music/beethoven-symphony9.mp3",
+            "hints": ["Compozitor german", "A compus-o fiind surd"]
+          },
+          "answer": {
+            "text": "Ludwig van Beethoven"
+          }
+        }
+      ]
+    }
+  }
+}

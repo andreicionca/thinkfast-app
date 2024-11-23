@@ -1,0 +1,355 @@
+/* main.css */
+:root {
+  --background-start: #0f172a; /* Albastru foarte închis */
+  --background-end: #1e293b; /* Albastru închis */
+  --surface: rgba(255, 255, 255, 0.03);
+  --primary: #06b6d4; /* Turcoaz */
+  --primary-light: #22d3ee; /* Turcoaz deschis */
+  --text: #f8fafc; /* Alb cu tentă rece */
+  --text-secondary: #94a3b8; /* Gri deschis */
+  --border: rgba(255, 255, 255, 0.08);
+  --error: #ef4444; /* Roșu pentru erori/validare */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    135deg,
+    var(--background-start),
+    var(--background-end)
+  );
+  min-height: 100vh;
+  color: var(--text);
+  line-height: 1.5;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+  text-shadow: 0 0 30px rgba(6, 182, 212, 0.3);
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Sections */
+.section {
+  background: var(--surface);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Game Modes */
+.game-modes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.mode-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.mode-card input[type="radio"] {
+  display: none;
+}
+
+.card-content {
+  background: rgba(15, 23, 42, 0.6); /* Fundal semi-transparent */
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.mode-card:hover .card-content {
+  border-color: var(--primary);
+  box-shadow: 0 6px 12px rgba(6, 182, 212, 0.1);
+}
+
+.mode-card input[type="radio"]:checked + .card-content {
+  background: rgba(6, 182, 212, 0.1);
+  border-color: var(--primary);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+}
+
+.icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.card-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--primary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  box-shadow: 0 2px 8px rgba(6, 182, 212, 0.2);
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Settings */
+.settings-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.setting-item label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Numeric inputs */
+input[type="number"] {
+  width: 70px;
+  padding: 0.5rem;
+  text-align: center;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-group span {
+  color: var(--primary);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Players Section */
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.player-item {
+  background: rgba(6, 182, 212, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+.player-item label {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  width: 100%;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+}
+
+/* Load Button */
+.load-button {
+  width: 100%;
+  background: linear-gradient(45deg, var(--primary), var(--primary-light));
+  border: none;
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(6, 182, 212, 0.2);
+  transition: all 0.3s ease;
+}
+
+.load-button:not(:disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(6, 182, 212, 0.3);
+}
+
+.load-button:disabled {
+  background: var(--surface);
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Loading Progress */
+.loading-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  display: none;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  width: 50%;
+  animation: loading 1.5s infinite linear;
+}
+
+@keyframes loading {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+/* Categories Styling */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px); /* 3 coloane fixe de 200px */
+  gap: 1rem;
+}
+
+.category-item {
+  position: relative;
+  width: 200px; /* Lățime fixă */
+}
+
+.category-checkbox {
+  display: block;
+  cursor: pointer;
+}
+
+.category-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.category-content {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.category-name {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+/* Hover effect */
+.category-checkbox:hover .category-content {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.1);
+}
+
+/* Selected state */
+.category-checkbox input[type="checkbox"]:checked + .category-content {
+  background: var(--primary);
+  border-color: var(--primary);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+}
+
+.category-checkbox
+  input[type="checkbox"]:checked
+  + .category-content
+  .category-name {
+  color: white;
+}

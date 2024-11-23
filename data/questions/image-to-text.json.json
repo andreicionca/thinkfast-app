@@ -1,0 +1,247 @@
+{
+  "categories": {
+    "football-players-2023": {
+      "name": "Jucători de fotbal 2023",
+      "questions": [
+        {
+          "id": 1,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": [
+            "Argentina",
+            "Barcelona",
+            "football",
+            "goat",
+            "2020s",
+            "2010s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Lionel_Messi.jpg",
+            "hints": [
+              "A jucat la Barcelona",
+              "Cel mai bun jucător de fotbal din istorie"
+            ]
+          },
+          "answer": {
+            "text": "Lionel Messi"
+          }
+        },
+        {
+          "id": 2,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Portugal", "Real Madrid", "football", "iconic", "2010s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Cristiano_Ronaldo.jpg",
+            "hints": [
+              "A câștigat multiple Baloane de Aur",
+              "A jucat la Real Madrid și Manchester United"
+            ]
+          },
+          "answer": {
+            "text": "Cristiano Ronaldo"
+          }
+        },
+        {
+          "id": 3,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": ["France", "PSG", "football", "young", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Kylian_Mbappé.jpg",
+            "hints": [
+              "Campion mondial cu Franța",
+              "Cunoscut pentru viteza sa incredibilă"
+            ]
+          },
+          "answer": {
+            "text": "Kylian Mbappé"
+          }
+        },
+        {
+          "id": 4,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Norway", "Manchester City", "football", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Erling_Haaland.jpg",
+            "hints": [
+              "Cel mai bun atacant din Premier League",
+              "Cunoscut pentru abilitățile sale de finalizare"
+            ]
+          },
+          "answer": {
+            "text": "Erling Haaland"
+          }
+        },
+        {
+          "id": 5,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Brazil", "Real Madrid", "football", "young", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Vinícius_Júnior.jpg",
+            "hints": [
+              "Atacant la Real Madrid",
+              "Cunoscut pentru driblingurile sale impresionante"
+            ]
+          },
+          "answer": {
+            "text": "Vinícius Júnior"
+          }
+        },
+        {
+          "id": 6,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": ["Egypt", "Liverpool", "football", "iconic", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Mohamed_Salah.jpg",
+            "hints": ["Atacant vedetă la Liverpool", "Supranumit 'Faraonul'"]
+          },
+          "answer": {
+            "text": "Mohamed Salah"
+          }
+        },
+        {
+          "id": 7,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Germany", "Bayern Munich", "football", "modern", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Joshua_Kimmich.jpg",
+            "hints": [
+              "Jucător versatil la mijlocul terenului",
+              "Reprezentant al echipei naționale a Germaniei"
+            ]
+          },
+          "answer": {
+            "text": "Joshua Kimmich"
+          }
+        },
+        {
+          "id": 8,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Poland", "Barcelona", "football", "2020s", "iconic"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Robert_Lewandowski.jpg",
+            "hints": ["Golgeter prolific", "A fost star la Bayern și Barcelona"]
+          },
+          "answer": {
+            "text": "Robert Lewandowski"
+          }
+        },
+        {
+          "id": 9,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": ["France", "Real Madrid", "football", "2020s", "legend"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Karim_Benzema.jpg",
+            "hints": [
+              "Câștigător al Balonului de Aur",
+              "Atacant emblematic al Real Madrid"
+            ]
+          },
+          "answer": {
+            "text": "Karim Benzema"
+          }
+        },
+        {
+          "id": 10,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Canada", "Bayern Munich", "football", "young", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Alphonso_Davies.jpg",
+            "hints": [
+              "Fundaș lateral rapid",
+              "Reprezentant al Canadei la nivel internațional"
+            ]
+          },
+          "answer": {
+            "text": "Alphonso Davies"
+          }
+        },
+        {
+          "id": 11,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Croatia", "Real Madrid", "football", "legend", "2010s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Luka_Modric.jpg",
+            "hints": [
+              "Mijlocaș central excepțional",
+              "Câștigător al Balonului de Aur în 2018"
+            ]
+          },
+          "answer": {
+            "text": "Luka Modric"
+          }
+        },
+        {
+          "id": 12,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Argentina", "Brighton", "football", "young", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Alexis_Mac_Allister.jpg",
+            "hints": ["Campion mondial cu Argentina", "Joacă în Premier League"]
+          },
+          "answer": {
+            "text": "Alexis Mac Allister"
+          }
+        },
+        {
+          "id": 13,
+          "type": "image-to-text",
+          "difficulty": "hard",
+          "tags": ["South Korea", "Tottenham", "football", "2020s", "iconic"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Son_Heung-min.jpg",
+            "hints": [
+              "Căpitan al echipei naționale sud-coreene",
+              "Star la Tottenham"
+            ]
+          },
+          "answer": {
+            "text": "Son Heung-min"
+          }
+        },
+        {
+          "id": 14,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Belgium", "Manchester City", "football", "modern", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Kevin_De_Bruyne.jpg",
+            "hints": [
+              "Mijlocaș ofensiv la Manchester City",
+              "Considerat unul dintre cei mai buni pasatori din lume"
+            ]
+          },
+          "answer": {
+            "text": "Kevin De Bruyne"
+          }
+        },
+        {
+          "id": 15,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["England", "Tottenham", "football", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Harry_Kane.jpg",
+            "hints": [
+              "Golgeter al echipei Angliei",
+              "Star la Tottenham Hotspur"
+            ]
+          },
+          "answer": {
+            "text": "Harry Kane"
+          }
+        }
+      ]
+    }
+  }
+}
