@@ -41,8 +41,18 @@ body {
   max-width: 400px;
   height: 100%;
   object-fit: contain;
-  border-radius: 10px;
   display: none;
+  transition: all 0.3s ease;
+}
+
+#current-image.correct {
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+  filter: brightness(1.1);
+}
+
+#current-image.wrong {
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+  filter: brightness(0.9);
 }
 
 #hints-container {
@@ -112,7 +122,9 @@ body {
 .timer {
   font-size: 2.5rem;
   font-weight: bold;
-  padding: 10px 100px;
+  padding: 10px 50px;
+  width: 80px; /* Adăugăm o lățime fixă */
+  min-width: 80px; /* Pentru siguranță adăugăm și min-width */
   border-radius: 5px;
   text-align: center;
   transition: color 0.3s ease;
@@ -144,7 +156,6 @@ body {
 .game-action {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 }
 
 #start-game {
@@ -171,42 +182,37 @@ body {
   transform: none;
 }
 
-#answer-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: none;
-  transition: background-color 0.5s ease;
+#answer-section {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease;
 }
 
-#answer-overlay.correct {
-  display: block;
-  animation: fadeToGreen 1s forwards;
+#answer-display {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color: #8c8d8e;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#answer-overlay.wrong {
-  display: block;
-  animation: fadeToRed 1s forwards;
+#answer-display.correct {
+  color: #27ae60;
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
 }
 
-@keyframes fadeToGreen {
-  from {
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-  to {
-    background-color: rgba(39, 174, 96, 0.9);
-  }
-}
-
-@keyframes fadeToRed {
-  from {
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-  to {
-    background-color: rgba(231, 76, 60, 0.9);
-  }
+#answer-display.wrong {
+  color: #e74c3c;
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
 }
 
 .pause-overlay {
@@ -237,4 +243,41 @@ body {
 
 .pause-content p {
   font-size: 1.2rem;
+}
+
+.player-name.correct {
+  color: #27ae60 !important; /* verde */
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+}
+
+.player-name.wrong {
+  color: #e74c3c !important; /* roșu */
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+}
+
+.end-game-buttons {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.end-game-buttons button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#play-again {
+  background-color: #00cec9;
+  color: white;
+}
+
+#reset-game {
+  background-color: #e17055;
+  color: white;
 }

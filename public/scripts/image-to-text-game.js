@@ -1,7 +1,7 @@
 // Selectori elemente DOM
 const imageContainer = document.getElementById("image-container");
 const currentImage = document.getElementById("current-image");
-const answerOverlay = document.getElementById("answer-overlay");
+const answerDisplay = document.getElementById("answer-display");
 const hintsContainer = document.getElementById("hints-container");
 const countdown = document.getElementById("countdown");
 const player1Timer = document.getElementById("player1-timer");
@@ -12,6 +12,9 @@ const startButton = document.getElementById("start-game");
 const player1IndiciiCounter = document.querySelector(".player1-hints-counter");
 const player2IndiciiCounter = document.querySelector(".player2-hints-counter");
 const backgroundMusic = document.getElementById("background-music");
+const playAgainButton = document.getElementById("play-again");
+const resetGameButton = document.getElementById("reset-game");
+const endGameButtons = document.querySelector(".end-game-buttons");
 
 // Manager Audio actualizat
 const audioManager = {
@@ -144,11 +147,22 @@ let gameState = {
 let penaltyActive = false;
 let answerDisplaying = false;
 let lastCorrectAnswerTime = 0;
-
+let correctAnswerTimeout = null;
 // Funcție pentru actualizarea afișării numărului de indicii
 function updateIndiciiDisplay() {
   player1IndiciiCounter.textContent = `Indicii: ${gameState.indiciiFolosite.player1}/2`;
   player2IndiciiCounter.textContent = `Indicii: ${gameState.indiciiFolosite.player2}/2`;
+}
+
+// Funcția de amestecare a întrebărilor
+function shuffleQuestions() {
+  for (let i = gameState.questions.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [gameState.questions[i], gameState.questions[j]] = [
+      gameState.questions[j],
+      gameState.questions[i],
+    ];
+  }
 }
 
 // Inițializare joc
@@ -168,7 +182,7 @@ async function initGame() {
     await audioManager.init();
     setupUI();
     setupEventListeners();
-    updatePlayerStatus();
+    // updatePlayerStatus();
     updateIndiciiDisplay();
   } catch (error) {
     console.error("Eroare la inițializarea jocului:", error);
@@ -201,7 +215,11 @@ function handleKeyPress(event) {
   const currentTime = Date.now();
   switch (event.key.toLowerCase()) {
     case "arrowright":
-      if (currentTime - lastCorrectAnswerTime < 1000) return;
+      if (
+        currentTime - lastCorrectAnswerTime <
+        gameState.settings.pauseTime * 1000
+      )
+        return;
       lastCorrectAnswerTime = currentTime;
       handleCorrectAnswer();
       break;
@@ -216,6 +234,7 @@ function handleKeyPress(event) {
 
 // Pornire joc
 function startGame() {
+  resetGameState();
   startButton.style.display = "none";
   startCountdown();
 }
@@ -225,10 +244,11 @@ function startCountdown() {
   let count = 3;
   countdown.style.display = "block";
   currentImage.style.display = "none";
+  countdown.textContent = count;
 
   const countInterval = setInterval(() => {
-    countdown.textContent = count;
     count--;
+    countdown.textContent = count > 0 ? count : "";
 
     if (count < 0) {
       clearInterval(countInterval);
@@ -262,13 +282,23 @@ function startTimer() {
 
   gameState.interval = setInterval(() => {
     if (!gameState.isPaused) {
+      const time = new Date();
+      const seconds = time.getSeconds();
+      const milliseconds = time.getMilliseconds();
+
       if (gameState.currentPlayer === 1) {
         gameState.timeLeft1--;
         player1Timer.textContent = Math.max(gameState.timeLeft1, 0);
+        console.log(
+          `${seconds}:${milliseconds} - Player 1: ${gameState.timeLeft1}, Player 2: ${gameState.timeLeft2}`
+        );
         if (gameState.timeLeft1 <= 0) endGame(2);
       } else {
         gameState.timeLeft2--;
         player2Timer.textContent = Math.max(gameState.timeLeft2, 0);
+        console.log(
+          `${seconds}:${milliseconds} - Player 1: ${gameState.timeLeft1}, Player 2: ${gameState.timeLeft2}`
+        );
         if (gameState.timeLeft2 <= 0) endGame(1);
       }
     }
@@ -285,12 +315,14 @@ function handleCorrectAnswer() {
   answerDisplaying = true;
 
   const currentQuestion = gameState.questions[gameState.currentImageIndex];
-  answerOverlay.textContent = currentQuestion.answer.text;
-  answerOverlay.className = "correct";
-  answerOverlay.style.display = "block";
+  answerDisplay.textContent = currentQuestion.answer.text;
+  answerDisplay.className = "correct";
+  currentImage.className = "correct"; // Adăugăm clasa și pe imagine
 
-  setTimeout(() => {
-    answerOverlay.style.display = "none";
+  correctAnswerTimeout = setTimeout(() => {
+    answerDisplay.textContent = "";
+    answerDisplay.className = "";
+    currentImage.className = ""; // Curățăm clasa și de pe imagine
     answerDisplaying = false;
     nextQuestion();
     switchPlayer();
@@ -299,7 +331,6 @@ function handleCorrectAnswer() {
   }, gameState.settings.pauseTime * 1000);
 }
 
-// Gestionare penalizare
 // Gestionare penalizare
 function handlePenalty() {
   if (penaltyActive) return;
@@ -310,9 +341,9 @@ function handlePenalty() {
   const penaltyTime = gameState.settings.penaltyTime;
   const currentQuestion = gameState.questions[gameState.currentImageIndex];
 
-  answerOverlay.textContent = currentQuestion.answer.text;
-  answerOverlay.className = "wrong";
-  answerOverlay.style.display = "block";
+  answerDisplay.textContent = currentQuestion.answer.text;
+  answerDisplay.className = "wrong";
+  currentImage.className = "wrong"; // Adăugăm clasa și pe imagine
 
   updatePlayerStatus();
 
@@ -323,7 +354,9 @@ function handlePenalty() {
       if (remainingTime <= 0) {
         clearInterval(penaltyInterval);
         penaltyActive = false;
-        answerOverlay.style.display = "none";
+        answerDisplay.textContent = "";
+        answerDisplay.className = "";
+        currentImage.className = ""; // Curățăm clasa și de pe imagine
         updatePlayerStatus();
         nextQuestion();
       }
@@ -371,7 +404,9 @@ function nextQuestion() {
   gameState.currentImageIndex =
     (gameState.currentImageIndex + 1) % gameState.questions.length;
   showCurrentImage();
-  answerOverlay.style.display = "none";
+  answerDisplay.textContent = "";
+  answerDisplay.className = "";
+  currentImage.className = "";
 }
 
 // Schimbare jucător activ
@@ -405,6 +440,11 @@ function togglePause() {
   gameState.isPaused = !gameState.isPaused;
 
   if (gameState.isPaused) {
+    if (correctAnswerTimeout) {
+      clearTimeout(correctAnswerTimeout);
+      correctAnswerTimeout = null;
+    }
+
     audioManager.pauseBackgroundMusic();
     const pauseOverlay = document.createElement("div");
     pauseOverlay.id = "pause-overlay";
@@ -422,30 +462,104 @@ function togglePause() {
     if (pauseOverlay) {
       pauseOverlay.remove();
     }
+    if (answerDisplaying) {
+      correctAnswerTimeout = setTimeout(() => {
+        answerDisplay.textContent = "";
+        answerDisplay.className = "";
+        currentImage.className = "";
+        answerDisplaying = false;
+        nextQuestion();
+        switchPlayer();
+        startTimer();
+        audioManager.startTick();
+      }, gameState.settings.pauseTime * 1000);
+    }
   }
 }
 
 // Sfârșit joc
 function endGame(winner) {
+  console.log("Joc terminat! Câștigător:", winner);
+  // Oprim timeouts și intervale
   clearInterval(gameState.interval);
+  if (correctAnswerTimeout) {
+    clearTimeout(correctAnswerTimeout);
+    correctAnswerTimeout = null;
+  }
+
+  // Oprim sunetele
   audioManager.stopBackgroundMusic();
   audioManager.playEndGame();
 
-  const overlay = document.createElement("div");
-  overlay.className = "winner-overlay";
-  overlay.innerHTML = `
-    <div class="winner-content">
-      <h1>🏆 FELICITĂRI! 🏆</h1>
-      <h2>${
-        winner === 1
-          ? gameState.settings.player1Name
-          : gameState.settings.player2Name
-      } a câștigat!</h2>
-      <button onclick="location.reload()" class="restart-button">Joc Nou</button>
-    </div>
-  `;
-  document.body.appendChild(overlay);
+  // Afișăm răspunsul corect pentru imaginea curentă
+  const currentQuestion = gameState.questions[gameState.currentImageIndex];
+  answerDisplay.textContent = currentQuestion.answer.text;
+
+  // Eliminăm efectele de penalizare dacă există
+  player1Name.classList.remove("name-penalty");
+  player2Name.classList.remove("name-penalty");
+  player1Timer.classList.remove("timer-penalty");
+  player2Timer.classList.remove("timer-penalty");
+
+  // Aplicăm efectele pentru câștigător/pierzător
+  if (winner === 1) {
+    player1Name.classList.add("correct");
+    player2Name.classList.add("wrong");
+  } else {
+    player2Name.classList.add("correct");
+    player1Name.classList.add("wrong");
+  }
+
+  // Afișăm butoanele de final
+  endGameButtons.style.display = "flex";
 }
+// Funcția pentru resetarea jocului la starea inițială
+function resetGameState() {
+  // Resetăm timerii
+  gameState.timeLeft1 = gameState.settings.playerTime;
+  gameState.timeLeft2 = gameState.settings.playerTime;
+  gameState.currentImageIndex = 0;
+  gameState.currentPlayer = Math.random() < 0.5 ? 1 : 2;
+  gameState.indiciiFolosite = { player1: 0, player2: 0 };
+
+  // Resetăm display-ul
+  player1Timer.textContent = gameState.timeLeft1;
+  player2Timer.textContent = gameState.timeLeft2;
+  answerDisplay.textContent = "";
+  hintsContainer.style.display = "none";
+
+  // Resetăm clasele
+  player1Name.classList.remove(
+    "correct",
+    "wrong",
+    "name-active",
+    "name-penalty"
+  );
+  player2Name.classList.remove(
+    "correct",
+    "wrong",
+    "name-active",
+    "name-penalty"
+  );
+  player1Timer.classList.remove("timer-active", "timer-penalty");
+  player2Timer.classList.remove("timer-active", "timer-penalty");
+
+  // Ascundem butoanele de final
+  endGameButtons.style.display = "none";
+
+  updateIndiciiDisplay();
+}
+
+// Event listeners pentru butoane
+playAgainButton.addEventListener("click", () => {
+  resetGameState();
+  shuffleQuestions();
+  startGame();
+});
+
+resetGameButton.addEventListener("click", () => {
+  window.location.href = "/";
+});
 
 // Inițializare la încărcarea paginii
 document.addEventListener("DOMContentLoaded", initGame);
