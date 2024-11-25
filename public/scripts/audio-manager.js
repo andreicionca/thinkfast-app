@@ -6,11 +6,13 @@ class AudioManager {
 
     // Background music
     this.backgroundMusic = document.getElementById("background-music");
-    this.backgroundMusic.volume = 0.2;
 
     // Buffers pentru sunete
     this.buffers = {};
     this.sources = {};
+
+    // Volume din localStorage sau valori default
+    this.loadGameConfig();
 
     // Încărcăm sunetele
     this.loadSounds({
@@ -21,7 +23,20 @@ class AudioManager {
     });
   }
 
-  // Încărcarea sunetelor
+  loadGameConfig() {
+    const gameConfig = JSON.parse(localStorage.getItem("gameConfig")) || {
+      settings: {
+        backgroundVolume: 0.1,
+        effectsVolume: 0.3,
+        tickVolume: 0.2,
+      },
+    };
+
+    this.volumes = gameConfig.settings;
+
+    this.backgroundMusic.volume = this.volumes.backgroundVolume;
+  }
+
   async loadSounds(sources) {
     for (let [name, url] of Object.entries(sources)) {
       try {
@@ -37,10 +52,8 @@ class AudioManager {
     }
   }
 
-  // Funcție pentru redarea sunetelor unice (non-loop)
-  playSound(soundName, volume = 1) {
+  playSound(soundName) {
     if (this.buffers[soundName]) {
-      // Oprim sursa anterioară dacă există
       if (this.sources[soundName]) {
         this.sources[soundName].stop();
       }
@@ -49,7 +62,7 @@ class AudioManager {
       const gainNode = this.audioContext.createGain();
 
       source.buffer = this.buffers[soundName];
-      gainNode.gain.value = volume;
+      gainNode.gain.value = this.volumes.effectsVolume;
 
       source.connect(gainNode);
       gainNode.connect(this.audioContext.destination);
@@ -57,7 +70,6 @@ class AudioManager {
       this.sources[soundName] = source;
       source.start(0);
 
-      // Curățăm referința după ce sunetul s-a terminat
       source.onended = () => {
         delete this.sources[soundName];
       };
@@ -66,15 +78,14 @@ class AudioManager {
     }
   }
 
-  // Pornire tick loop
-  startTick(volume = 0.2) {
+  startTick() {
     if (this.buffers.tick && !this.sources.tick) {
       const source = this.audioContext.createBufferSource();
       const gainNode = this.audioContext.createGain();
 
       source.buffer = this.buffers.tick;
       source.loop = true;
-      gainNode.gain.value = volume;
+      gainNode.gain.value = this.volumes.tickVolume;
 
       source.connect(gainNode);
       gainNode.connect(this.audioContext.destination);
@@ -84,7 +95,6 @@ class AudioManager {
     }
   }
 
-  // Oprire tick
   stopTick() {
     if (this.sources.tick) {
       this.sources.tick.stop();
@@ -92,32 +102,26 @@ class AudioManager {
     }
   }
 
-  // Pauză tick
   pauseTick() {
     this.stopTick();
   }
 
-  // Reluare tick
   resumeTick() {
     this.startTick();
   }
 
-  // Răspuns corect
   playCorrect() {
-    this.playSound("correct", 0.3);
+    this.playSound("correct");
   }
 
-  // Penalizare
   playWrong() {
-    this.playSound("wrong", 0.3);
+    this.playSound("wrong");
   }
 
-  // End game
   playEndGame() {
-    this.playSound("endGame", 0.4);
+    this.playSound("endGame");
   }
 
-  // Background music controls
   startBackgroundMusic() {
     if (this.audioContext.state === "suspended") {
       this.audioContext.resume();
@@ -141,7 +145,10 @@ class AudioManager {
       this.startBackgroundMusic();
     }
   }
+  setVolumes(volumes) {
+    this.volumes = volumes;
+    this.backgroundMusic.volume = this.volumes.backgroundVolume;
+  }
 }
 
-// Export pentru utilizare
 window.audioManager = new AudioManager();

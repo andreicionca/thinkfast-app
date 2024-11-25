@@ -13,15 +13,15 @@ body {
 .container {
   max-width: 1000px;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   background: #212121;
   border-radius: 10px;
-  padding: 20px;
+  padding: 5px 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 #image-container {
@@ -31,6 +31,7 @@ body {
   height: 400px;
   display: flex;
   margin: 0 auto;
+  padding: 10px;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -43,6 +44,17 @@ body {
   object-fit: contain;
   display: none;
   transition: all 0.3s ease;
+}
+.countdown {
+  font-size: 5rem;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #current-image.correct {
@@ -62,18 +74,6 @@ body {
   background: rgba(0, 0, 0, 0.9);
   padding: 15px;
   display: none;
-}
-
-.countdown {
-  font-size: 5rem;
-  font-weight: bold;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .players-section {
@@ -122,7 +122,7 @@ body {
 .timer {
   font-size: 2.5rem;
   font-weight: bold;
-  padding: 10px 50px;
+  padding: 5px 50px;
   width: 80px; /* Adăugăm o lățime fixă */
   min-width: 80px; /* Pentru siguranță adăugăm și min-width */
   border-radius: 5px;
@@ -193,25 +193,25 @@ body {
   background: rgba(255, 255, 255, 0.2);
   padding: 8px;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   color: #8c8d8e;
-  height: 50px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #answer-display.correct {
-  color: #27ae60;
+  color: #e0e2db;
   box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
 }
 
 #answer-display.wrong {
-  color: #e74c3c;
+  color: #e0e2db;
   box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
 }
 
@@ -278,6 +278,6 @@ body {
 }
 
 #reset-game {
-  background-color: #e17055;
+  background-color: #e6af2e;
   color: white;
 }

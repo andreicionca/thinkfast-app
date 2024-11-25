@@ -16,6 +16,9 @@ let gameData = {
     pauseTime: 2,
     player1Name: "",
     player2Name: "",
+    backgroundVolume: 0.1, // 10%
+    effectsVolume: 0.3, // 30%
+    tickVolume: 0.2, // 20%
   },
 };
 
@@ -73,22 +76,19 @@ function handleCategorySelection() {
   updateLoadButton();
 }
 
-function setupNumericInputValidation(input, min, max) {
-  input.addEventListener("input", () => {
-    const value = parseInt(input.value);
-    if (value < min) input.value = min;
-    if (value > max) input.value = max;
-    updateGameSettings();
-  });
-}
-
 function updateGameSettings() {
+  const backgroundVolumeInput = document.getElementById("backgroundVolume");
+  const effectsVolumeInput = document.getElementById("effectsVolume");
+  const tickVolumeInput = document.getElementById("tickVolume");
   gameData.settings = {
-    playerTime: parseInt(playerTimeInput.value),
-    penaltyTime: parseInt(penaltyTimeInput.value),
-    pauseTime: parseInt(pauseTimeInput.value),
+    playerTime: parseInt(playerTimeInput.value) || 50,
+    penaltyTime: parseInt(penaltyTimeInput.value) || 5,
+    pauseTime: parseInt(pauseTimeInput.value) || 2,
     player1Name: player1NameInput.value.trim(),
     player2Name: player2NameInput.value.trim(),
+    backgroundVolume: parseFloat(backgroundVolumeInput.value) / 100,
+    effectsVolume: parseFloat(effectsVolumeInput.value) / 100,
+    tickVolume: parseFloat(tickVolumeInput.value) / 100,
   };
 }
 
@@ -195,9 +195,17 @@ function setupEventListeners() {
     input.addEventListener("change", handleGameTypeChange);
   });
 
-  setupNumericInputValidation(playerTimeInput, 10, 300);
-  setupNumericInputValidation(penaltyTimeInput, 1, 30);
-  setupNumericInputValidation(pauseTimeInput, 1, 10);
+  playerTimeInput.addEventListener("input", updateGameSettings);
+  penaltyTimeInput.addEventListener("input", updateGameSettings);
+  pauseTimeInput.addEventListener("input", updateGameSettings);
+
+  const volumeInputs = document.querySelectorAll('input[type="range"]');
+  volumeInputs.forEach((input) => {
+    input.addEventListener("input", (e) => {
+      e.target.nextElementSibling.textContent = `${e.target.value}%`;
+      updateGameSettings();
+    });
+  });
 
   categoriesGrid.addEventListener("change", handleCategorySelection);
   loadGameBtn.addEventListener("click", handleGameLoad);

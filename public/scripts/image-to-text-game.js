@@ -45,17 +45,14 @@ const audioManager = {
     }
   },
 
-  playSound(soundName, volume = 0.3) {
+  playSound(soundName) {
     if (this.buffers[soundName]) {
       const source = this.audioContext.createBufferSource();
       const gainNode = this.audioContext.createGain();
-
       source.buffer = this.buffers[soundName];
-      gainNode.gain.value = volume;
-
+      gainNode.gain.value = gameState.settings.effectsVolume; // folosește volumul din settings
       source.connect(gainNode);
       gainNode.connect(this.audioContext.destination);
-
       source.start(0);
       return source;
     }
@@ -65,14 +62,11 @@ const audioManager = {
     if (this.buffers.tick && !this.tickSource) {
       this.tickSource = this.audioContext.createBufferSource();
       const gainNode = this.audioContext.createGain();
-
       this.tickSource.buffer = this.buffers.tick;
       this.tickSource.loop = true;
-      gainNode.gain.value = 0.2;
-
+      gainNode.gain.value = gameState.settings.tickVolume; // folosește volumul din settings
       this.tickSource.connect(gainNode);
       gainNode.connect(this.audioContext.destination);
-
       this.tickSource.start(0);
     }
   },
@@ -85,22 +79,24 @@ const audioManager = {
   },
 
   playCorrect() {
-    this.playSound("correct", 0.3);
+    this.playSound("correct");
   },
 
   playWrong() {
-    this.playSound("wrong", 0.3);
+    this.playSound("wrong");
   },
 
   playEndGame() {
-    this.playSound("endGame", 0.4);
+    this.playSound("endGame");
   },
 
   startBackgroundMusic() {
     if (this.audioContext.state === "suspended") {
       this.audioContext.resume();
     }
-    this.backgroundMusic.volume = 0.3;
+    // this.backgroundMusic.volume = 0.3;
+    this.backgroundMusic.volume = gameState.settings.backgroundVolume;
+
     this.backgroundMusic
       .play()
       .catch((e) => console.log("Eroare la pornirea muzicii:", e));
@@ -148,6 +144,8 @@ let penaltyActive = false;
 let answerDisplaying = false;
 let lastCorrectAnswerTime = 0;
 let correctAnswerTimeout = null;
+let gameEnded = false;
+
 // Funcție pentru actualizarea afișării numărului de indicii
 function updateIndiciiDisplay() {
   player1IndiciiCounter.textContent = `Indicii: ${gameState.indiciiFolosite.player1}/2`;
@@ -204,7 +202,11 @@ function setupEventListeners() {
 }
 
 // Gestionare evenimente tastatură
+// Modifică funcția handleKeyPress pentru a verifica flag-ul
+
 function handleKeyPress(event) {
+  if (gameEnded) return; // Dacă jocul s-a terminat, nu mai procesăm nicio tastă
+
   if (event.key.toLowerCase() === "p") {
     togglePause();
     return;
@@ -242,7 +244,7 @@ function startGame() {
 // Numărătoare inversă inițială
 function startCountdown() {
   let count = 3;
-  countdown.style.display = "block";
+  countdown.style.display = "flex";
   currentImage.style.display = "none";
   countdown.textContent = count;
 
@@ -276,30 +278,40 @@ function showCurrentImage() {
   resetIndicii();
 }
 
-// Pornire cronometru
 function startTimer() {
   clearInterval(gameState.interval);
 
   gameState.interval = setInterval(() => {
     if (!gameState.isPaused) {
-      const time = new Date();
-      const seconds = time.getSeconds();
-      const milliseconds = time.getMilliseconds();
-
       if (gameState.currentPlayer === 1) {
+        // Verificăm înainte de decrementare
+        if (gameState.timeLeft1 <= 0) {
+          clearInterval(gameState.interval);
+
+          endGame(2);
+          return;
+        }
         gameState.timeLeft1--;
-        player1Timer.textContent = Math.max(gameState.timeLeft1, 0);
-        console.log(
-          `${seconds}:${milliseconds} - Player 1: ${gameState.timeLeft1}, Player 2: ${gameState.timeLeft2}`
-        );
-        if (gameState.timeLeft1 <= 0) endGame(2);
+        player1Timer.textContent = gameState.timeLeft1;
       } else {
+        // Verificăm înainte de decrementare
+        if (gameState.timeLeft2 <= 0) {
+          clearInterval(gameState.interval);
+
+          endGame(1);
+          return;
+        }
         gameState.timeLeft2--;
-        player2Timer.textContent = Math.max(gameState.timeLeft2, 0);
-        console.log(
-          `${seconds}:${milliseconds} - Player 1: ${gameState.timeLeft1}, Player 2: ${gameState.timeLeft2}`
-        );
-        if (gameState.timeLeft2 <= 0) endGame(1);
+        player2Timer.textContent = gameState.timeLeft2;
+      }
+
+      // După decrementare, verificăm din nou pentru siguranță
+      if (gameState.timeLeft1 <= 0) {
+        clearInterval(gameState.interval);
+        endGame(2);
+      } else if (gameState.timeLeft2 <= 0) {
+        clearInterval(gameState.interval);
+        endGame(1);
       }
     }
   }, 1000);
@@ -478,30 +490,26 @@ function togglePause() {
 }
 
 // Sfârșit joc
+// Modifică funcția endGame pentru a seta flag-ul
 function endGame(winner) {
-  console.log("Joc terminat! Câștigător:", winner);
-  // Oprim timeouts și intervale
+  gameEnded = true; // Setăm flag-ul
   clearInterval(gameState.interval);
   if (correctAnswerTimeout) {
     clearTimeout(correctAnswerTimeout);
     correctAnswerTimeout = null;
   }
 
-  // Oprim sunetele
   audioManager.stopBackgroundMusic();
   audioManager.playEndGame();
 
-  // Afișăm răspunsul corect pentru imaginea curentă
   const currentQuestion = gameState.questions[gameState.currentImageIndex];
   answerDisplay.textContent = currentQuestion.answer.text;
 
-  // Eliminăm efectele de penalizare dacă există
   player1Name.classList.remove("name-penalty");
   player2Name.classList.remove("name-penalty");
   player1Timer.classList.remove("timer-penalty");
   player2Timer.classList.remove("timer-penalty");
 
-  // Aplicăm efectele pentru câștigător/pierzător
   if (winner === 1) {
     player1Name.classList.add("correct");
     player2Name.classList.add("wrong");
@@ -510,11 +518,11 @@ function endGame(winner) {
     player1Name.classList.add("wrong");
   }
 
-  // Afișăm butoanele de final
   endGameButtons.style.display = "flex";
 }
 // Funcția pentru resetarea jocului la starea inițială
 function resetGameState() {
+  gameEnded = false; // Resetăm flag-ul
   // Resetăm timerii
   gameState.timeLeft1 = gameState.settings.playerTime;
   gameState.timeLeft2 = gameState.settings.playerTime;
