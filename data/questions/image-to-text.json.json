@@ -6,150 +6,86 @@
         {
           "id": 1,
           "type": "image-to-text",
-          "difficulty": "easy",
-          "tags": [
-            "Argentina",
-            "Barcelona",
-            "football",
-            "goat",
-            "2020s",
-            "2010s"
-          ],
+          "difficulty": "medium",
+          "tags": ["Morocco", "PSG", "football", "defender", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Lionel_Messi.jpg",
+            "media": "/assets/database/images/football-players-2023/Achraf_Hakimi.jpg",
             "hints": [
-              "A jucat la Barcelona",
-              "Cel mai bun jucător de fotbal din istorie"
+              "Fundaș lateral rapid",
+              "Jucător cheie pentru echipa națională a Marocului"
             ]
           },
           "answer": {
-            "text": "Lionel Messi"
+            "text": "Achraf Hakimi"
           }
         },
         {
           "id": 2,
           "type": "image-to-text",
-          "difficulty": "medium",
-          "tags": ["Portugal", "Real Madrid", "football", "iconic", "2010s"],
+          "difficulty": "hard",
+          "tags": ["Italy", "Inter Milan", "football", "defender", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Cristiano_Ronaldo.jpg",
-            "hints": [
-              "A câștigat multiple Baloane de Aur",
-              "A jucat la Real Madrid și Manchester United"
-            ]
+            "media": "/assets/database/images/football-players-2023/Alessandro_Bastoni.jpg",
+            "hints": ["Fundaș central italian", "Joacă pentru Inter Milan"]
           },
           "answer": {
-            "text": "Cristiano Ronaldo"
+            "text": "Alessandro Bastoni"
           }
         },
         {
           "id": 3,
           "type": "image-to-text",
-          "difficulty": "easy",
-          "tags": ["France", "PSG", "football", "young", "2020s"],
+          "difficulty": "medium",
+          "tags": ["Spain", "Bayer Leverkusen", "football", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Kylian_Mbappé.jpg",
-            "hints": [
-              "Campion mondial cu Franța",
-              "Cunoscut pentru viteza sa incredibilă"
-            ]
+            "media": "/assets/database/images/football-players-2023/Álex_Grimaldo.jpg",
+            "hints": ["Fundaș spaniol", "Joacă pentru Bayer Leverkusen"]
           },
           "answer": {
-            "text": "Kylian Mbappé"
+            "text": "Álex Grimaldo"
           }
         },
         {
           "id": 4,
           "type": "image-to-text",
           "difficulty": "medium",
-          "tags": ["Norway", "Manchester City", "football", "2020s"],
+          "tags": ["Sweden", "Newcastle", "football", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Erling_Haaland.jpg",
-            "hints": [
-              "Cel mai bun atacant din Premier League",
-              "Cunoscut pentru abilitățile sale de finalizare"
-            ]
+            "media": "/assets/database/images/football-players-2023/Alexander_Isak.jpg",
+            "hints": ["Atacant suedez", "Joacă pentru Newcastle United"]
           },
           "answer": {
-            "text": "Erling Haaland"
+            "text": "Alexander Isak"
           }
         },
         {
           "id": 5,
           "type": "image-to-text",
           "difficulty": "medium",
-          "tags": ["Brazil", "Real Madrid", "football", "young", "2020s"],
+          "tags": ["Argentina", "Liverpool", "football", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Vinícius_Júnior.jpg",
-            "hints": [
-              "Atacant la Real Madrid",
-              "Cunoscut pentru driblingurile sale impresionante"
-            ]
+            "media": "/assets/database/images/football-players-2023/Alexis_Mac_Allister.jpg",
+            "hints": ["Campion mondial cu Argentina", "Joacă în Premier League"]
           },
           "answer": {
-            "text": "Vinícius Júnior"
+            "text": "Alexis Mac Allister"
           }
         },
         {
           "id": 6,
           "type": "image-to-text",
           "difficulty": "easy",
-          "tags": ["Egypt", "Liverpool", "football", "iconic", "2020s"],
+          "tags": ["Brazil", "Liverpool", "football", "goalkeeper", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Mohamed_Salah.jpg",
-            "hints": ["Atacant vedetă la Liverpool", "Supranumit 'Faraonul'"]
+            "media": "/assets/database/images/football-players-2023/Alisson.jpg",
+            "hints": ["Portar brazilian", "Joacă pentru Liverpool"]
           },
           "answer": {
-            "text": "Mohamed Salah"
+            "text": "Alisson"
           }
         },
         {
           "id": 7,
-          "type": "image-to-text",
-          "difficulty": "medium",
-          "tags": ["Germany", "Bayern Munich", "football", "modern", "2020s"],
-          "question": {
-            "media": "/assets/database/images/football-players-2023/Joshua_Kimmich.jpg",
-            "hints": [
-              "Jucător versatil la mijlocul terenului",
-              "Reprezentant al echipei naționale a Germaniei"
-            ]
-          },
-          "answer": {
-            "text": "Joshua Kimmich"
-          }
-        },
-        {
-          "id": 8,
-          "type": "image-to-text",
-          "difficulty": "medium",
-          "tags": ["Poland", "Barcelona", "football", "2020s", "iconic"],
-          "question": {
-            "media": "/assets/database/images/football-players-2023/Robert_Lewandowski.jpg",
-            "hints": ["Golgeter prolific", "A fost star la Bayern și Barcelona"]
-          },
-          "answer": {
-            "text": "Robert Lewandowski"
-          }
-        },
-        {
-          "id": 9,
-          "type": "image-to-text",
-          "difficulty": "easy",
-          "tags": ["France", "Real Madrid", "football", "2020s", "legend"],
-          "question": {
-            "media": "/assets/database/images/football-players-2023/Karim_Benzema.jpg",
-            "hints": [
-              "Câștigător al Balonului de Aur",
-              "Atacant emblematic al Real Madrid"
-            ]
-          },
-          "answer": {
-            "text": "Karim Benzema"
-          }
-        },
-        {
-          "id": 10,
           "type": "image-to-text",
           "difficulty": "medium",
           "tags": ["Canada", "Bayern Munich", "football", "young", "2020s"],
@@ -165,60 +101,542 @@
           }
         },
         {
+          "id": 8,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Spain", "Atlético Madrid", "football", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Álvaro_Morata.jpg",
+            "hints": ["Atacant spaniol", "Joacă pentru Atlético Madrid"]
+          },
+          "answer": {
+            "text": "Álvaro Morata"
+          }
+        },
+        {
+          "id": 9,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Cameroon",
+            "Manchester United",
+            "football",
+            "goalkeeper",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/André_Onana.jpg",
+            "hints": ["Portar camerunez", "Joacă pentru Manchester United"]
+          },
+          "answer": {
+            "text": "André Onana"
+          }
+        },
+        {
+          "id": 10,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Argentina", "Benfica", "football", "legend", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Ángel_Di_María.jpg",
+            "hints": ["Mijlocaș ofensiv argentinian", "Campion mondial"]
+          },
+          "answer": {
+            "text": "Ángel Di María"
+          }
+        },
+        {
           "id": 11,
           "type": "image-to-text",
           "difficulty": "medium",
-          "tags": ["Croatia", "Real Madrid", "football", "legend", "2010s"],
+          "tags": ["France", "Atlético Madrid", "football", "legend", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Luka_Modric.jpg",
-            "hints": [
-              "Mijlocaș central excepțional",
-              "Câștigător al Balonului de Aur în 2018"
-            ]
+            "media": "/assets/database/images/football-players-2023/Antoine_Griezmann.jpg",
+            "hints": ["Atacant francez creativ", "Joacă pentru Atlético Madrid"]
           },
           "answer": {
-            "text": "Luka Modric"
+            "text": "Antoine Griezmann"
           }
         },
         {
           "id": 12,
           "type": "image-to-text",
-          "difficulty": "medium",
-          "tags": ["Argentina", "Brighton", "football", "young", "2020s"],
+          "difficulty": "hard",
+          "tags": ["Germany", "Real Madrid", "football", "defender", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Alexis_Mac_Allister.jpg",
-            "hints": ["Campion mondial cu Argentina", "Joacă în Premier League"]
+            "media": "/assets/database/images/football-players-2023/Antonio_Rüdiger.jpg",
+            "hints": ["Fundaș central solid", "Joacă pentru Real Madrid"]
           },
           "answer": {
-            "text": "Alexis Mac Allister"
+            "text": "Antonio Rüdiger"
           }
         },
         {
           "id": 13,
           "type": "image-to-text",
-          "difficulty": "hard",
-          "tags": ["South Korea", "Tottenham", "football", "2020s", "iconic"],
+          "difficulty": "medium",
+          "tags": ["France", "Real Madrid", "football", "midfielder", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Son_Heung-min.jpg",
-            "hints": [
-              "Căpitan al echipei naționale sud-coreene",
-              "Star la Tottenham"
-            ]
+            "media": "/assets/database/images/football-players-2023/Aurélien_Tchouaméni.jpg",
+            "hints": ["Mijlocaș defensiv francez", "Joacă pentru Real Madrid"]
           },
           "answer": {
-            "text": "Son Heung-min"
+            "text": "Aurélien Tchouaméni"
           }
         },
         {
           "id": 14,
           "type": "image-to-text",
           "difficulty": "medium",
-          "tags": ["Belgium", "Manchester City", "football", "modern", "2020s"],
+          "tags": [
+            "Portugal",
+            "Manchester City",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Bernardo_Silva.jpg",
+            "hints": ["Mijlocaș creativ", "Joacă pentru Manchester City"]
+          },
+          "answer": {
+            "text": "Bernardo Silva"
+          }
+        },
+        {
+          "id": 15,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Portugal",
+            "Manchester United",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Bruno_Fernandes.jpg",
+            "hints": [
+              "Căpitan al Manchester United",
+              "Mijlocaș portughez cu viziune"
+            ]
+          },
+          "answer": {
+            "text": "Bruno Fernandes"
+          }
+        },
+        {
+          "id": 16,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Brazil", "Newcastle", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Bruno_Guimarães.jpg",
+            "hints": ["Mijlocaș brazilian", "Joacă pentru Newcastle"]
+          },
+          "answer": {
+            "text": "Bruno Guimarães"
+          }
+        },
+        {
+          "id": 17,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["England", "Arsenal", "football", "winger", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Bukayo_Saka.jpg",
+            "hints": ["Extremă tânără engleză", "Joacă pentru Arsenal"]
+          },
+          "answer": {
+            "text": "Bukayo Saka"
+          }
+        },
+        {
+          "id": 18,
+          "type": "image-to-text",
+          "difficulty": "hard",
+          "tags": ["Argentina", "Tottenham", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Cristian_Romero.jpg",
+            "hints": ["Fundaș argentinian", "Joacă pentru Tottenham"]
+          },
+          "answer": {
+            "text": "Cristian Romero"
+          }
+        },
+        {
+          "id": 19,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": ["Portugal", "Al-Nassr", "football", "legend", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Cristiano_Ronaldo.jpg",
+            "hints": ["Legenda fotbalului mondial", "Joacă pentru Al-Nassr"]
+          },
+          "answer": {
+            "text": "Cristiano Ronaldo"
+          }
+        },
+        {
+          "id": 20,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Uruguay", "Liverpool", "football", "striker", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Darwin_Núñez.jpg",
+            "hints": ["Atacant uruguayan", "Joacă pentru Liverpool"]
+          },
+          "answer": {
+            "text": "Darwin Núñez"
+          }
+        },
+        {
+          "id": 21,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Austria", "Real Madrid", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/David_Alaba.jpg",
+            "hints": ["Fundaș austriac", "Joacă pentru Real Madrid"]
+          },
+          "answer": {
+            "text": "David Alaba"
+          }
+        },
+        {
+          "id": 22,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["England", "Arsenal", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Declan_Rice.jpg",
+            "hints": ["Mijlocaș englez puternic", "Joacă pentru Arsenal"]
+          },
+          "answer": {
+            "text": "Declan Rice"
+          }
+        },
+        {
+          "id": 23,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Netherlands",
+            "Inter Milan",
+            "football",
+            "defender",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Denzel_Dumfries.jpg",
+            "hints": ["Fundaș lateral olandez", "Joacă pentru Inter Milan"]
+          },
+          "answer": {
+            "text": "Denzel Dumfries"
+          }
+        },
+        {
+          "id": 24,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Hungary", "Liverpool", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Dominik_Szoboszlai.jpg",
+            "hints": ["Mijlocaș ofensiv maghiar", "Joacă pentru Liverpool"]
+          },
+          "answer": {
+            "text": "Dominik Szoboszlai"
+          }
+        },
+        {
+          "id": 25,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Brazil",
+            "Manchester City",
+            "football",
+            "goalkeeper",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Ederson.jpg",
+            "hints": ["Portar brazilian", "Joacă pentru Manchester City"]
+          },
+          "answer": {
+            "text": "Ederson"
+          }
+        },
+        {
+          "id": 26,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "Real Madrid", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Eduardo_Camavinga.jpg",
+            "hints": ["Tânăr mijlocaș francez", "Joacă pentru Real Madrid"]
+          },
+          "answer": {
+            "text": "Eduardo Camavinga"
+          }
+        },
+        {
+          "id": 27,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Argentina",
+            "Aston Villa",
+            "football",
+            "goalkeeper",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Emiliano_Martínez.jpg",
+            "hints": ["Portar campion mondial", "Joacă pentru Aston Villa"]
+          },
+          "answer": {
+            "text": "Emiliano Martínez"
+          }
+        },
+        {
+          "id": 28,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Argentina", "Chelsea", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Enzo_Fernández.jpg",
+            "hints": ["Mijlocaș argentinian", "Joacă pentru Chelsea"]
+          },
+          "answer": {
+            "text": "Enzo Fernández"
+          }
+        },
+        {
+          "id": 29,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": ["Norway", "Manchester City", "football", "striker", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Erling_Haaland.jpg",
+            "hints": [
+              "Atacant norvegian prolific",
+              "Joacă pentru Manchester City"
+            ]
+          },
+          "answer": {
+            "text": "Erling Haaland"
+          }
+        },
+        {
+          "id": 30,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Uruguay", "Real Madrid", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Fede_Valverde.jpg",
+            "hints": ["Mijlocaș uruguayan", "Joacă pentru Real Madrid"]
+          },
+          "answer": {
+            "text": "Fede Valverde"
+          }
+        },
+        {
+          "id": 31,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Italy", "Inter Milan", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Federico_Dimarco.jpg",
+            "hints": ["Fundaș italian", "Joacă pentru Inter Milan"]
+          },
+          "answer": {
+            "text": "Federico Dimarco"
+          }
+        },
+        {
+          "id": 32,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Germany",
+            "Bayer Leverkusen",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Florian_Wirtz.jpg",
+            "hints": [
+              "Mijlocaș german talentat",
+              "Joacă pentru Bayer Leverkusen"
+            ]
+          },
+          "answer": {
+            "text": "Florian Wirtz"
+          }
+        },
+        {
+          "id": 33,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Netherlands",
+            "Barcelona",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Frenkie_de_Jong.jpg",
+            "hints": ["Mijlocaș creativ olandez", "Joacă pentru Barcelona"]
+          },
+          "answer": {
+            "text": "Frenkie de Jong"
+          }
+        },
+        {
+          "id": 34,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Brazil", "Arsenal", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Gabriel_Jesus.jpg",
+            "hints": ["Atacant brazilian", "Joacă pentru Arsenal"]
+          },
+          "answer": {
+            "text": "Gabriel Jesus"
+          }
+        },
+        {
+          "id": 35,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Brazil", "Arsenal", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Gabriel_Martinelli.jpg",
+            "hints": ["Tânăr atacant brazilian", "Joacă pentru Arsenal"]
+          },
+          "answer": {
+            "text": "Gabriel Martinelli"
+          }
+        },
+        {
+          "id": 36,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Spain", "Barcelona", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Gavi.jpg",
+            "hints": ["Tânăr mijlocaș spaniol", "Joacă pentru Barcelona"]
+          },
+          "answer": {
+            "text": "Gavi"
+          }
+        },
+        {
+          "id": 37,
+          "type": "image-to-text",
+          "difficulty": "hard",
+          "tags": ["Argentina", "Fluminense", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Germán_Cano.jpg",
+            "hints": ["Atacant argentinian", "Joacă pentru Fluminense"]
+          },
+          "answer": {
+            "text": "Germán Cano"
+          }
+        },
+        {
+          "id": 38,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Switzerland",
+            "Bayer Leverkusen",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Granit_Xhaka.jpg",
+            "hints": [
+              "Mijlocaș elvețian experimentat",
+              "Joacă pentru Bayer Leverkusen"
+            ]
+          },
+          "answer": {
+            "text": "Granit Xhaka"
+          }
+        },
+        {
+          "id": 39,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Turkey", "Inter Milan", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Hakan_Calhanoglu.jpg",
+            "hints": ["Mijlocaș turc", "Joacă pentru Inter Milan"]
+          },
+          "answer": {
+            "text": "Hakan Çalhanoğlu"
+          }
+        },
+        {
+          "id": 40,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["England", "Bayern Munich", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Harry_Kane.jpg",
+            "hints": ["Atacant englez prolific", "Joacă pentru Bayern Munich"]
+          },
+          "answer": {
+            "text": "Harry Kane"
+          }
+        },
+        {
+          "id": 51,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Japan", "Brighton", "football", "winger", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Kaoru_Mitoma.jpg",
+            "hints": ["Extremă japoneză talentată", "Joacă pentru Brighton"]
+          },
+          "answer": {
+            "text": "Kaoru Mitoma"
+          }
+        },
+        {
+          "id": 52,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "Al-Ittihad", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Karim_Benzema.jpg",
+            "hints": ["Legenda fotbalului francez", "Joacă pentru Al-Ittihad"]
+          },
+          "answer": {
+            "text": "Karim Benzema"
+          }
+        },
+        {
+          "id": 53,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Belgium",
+            "Manchester City",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
           "question": {
             "media": "/assets/database/images/football-players-2023/Kevin_De_Bruyne.jpg",
             "hints": [
-              "Mijlocaș ofensiv la Manchester City",
-              "Considerat unul dintre cei mai buni pasatori din lume"
+              "Mijlocaș belgian creativ",
+              "Joacă pentru Manchester City"
             ]
           },
           "answer": {
@@ -226,19 +644,689 @@
           }
         },
         {
-          "id": 15,
+          "id": 54,
           "type": "image-to-text",
           "difficulty": "medium",
-          "tags": ["England", "Tottenham", "football", "2020s"],
+          "tags": ["Georgia", "Napoli", "football", "winger", "2020s"],
           "question": {
-            "media": "/assets/database/images/football-players-2023/Harry_Kane.jpg",
+            "media": "/assets/database/images/football-players-2023/Khvicha_Kvaratskhelia.jpg",
+            "hints": ["Extremă georgiană talentată", "Joacă pentru Napoli"]
+          },
+          "answer": {
+            "text": "Khvicha Kvaratskhelia"
+          }
+        },
+        {
+          "id": 55,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["England", "Newcastle", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Kieran_Trippier.jpg",
             "hints": [
-              "Golgeter al echipei Angliei",
-              "Star la Tottenham Hotspur"
+              "Fundaș lateral englez experimentat",
+              "Joacă pentru Newcastle"
             ]
           },
           "answer": {
-            "text": "Harry Kane"
+            "text": "Kieran Trippier"
+          }
+        },
+        {
+          "id": 56,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "South Korea",
+            "Bayern Munich",
+            "football",
+            "defender",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Kim_Min-jae.jpg",
+            "hints": ["Fundaș sud-coreean", "Joacă pentru Bayern Munich"]
+          },
+          "answer": {
+            "text": "Kim Min-jae"
+          }
+        },
+        {
+          "id": 57,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "England",
+            "Manchester City",
+            "football",
+            "defender",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Kyle_Walker.jpg",
+            "hints": [
+              "Fundaș lateral englez rapid",
+              "Joacă pentru Manchester City"
+            ]
+          },
+          "answer": {
+            "text": "Kyle Walker"
+          }
+        },
+        {
+          "id": 58,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": ["France", "PSG", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Kylian_Mbappé.jpg",
+            "hints": ["Atacant francez prolific", "Joacă pentru PSG"]
+          },
+          "answer": {
+            "text": "Kylian Mbappé"
+          }
+        },
+        {
+          "id": 59,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Argentina", "Inter Milan", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Lautaro_Martínez.jpg",
+            "hints": [
+              "Atacant argentinian talentat",
+              "Joacă pentru Inter Milan"
+            ]
+          },
+          "answer": {
+            "text": "Lautaro Martínez"
+          }
+        },
+        {
+          "id": 60,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Germany", "Bayern Munich", "football", "winger", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Leroy_Sané.jpg",
+            "hints": ["Extremă germană rapidă", "Joacă pentru Bayern Munich"]
+          },
+          "answer": {
+            "text": "Leroy Sané"
+          }
+        },
+        {
+          "id": 61,
+          "type": "image-to-text",
+          "difficulty": "easy",
+          "tags": ["Argentina", "Inter Miami", "football", "legend", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Lionel_Messi.jpg",
+            "hints": [
+              "Cel mai bun jucător din istorie",
+              "Joacă pentru Inter Miami"
+            ]
+          },
+          "answer": {
+            "text": "Lionel Messi"
+          }
+        },
+        {
+          "id": 62,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Belgium", "RB Leipzig", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Loïs_Openda.jpg",
+            "hints": ["Atacant belgian tânăr", "Joacă pentru RB Leipzig"]
+          },
+          "answer": {
+            "text": "Loïs Openda"
+          }
+        },
+        {
+          "id": 63,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Colombia", "Liverpool", "football", "winger", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Luis_Díaz.jpg",
+            "hints": ["Extremă columbiană rapidă", "Joacă pentru Liverpool"]
+          },
+          "answer": {
+            "text": "Luis Díaz"
+          }
+        },
+        {
+          "id": 64,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Croatia", "Real Madrid", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Luka_Modric.jpg",
+            "hints": ["Mijlocaș croat legendar", "Joacă pentru Real Madrid"]
+          },
+          "answer": {
+            "text": "Luka Modric"
+          }
+        },
+        {
+          "id": 65,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Germany", "Barcelona", "football", "goalkeeper", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Marc-André_ter_Stegen.jpg",
+            "hints": ["Portar german de top", "Joacă pentru Barcelona"]
+          },
+          "answer": {
+            "text": "Marc-André ter Stegen"
+          }
+        },
+        {
+          "id": 66,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Croatia", "Al-Nassr", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Marcelo_Brozovic.jpg",
+            "hints": ["Mijlocaș croat experimentat", "Joacă pentru Al-Nassr"]
+          },
+          "answer": {
+            "text": "Marcelo Brozovic"
+          }
+        },
+        {
+          "id": 67,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "England",
+            "Manchester United",
+            "football",
+            "forward",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Marcus_Rashford.jpg",
+            "hints": ["Atacant englez rapid", "Joacă pentru Manchester United"]
+          },
+          "answer": {
+            "text": "Marcus Rashford"
+          }
+        },
+        {
+          "id": 68,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "Inter Milan", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Marcus_Thuram.jpg",
+            "hints": ["Atacant francez talentat", "Joacă pentru Inter Milan"]
+          },
+          "answer": {
+            "text": "Marcus Thuram"
+          }
+        },
+        {
+          "id": 69,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Norway", "Arsenal", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Martin_Ødegaard.jpg",
+            "hints": ["Mijlocaș norvegian creativ", "Joacă pentru Arsenal"]
+          },
+          "answer": {
+            "text": "Martin Ødegaard"
+          }
+        },
+        {
+          "id": 70,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "AC Milan", "football", "goalkeeper", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Mike_Maignan.jpg",
+            "hints": ["Portar francez talentat", "Joacă pentru AC Milan"]
+          },
+          "answer": {
+            "text": "Mike Maignan"
+          }
+        },
+        {
+          "id": 71,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Egypt", "Liverpool", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Mohamed_Salah.jpg",
+            "hints": ["Legenda fotbalului egiptean", "Joacă pentru Liverpool"]
+          },
+          "answer": {
+            "text": "Mohamed Salah"
+          }
+        },
+        {
+          "id": 72,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Italy", "Inter Milan", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Nicolò_Barella.jpg",
+            "hints": ["Mijlocaș italian creativ", "Joacă pentru Inter Milan"]
+          },
+          "answer": {
+            "text": "Nicolò Barella"
+          }
+        },
+        {
+          "id": 73,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "AC Milan", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Olivier_Giroud.jpg",
+            "hints": ["Atacant francez experimentat", "Joacă pentru AC Milan"]
+          },
+          "answer": {
+            "text": "Olivier Giroud"
+          }
+        },
+        {
+          "id": 74,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["England", "Aston Villa", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Ollie_Watkins.jpg",
+            "hints": ["Atacant englez prolific", "Joacă pentru Aston Villa"]
+          },
+          "answer": {
+            "text": "Ollie Watkins"
+          }
+        },
+        {
+          "id": 75,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Spain", "Barcelona", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Pedri.jpg",
+            "hints": ["Tânăr mijlocaș spaniol", "Joacă pentru Barcelona"]
+          },
+          "answer": {
+            "text": "Pedri"
+          }
+        },
+        {
+          "id": 76,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "England",
+            "Manchester City",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Phil_Foden.jpg",
+            "hints": ["Mijlocaș ofensiv englez", "Joacă pentru Manchester City"]
+          },
+          "answer": {
+            "text": "Phil Foden"
+          }
+        },
+        {
+          "id": 77,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Portugal", "AC Milan", "football", "winger", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Rafael_Leão.jpg",
+            "hints": ["Extremă portugheză talentată", "Joacă pentru AC Milan"]
+          },
+          "answer": {
+            "text": "Rafael Leão"
+          }
+        },
+        {
+          "id": 78,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "PSG", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Randal_Kolo_Muani.jpg",
+            "hints": ["Atacant francez creativ", "Joacă pentru PSG"]
+          },
+          "answer": {
+            "text": "Randal Kolo Muani"
+          }
+        },
+        {
+          "id": 79,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Algeria", "Al-Ahli", "football", "winger", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Riyad_Mahrez.jpg",
+            "hints": ["Extremă algeriană", "Joacă pentru Al-Ahli"]
+          },
+          "answer": {
+            "text": "Riyad Mahrez"
+          }
+        },
+        {
+          "id": 80,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Poland", "Barcelona", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Robert_Lewandowski.jpg",
+            "hints": ["Legenda fotbalului polonez", "Joacă pentru Barcelona"]
+          },
+          "answer": {
+            "text": "Robert Lewandowski"
+          }
+        },
+        {
+          "id": 81,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Spain",
+            "Manchester City",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Rodri.jpg",
+            "hints": [
+              "Mijlocaș spaniol defensiv",
+              "Joacă pentru Manchester City"
+            ]
+          },
+          "answer": {
+            "text": "Rodri"
+          }
+        },
+        {
+          "id": 82,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Brazil", "Real Madrid", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Rodrygo.jpg",
+            "hints": ["Atacant brazilian talentat", "Joacă pentru Real Madrid"]
+          },
+          "answer": {
+            "text": "Rodrygo"
+          }
+        },
+        {
+          "id": 83,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Belgium", "AS Roma", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Romelu_Lukaku.jpg",
+            "hints": ["Atacant belgian puternic", "Joacă pentru AS Roma"]
+          },
+          "answer": {
+            "text": "Romelu Lukaku"
+          }
+        },
+        {
+          "id": 84,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Uruguay", "Barcelona", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Ronald_Araújo.jpg",
+            "hints": ["Fundaș uruguayan solid", "Joacă pentru Barcelona"]
+          },
+          "answer": {
+            "text": "Ronald Araújo"
+          }
+        },
+        {
+          "id": 85,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Portugal",
+            "Manchester City",
+            "football",
+            "defender",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Rúben_Dias.jpg",
+            "hints": [
+              "Fundaș central portughez",
+              "Joacă pentru Manchester City"
+            ]
+          },
+          "answer": {
+            "text": "Rúben Dias"
+          }
+        },
+        {
+          "id": 86,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Mexico", "Feyenoord", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Santiago_Giménez.jpg",
+            "hints": ["Atacant mexican talentat", "Joacă pentru Feyenoord"]
+          },
+          "answer": {
+            "text": "Santiago Giménez"
+          }
+        },
+        {
+          "id": 87,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Mali", "Stuttgart", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Serhou_Guirassy.jpg",
+            "hints": ["Atacant malian prolific", "Joacă pentru Stuttgart"]
+          },
+          "answer": {
+            "text": "Serhou Guirassy"
+          }
+        },
+        {
+          "id": 88,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["South Korea", "Tottenham", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Son_Heung-min.jpg",
+            "hints": ["Atacant sud-coreean", "Joacă pentru Tottenham"]
+          },
+          "answer": {
+            "text": "Son Heung-min"
+          }
+        },
+        {
+          "id": 89,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "AC Milan", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Theo_Hernández.jpg",
+            "hints": ["Fundaș lateral francez rapid", "Joacă pentru AC Milan"]
+          },
+          "answer": {
+            "text": "Theo Hernández"
+          }
+        },
+        {
+          "id": 90,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Belgium", "Real Madrid", "football", "goalkeeper", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Thibaut_Courtois.jpg",
+            "hints": ["Portar belgian de top", "Joacă pentru Real Madrid"]
+          },
+          "answer": {
+            "text": "Thibaut Courtois"
+          }
+        },
+        {
+          "id": 91,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Germany", "Real Madrid", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Toni_Kroos.jpg",
+            "hints": [
+              "Mijlocaș german experimentat",
+              "Joacă pentru Real Madrid"
+            ]
+          },
+          "answer": {
+            "text": "Toni Kroos"
+          }
+        },
+        {
+          "id": 92,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["England", "Liverpool", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Trent_Alexander-Arnold.jpg",
+            "hints": ["Fundaș lateral englez", "Joacă pentru Liverpool"]
+          },
+          "answer": {
+            "text": "Trent Alexander-Arnold"
+          }
+        },
+        {
+          "id": 93,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Nigeria",
+            "Bayer Leverkusen",
+            "football",
+            "forward",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Victor_Boniface.jpg",
+            "hints": [
+              "Atacant nigerian talentat",
+              "Joacă pentru Bayer Leverkusen"
+            ]
+          },
+          "answer": {
+            "text": "Victor Boniface"
+          }
+        },
+        {
+          "id": 94,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Nigeria", "Napoli", "football", "forward", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Victor_Osimhen.jpg",
+            "hints": ["Atacant prolific nigerian", "Joacă pentru Napoli"]
+          },
+          "answer": {
+            "text": "Victor Osimhen"
+          }
+        },
+        {
+          "id": 95,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Brazil", "Real Madrid", "football", "winger", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Vinícius_Júnior.jpg",
+            "hints": [
+              "Extremă braziliană talentată",
+              "Joacă pentru Real Madrid"
+            ]
+          },
+          "answer": {
+            "text": "Vinícius Júnior"
+          }
+        },
+        {
+          "id": 96,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Netherlands", "Liverpool", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Virgil_van_Dijk.jpg",
+            "hints": ["Fundaș central olandez de top", "Joacă pentru Liverpool"]
+          },
+          "answer": {
+            "text": "Virgil van Dijk"
+          }
+        },
+        {
+          "id": 97,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "PSG", "football", "midfielder", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Warren_Zaïre-Emery.jpg",
+            "hints": ["Tânăr mijlocaș francez", "Joacă pentru PSG"]
+          },
+          "answer": {
+            "text": "Warren Zaïre-Emery"
+          }
+        },
+        {
+          "id": 98,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["France", "Arsenal", "football", "defender", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/William_Saliba.jpg",
+            "hints": ["Fundaș central francez", "Joacă pentru Arsenal"]
+          },
+          "answer": {
+            "text": "William Saliba"
+          }
+        },
+        {
+          "id": 99,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": [
+            "Netherlands",
+            "RB Leipzig",
+            "football",
+            "midfielder",
+            "2020s"
+          ],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Xavi_Simons.jpg",
+            "hints": ["Tânăr mijlocaș olandez", "Joacă pentru RB Leipzig"]
+          },
+          "answer": {
+            "text": "Xavi Simons"
+          }
+        },
+        {
+          "id": 100,
+          "type": "image-to-text",
+          "difficulty": "medium",
+          "tags": ["Morocco", "Al-Hilal", "football", "goalkeeper", "2020s"],
+          "question": {
+            "media": "/assets/database/images/football-players-2023/Yassine_'Bono'_Bounou.jpg",
+            "hints": ["Portar marocan de top", "Joacă pentru Al-Hilal"]
+          },
+          "answer": {
+            "text": "Yassine 'Bono' Bounou"
           }
         }
       ]

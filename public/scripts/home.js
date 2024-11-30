@@ -134,6 +134,13 @@ async function handleGameLoad() {
     // Preload resources
     await preloadResources(shuffledQuestions);
 
+    // Deschide fereastra pentru organizatori și salvează referința
+    window.organizerWindow = window.open(
+      "/organizer.html",
+      "organizerWindow",
+      "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
+    );
+
     // Redirect to game page
     window.location.href = "/image-to-text-game.html";
   } catch (error) {

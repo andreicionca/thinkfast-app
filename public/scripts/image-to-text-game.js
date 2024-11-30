@@ -145,6 +145,7 @@ let answerDisplaying = false;
 let lastCorrectAnswerTime = 0;
 let correctAnswerTimeout = null;
 let gameEnded = false;
+let organizerWindow = null;
 
 // Funcție pentru actualizarea afișării numărului de indicii
 function updateIndiciiDisplay() {
@@ -176,6 +177,22 @@ async function initGame() {
     gameState.settings = gameConfig.settings;
     gameState.timeLeft1 = gameConfig.settings.playerTime;
     gameState.timeLeft2 = gameConfig.settings.playerTime;
+    localStorage.setItem(
+      "playerNames",
+      JSON.stringify({
+        player1Name: gameConfig.settings.player1Name || "Concurent 1",
+        player2Name: gameConfig.settings.player2Name || "Concurent 2",
+      })
+    );
+
+    // Inițializăm fereastra organizatorului dacă nu există
+    if (!organizerWindow || organizerWindow.closed) {
+      organizerWindow = window.open(
+        "/organizer.html",
+        "organizerWindow",
+        "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
+      );
+    }
 
     await audioManager.init();
     setupUI();
@@ -238,6 +255,9 @@ function handleKeyPress(event) {
 function startGame() {
   resetGameState();
   startButton.style.display = "none";
+  localStorage.setItem("currentQuestionIndex", "0");
+  localStorage.setItem("gameStarted", "true");
+  localStorage.setItem("activePlayer", gameState.currentPlayer);
   startCountdown();
 }
 
@@ -250,13 +270,13 @@ function startCountdown() {
 
   const countInterval = setInterval(() => {
     count--;
-    countdown.textContent = count > 0 ? count : "";
-
-    if (count < 0) {
+    if (count === 0) {
       clearInterval(countInterval);
       countdown.style.display = "none";
       currentImage.style.display = "block";
       startRound();
+    } else {
+      countdown.textContent = count;
     }
   }, 1000);
 }
@@ -277,42 +297,40 @@ function showCurrentImage() {
   currentImage.style.display = "block";
   resetIndicii();
 }
-
 function startTimer() {
   clearInterval(gameState.interval);
+  let updateCounter = 0;
 
   gameState.interval = setInterval(() => {
     if (!gameState.isPaused) {
       if (gameState.currentPlayer === 1) {
-        // Verificăm înainte de decrementare
         if (gameState.timeLeft1 <= 0) {
           clearInterval(gameState.interval);
-
           endGame(2);
           return;
         }
         gameState.timeLeft1--;
         player1Timer.textContent = gameState.timeLeft1;
+        // Actualizăm localStorage doar la fiecare 5 secunde
+        if (updateCounter % 5 === 0) {
+          localStorage.setItem("timeLeft1", gameState.timeLeft1.toString());
+          localStorage.setItem("timeLeft2", gameState.timeLeft2.toString());
+        }
       } else {
-        // Verificăm înainte de decrementare
         if (gameState.timeLeft2 <= 0) {
           clearInterval(gameState.interval);
-
           endGame(1);
           return;
         }
         gameState.timeLeft2--;
         player2Timer.textContent = gameState.timeLeft2;
+        // Actualizăm localStorage doar la fiecare 5 secunde
+        if (updateCounter % 5 === 0) {
+          localStorage.setItem("timeLeft1", gameState.timeLeft1.toString());
+          localStorage.setItem("timeLeft2", gameState.timeLeft2.toString());
+        }
       }
-
-      // După decrementare, verificăm din nou pentru siguranță
-      if (gameState.timeLeft1 <= 0) {
-        clearInterval(gameState.interval);
-        endGame(2);
-      } else if (gameState.timeLeft2 <= 0) {
-        clearInterval(gameState.interval);
-        endGame(1);
-      }
+      updateCounter++;
     }
   }, 1000);
 }
@@ -416,6 +434,7 @@ function nextQuestion() {
   gameState.currentImageIndex =
     (gameState.currentImageIndex + 1) % gameState.questions.length;
   showCurrentImage();
+  localStorage.setItem("currentQuestionIndex", gameState.currentImageIndex);
   answerDisplay.textContent = "";
   answerDisplay.className = "";
   currentImage.className = "";
@@ -424,6 +443,7 @@ function nextQuestion() {
 // Schimbare jucător activ
 function switchPlayer() {
   gameState.currentPlayer = gameState.currentPlayer === 1 ? 2 : 1;
+  localStorage.setItem("activePlayer", gameState.currentPlayer);
   updatePlayerStatus();
 }
 
@@ -493,6 +513,13 @@ function togglePause() {
 // Modifică funcția endGame pentru a seta flag-ul
 function endGame(winner) {
   gameEnded = true; // Setăm flag-ul
+  localStorage.setItem(
+    "gameEnded",
+    JSON.stringify({
+      winner: winner,
+      reason: "time",
+    })
+  );
   clearInterval(gameState.interval);
   if (correctAnswerTimeout) {
     clearTimeout(correctAnswerTimeout);
@@ -522,6 +549,13 @@ function endGame(winner) {
 }
 // Funcția pentru resetarea jocului la starea inițială
 function resetGameState() {
+  cleanupOrganizerData();
+  localStorage.setItem("gameStarted", "false");
+  localStorage.setItem("currentQuestionIndex", "0");
+  localStorage.removeItem("activePlayer");
+  localStorage.removeItem("gameEnded");
+  localStorage.setItem("timeLeft1", gameState.settings.playerTime.toString());
+  localStorage.setItem("timeLeft2", gameState.settings.playerTime.toString());
   gameEnded = false; // Resetăm flag-ul
   // Resetăm timerii
   gameState.timeLeft1 = gameState.settings.playerTime;
@@ -560,14 +594,59 @@ function resetGameState() {
 
 // Event listeners pentru butoane
 playAgainButton.addEventListener("click", () => {
+  // Resetăm starea jocului
   resetGameState();
+
+  // Reamestecăm întrebările
   shuffleQuestions();
+  // Salvăm noua ordine a întrebărilor în localStorage
+  const gameConfig = {
+    ...JSON.parse(localStorage.getItem("gameConfig")),
+    questions: gameState.questions,
+  };
+  localStorage.setItem("gameConfig", JSON.stringify(gameConfig));
+
+  // Dacă fereastra organizatorului nu există, o deschidem
+  if (!organizerWindow || organizerWindow.closed) {
+    organizerWindow = window.open(
+      "/organizer.html",
+      "organizerWindow",
+      "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
+    );
+  }
+
   startGame();
 });
 
 resetGameButton.addEventListener("click", () => {
+  if (organizerWindow && !organizerWindow.closed) {
+    organizerWindow.close();
+  }
+  cleanupOrganizerData();
   window.location.href = "/";
 });
 
+function cleanupOrganizerData() {
+  // Ștergem doar datele specifice organizatorului
+  localStorage.removeItem("gameStarted");
+  localStorage.removeItem("currentQuestionIndex");
+  localStorage.removeItem("activePlayer");
+  localStorage.removeItem("playerNames");
+  localStorage.removeItem("timeLeft1");
+  localStorage.removeItem("timeLeft2");
+  localStorage.removeItem("gameEnded");
+}
+
+window.addEventListener("beforeunload", () => {
+  // Închide fereastra organizatorului
+  if (organizerWindow && !organizerWindow.closed) {
+    organizerWindow.close();
+  }
+  // Curăță datele organizatorului
+  cleanupOrganizerData();
+});
+window.addEventListener("unload", () => {
+  cleanupOrganizerData();
+});
 // Inițializare la încărcarea paginii
 document.addEventListener("DOMContentLoaded", initGame);
