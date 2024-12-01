@@ -5,7 +5,7 @@
       "questions": [
         {
           "id": 1,
-          "type": "audio-to-text",
+          "type": "audio-to-short-answer",
           "difficulty": "medium",
           "tags": ["Germany", "classical", "symphony", "1800s"],
           "question": {

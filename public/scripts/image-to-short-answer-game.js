@@ -188,9 +188,9 @@ async function initGame() {
     // Inițializăm fereastra organizatorului dacă nu există
     if (!organizerWindow || organizerWindow.closed) {
       organizerWindow = window.open(
-        "/organizer.html",
+        "/organizer/image-to-short-answer-organizer.html",
         "organizerWindow",
-        "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
+        "width=1200,height=800, menubar=no,toolbar=no,location=no,status=no"
       );
     }
 
@@ -609,7 +609,7 @@ playAgainButton.addEventListener("click", () => {
   // Dacă fereastra organizatorului nu există, o deschidem
   if (!organizerWindow || organizerWindow.closed) {
     organizerWindow = window.open(
-      "/organizer.html",
+      "/organizer/image-to-short-answer-organizer.html",
       "organizerWindow",
       "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
     );

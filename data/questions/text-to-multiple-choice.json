@@ -1,0 +1,37 @@
+{
+  "categories": {
+    "istoria-româniei": {
+      "name": "Istoria României",
+      "questions": [
+        {
+          "id": "TXT_MC_1",
+          "tags": {
+            "domain": {
+              "istorie": "monarhie"
+            },
+            "period": {
+              "modern": {
+                "century": "XIX",
+                "decade": "1860-1869"
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["România"]
+            },
+            "difficulty": "mediu",
+            "specific": ["rege", "Carol I", "domnitor"]
+          },
+          "question": {
+            "text": "Care a fost primul rege al României?",
+            "hints": ["A domnit între 1866-1914"]
+          },
+          "answer": {
+            "correct": "Carol I",
+            "options": ["Ferdinand I", "Carol I", "Carol II", "Mihai I"]
+          }
+        }
+      ]
+    }
+  }
+}

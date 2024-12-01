@@ -1,0 +1,159 @@
+{
+  "categories": {
+    "top-100-jucători-de-fotbal-în-anul-2023": {
+      "name": "Top 100 jucători de fotbal în anul 2023",
+      "questions": [
+        {
+          "id": "IMG_SA_1",
+          "tags": {
+            "domain": {
+              "sport": "fotbal"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI",
+                "decade": "2020-prezent"
+              }
+            },
+            "region": {
+              "global": ["Europa", "Africa"],
+              "local": ["Maroc", "Madrid"]
+            },
+            "difficulty": "greu",
+            "specific": ["fundaș dreapta", "PSG", "naționala Marocului"]
+          },
+          "question": {
+            "media": "/assets/database/images/top-100-jucători-de-fotbal-în-anul-2023/Achraf_Hakimi.jpg",
+            "hints": [
+              "Jucător al naționalei Marocului.",
+              "Unul dintre cei mai buni fundași dreapta."
+            ]
+          },
+          "answer": {
+            "text": "Achraf Hakimi"
+          }
+        },
+        {
+          "id": "IMG_SA_2",
+          "tags": {
+            "domain": {
+              "sport": "fotbal"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI",
+                "decade": "2020-prezent"
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["Italia", "Milano"]
+            },
+            "difficulty": "greu",
+            "specific": ["fundaș central", "Inter Milano", "naționala Italiei"]
+          },
+          "question": {
+            "media": "/assets/database/images/top-100-jucători-de-fotbal-în-anul-2023/Alessandro_Bastoni.jpg",
+            "hints": [
+              "Reprezentant al naționalei Italiei.",
+              "Un fundaș central de clasă mondială."
+            ]
+          },
+          "answer": {
+            "text": "Alessandro Bastoni"
+          }
+        },
+        {
+          "id": "IMG_SA_3",
+          "tags": {
+            "domain": {
+              "sport": "fotbal"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI",
+                "decade": "2020-prezent"
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["Spania", "Lisabona"]
+            },
+            "difficulty": "greu",
+            "specific": ["fundaș stânga", "Benfica", "tehnică avansată"]
+          },
+          "question": {
+            "media": "/assets/database/images/top-100-jucători-de-fotbal-în-anul-2023/Álex_Grimaldo.jpg",
+            "hints": [
+              "Cunoscut pentru tehnica sa remarcabilă.",
+              "Un fundaș stânga dinamic."
+            ]
+          },
+          "answer": {
+            "text": "Álex Grimaldo"
+          }
+        },
+        {
+          "id": "IMG_SA_4",
+          "tags": {
+            "domain": {
+              "sport": "fotbal"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI",
+                "decade": "2020-prezent"
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["Suedia", "Newcastle"]
+            },
+            "difficulty": "greu",
+            "specific": ["atacant", "Newcastle United", "talent ofensiv"]
+          },
+          "question": {
+            "media": "/assets/database/images/top-100-jucători-de-fotbal-în-anul-2023/Alexander_Isak.jpg",
+            "hints": [
+              "Un atacant suedez remarcabil.",
+              "Reprezintă viitorul ofensiv al Suediei."
+            ]
+          },
+          "answer": {
+            "text": "Alexander Isak"
+          }
+        },
+        {
+          "id": "IMG_SA_5",
+          "tags": {
+            "domain": {
+              "sport": "fotbal"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI",
+                "decade": "2020-prezent"
+              }
+            },
+            "region": {
+              "global": ["Europa", "America de Sud"],
+              "local": ["Argentina", "Liverpool"]
+            },
+            "difficulty": "greu",
+            "specific": ["mijlocaș central", "Liverpool", "campion mondial"]
+          },
+          "question": {
+            "media": "/assets/database/images/top-100-jucători-de-fotbal-în-anul-2023/Alexis_Mac_Allister.jpg",
+            "hints": [
+              "Campion mondial cu Argentina în 2022.",
+              "Mijlocaș cu o viziune excelentă."
+            ]
+          },
+          "answer": {
+            "text": "Alexis Mac Allister"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -5,7 +5,7 @@
       "questions": [
         {
           "id": 1,
-          "type": "hints-multiple-choice",
+          "type": "hints-to-multiple-choice",
           "difficulty": "hard",
           "tags": ["Germany", "physics", "Nobel", "1900s"],
           "question": {

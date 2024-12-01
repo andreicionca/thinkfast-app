@@ -1,0 +1,36 @@
+{
+  "categories": {
+    "capitale-europene": {
+      "name": "Capitale Europene",
+      "questions": [
+        {
+          "id": "IMG_MC_1",
+          "tags": {
+            "domain": {
+              "geografie": "capitale"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XIX"
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["Franța", "Paris"]
+            },
+            "difficulty": "ușor",
+            "specific": ["turn", "turism", "Expoziția Universală"]
+          },
+          "question": {
+            "media": "/assets/database/images/capitale-europene/paris_eiffel.jpg",
+            "hints": ["Construită pentru Expoziția Universală din 1889"]
+          },
+          "answer": {
+            "correct": "Paris",
+            "options": ["Londra", "Paris", "Roma", "Madrid"]
+          }
+        }
+      ]
+    }
+  }
+}

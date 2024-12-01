@@ -1,3 +1,4 @@
+// Selectori elemente DOM
 const gameTypeInputs = document.querySelectorAll('input[name="gameType"]');
 const categoriesGrid = document.getElementById("categoriesGrid");
 const loadGameBtn = document.getElementById("loadGameBtn");
@@ -8,7 +9,7 @@ const player1NameInput = document.getElementById("player1Name");
 const player2NameInput = document.getElementById("player2Name");
 
 let gameData = {
-  selectedType: "image-to-text",
+  selectedType: localStorage.getItem("lastGameType") || "image-to-short-answer",
   selectedCategories: [],
   settings: {
     playerTime: 50,
@@ -16,10 +17,18 @@ let gameData = {
     pauseTime: 2,
     player1Name: "",
     player2Name: "",
-    backgroundVolume: 0.1, // 10%
-    effectsVolume: 0.3, // 30%
-    tickVolume: 0.2, // 20%
+    backgroundVolume: 0.1,
+    effectsVolume: 0.3,
+    tickVolume: 0.2,
   },
+};
+
+// Helper pentru verificarea tipului de joc
+const gameTypes = {
+  isImageGame: (type) => type.startsWith("image-"),
+  isTextGame: (type) => type.startsWith("text-"),
+  isHintsGame: (type) => type.startsWith("hints-"),
+  isAudioGame: (type) => type.startsWith("audio-"),
 };
 
 async function loadGameData() {
@@ -63,6 +72,7 @@ function createCategoryElement(key, category) {
 
 function handleGameTypeChange(event) {
   gameData.selectedType = event.target.value;
+  localStorage.setItem("lastGameType", event.target.value);
   gameData.selectedCategories = [];
   loadGameData();
 }
@@ -115,34 +125,28 @@ async function handleGameLoad() {
   progress.style.display = "block";
 
   try {
-    // Update game settings
     updateGameSettings();
-
-    // Get questions for selected categories
     const selectedQuestions = await getSelectedQuestions();
-
-    // Shuffle questions
     const shuffledQuestions = shuffleQuestions(selectedQuestions);
 
-    // Save game configuration to localStorage
     const gameConfig = {
       ...gameData,
       questions: shuffledQuestions,
     };
     localStorage.setItem("gameConfig", JSON.stringify(gameConfig));
 
-    // Preload resources
+    // Preîncărcăm resursele în funcție de tipul jocului
     await preloadResources(shuffledQuestions);
 
-    // Deschide fereastra pentru organizatori și salvează referința
+    // Deschidem fereastra pentru organizatori
     window.organizerWindow = window.open(
-      "/organizer.html",
+      `/organizer/${gameData.selectedType}-organizer.html`,
       "organizerWindow",
       "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
     );
 
-    // Redirect to game page
-    window.location.href = "/image-to-text-game.html";
+    // Redirecționăm către pagina corespunzătoare tipului de joc
+    window.location.href = `/${gameData.selectedType}-game.html`;
   } catch (error) {
     console.error("Error loading game:", error);
     button.disabled = false;
@@ -171,14 +175,35 @@ async function preloadResources(questions) {
   let loadedCount = 0;
   const totalResources = questions.length;
 
-  const loadPromises = questions.map((question) =>
-    preloadImage(question.question.media).then(() => {
+  // Gestionăm diferit fiecare tip de joc
+  if (gameTypes.isImageGame(gameData.selectedType)) {
+    // Pentru jocuri cu imagini
+    const loadPromises = questions.map((question) =>
+      preloadImage(question.question.media).then(() => {
+        loadedCount++;
+        updateLoadingProgress(loadedCount, totalResources);
+      })
+    );
+    return Promise.all(loadPromises);
+  } else if (gameTypes.isAudioGame(gameData.selectedType)) {
+    // Pentru jocuri audio
+    const loadPromises = questions.map((question) =>
+      preloadAudio(question.question.media).then(() => {
+        loadedCount++;
+        updateLoadingProgress(loadedCount, totalResources);
+      })
+    );
+    return Promise.all(loadPromises);
+  } else {
+    // Pentru text și hints
+    const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+    for (let i = 0; i < totalResources; i++) {
+      await delay(50);
       loadedCount++;
       updateLoadingProgress(loadedCount, totalResources);
-    })
-  );
-
-  return Promise.all(loadPromises);
+    }
+  }
 }
 
 function updateLoadingProgress(current, total) {
@@ -197,15 +222,29 @@ function preloadImage(src) {
   });
 }
 
+function preloadAudio(src) {
+  return new Promise((resolve, reject) => {
+    const audio = new Audio();
+    audio.oncanplaythrough = resolve;
+    audio.onerror = reject;
+    audio.src = src;
+  });
+}
+
 function setupEventListeners() {
+  // Event listeners pentru tipul de joc și categorii
   gameTypeInputs.forEach((input) => {
     input.addEventListener("change", handleGameTypeChange);
   });
 
+  categoriesGrid.addEventListener("change", handleCategorySelection);
+
+  // Event listeners pentru setări
   playerTimeInput.addEventListener("input", updateGameSettings);
   penaltyTimeInput.addEventListener("input", updateGameSettings);
   pauseTimeInput.addEventListener("input", updateGameSettings);
 
+  // Event listeners pentru volume
   const volumeInputs = document.querySelectorAll('input[type="range"]');
   volumeInputs.forEach((input) => {
     input.addEventListener("input", (e) => {
@@ -214,11 +253,21 @@ function setupEventListeners() {
     });
   });
 
-  categoriesGrid.addEventListener("change", handleCategorySelection);
+  // Event listener pentru încărcarea jocului
   loadGameBtn.addEventListener("click", handleGameLoad);
 }
 
+// Inițializare la încărcarea paginii
 document.addEventListener("DOMContentLoaded", () => {
   loadGameData();
   setupEventListeners();
+
+  // Setăm radio button-ul corect în funcție de lastGameType
+  const savedType = localStorage.getItem("lastGameType");
+  if (savedType) {
+    const radioButton = document.querySelector(`input[value="${savedType}"]`);
+    if (radioButton && !radioButton.disabled) {
+      radioButton.checked = true;
+    }
+  }
 });

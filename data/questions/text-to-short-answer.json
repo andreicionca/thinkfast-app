@@ -1,0 +1,38 @@
+{
+  "categories": {
+    "cultura-generală": {
+      "name": "Cultură Generală",
+      "questions": [
+        {
+          "id": "TXT_SA_1",
+          "tags": {
+            "domain": {
+              "artă": "pictură"
+            },
+            "period": {
+              "modern": {
+                "century": ["XV", "XVI"]
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["Italia", "Florența"]
+            },
+            "difficulty": "mediu",
+            "specific": ["artist", "Renascentist", "Gioconda"]
+          },
+          "question": {
+            "text": "Cine a pictat Mona Lisa?",
+            "hints": [
+              "Artist renascentist italian",
+              "A proiectat și mașini zburătoare"
+            ]
+          },
+          "answer": {
+            "text": "Leonardo da Vinci"
+          }
+        }
+      ]
+    }
+  }
+}
