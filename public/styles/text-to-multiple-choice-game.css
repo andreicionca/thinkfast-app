@@ -1,0 +1,306 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #171717;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  height: 95vh;
+  background: #212121;
+  border-radius: 10px;
+  padding: 5px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.countdown {
+  font-size: 5rem;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#question-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  /* Increase height to accommodate options */
+  height: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#current-text {
+  width: 100%;
+  /* Adjust height to leave space for options */
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  color: #ffffff;
+}
+
+/* Mutăm efectele pe question-container */
+#question-container.correct {
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+}
+
+#question-container.wrong {
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+}
+
+#hints-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  display: none;
+}
+
+.players-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.players-names {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.player-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s ease;
+  color: #8c8d8e;
+}
+
+.player-name.active {
+  color: #ffffff;
+}
+
+.game-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.player1-stats,
+.player2-stats {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.timer {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 5px 50px;
+  width: 80px; /* Adăugăm o lățime fixă */
+  min-width: 80px; /* Pentru siguranță adăugăm și min-width */
+  border-radius: 5px;
+  text-align: center;
+  transition: color 0.3s ease;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timer-inactive {
+  color: #8c8d8e;
+}
+
+.timer-active,
+.name-active {
+  color: #00cec9;
+}
+
+.timer-penalty,
+.name-penalty {
+  color: #e74c3c;
+}
+
+.player1-hints-counter,
+.player2-hints-counter {
+  font-size: 1.2rem;
+  color: #8c8d8e;
+  padding: 5px 10px;
+}
+
+.game-action {
+  display: flex;
+  justify-content: center;
+}
+
+#start-game {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00cec9;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#start-game:hover {
+  background-color: #00a8a6;
+  transform: translateY(-2px);
+}
+
+#start-game:disabled {
+  background-color: #636e72;
+  cursor: not-allowed;
+  transform: none;
+}
+
+#options-section {
+  width: 100%;
+  /* Set specific height for options section */
+  height: 20%;
+  transition: box-shadow 0.3s ease;
+}
+
+#options-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.option {
+  flex: 1;
+  border: 2px solid #e8e8e8;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option.correct {
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+}
+
+.option.wrong {
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+}
+
+.option.final-correct {
+  color: #ffffff; /* sau altă culoare care indică răspunsul corect */
+  /* fără box-shadow */
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.pause-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.pause-content {
+  background: #212121;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.pause-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pause-content p {
+  font-size: 1.2rem;
+}
+
+.player-name.correct {
+  color: #27ae60 !important; /* verde */
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+}
+
+.player-name.wrong {
+  color: #e74c3c !important; /* roșu */
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+}
+
+.end-game-buttons {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.end-game-buttons button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#play-again {
+  background-color: #00cec9;
+  color: white;
+}
+
+#reset-game {
+  background-color: #e6af2e;
+  color: white;
+}

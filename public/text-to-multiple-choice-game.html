@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/text-to-short-answer-game.css" />
+    <link rel="stylesheet" href="styles/text-to-multiple-choice-game.css" />
   </head>
   <body>
     <div class="container">
@@ -21,10 +21,15 @@
           style="display: none"
         ></div>
         <div id="countdown" class="countdown"></div>
+        <div id="options-section">
+          <div id="options-container" style="display: none">
+            <div id="option1" class="option"></div>
+            <div id="option2" class="option"></div>
+            <div id="option3" class="option"></div>
+          </div>
+        </div>
       </div>
-      <div id="answer-section">
-        <div id="answer-display"></div>
-      </div>
+
       <div id="hints-container"></div>
 
       <div class="players-section">
@@ -61,6 +66,6 @@
     </div>
 
     <script src="scripts/audio-manager.js"></script>
-    <script src="scripts/text-to-short-answer-game.js"></script>
+    <script src="scripts/text-to-multiple-choice-game.js"></script>
   </body>
 </html>

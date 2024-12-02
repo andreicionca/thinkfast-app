@@ -388,7 +388,12 @@ function handlePenalty() {
         answerDisplay.className = "";
         currentImage.className = ""; // Curățăm clasa și de pe imagine
         updatePlayerStatus();
-        nextQuestion();
+        if (
+          (gameState.currentPlayer === 1 && gameState.timeLeft1 > 0) ||
+          (gameState.currentPlayer === 2 && gameState.timeLeft2 > 0)
+        ) {
+          nextQuestion();
+        }
       }
     }
   }, 1000);
