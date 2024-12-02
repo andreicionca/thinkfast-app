@@ -24,15 +24,6 @@ body {
   gap: 10px;
 }
 
-#hints-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  height: 400px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .countdown {
   font-size: 5rem;
   font-weight: bold;
@@ -43,94 +34,55 @@ body {
   justify-content: center;
   align-items: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  z-index: 10;
 }
 
-.hints-grid {
+#question-container {
+  position: relative;
   width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-auto-rows: minmax(0, 1fr);
-  gap: 30px; /* spațiu mai mare între carduri */
-}
-
-.hint-card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  max-width: 800px;
+  height: 400px;
+  margin: 20px auto;
   padding: 20px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  word-wrap: break-word;
-  line-height: 1.2;
-  transition: opacity 0.3s ease;
-  /* Eliminăm min-height și alte proprietăți care ar putea cauza suprapuneri */
-}
-
-.hints-grid.visible {
-  opacity: 1;
-}
-.invisible {
-  opacity: 0;
-}
-/* Dimensiuni ajustate pentru text */
-.hint-card.text-xl {
-  font-size: 2rem;
-}
-
-.hint-card.text-lg {
-  font-size: 1.75rem;
-}
-
-.hint-card.text-md {
-  font-size: 1.5rem;
-}
-
-.hint-card.text-sm {
-  font-size: 1.25rem;
-}
-
-.hint-card.text-xs {
-  font-size: 1rem;
-}
-
-#answer-section {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  transition: box-shadow 0.3s ease;
-}
-
-#answer-display {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 8px;
-  border-radius: 5px;
-  font-size: 1.7rem;
-  font-weight: bold;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
   transition: all 0.3s ease;
-  color: #8c8d8e;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#answer-display.correct {
+#current-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 1.6; /* Mărită de la 1.2 la 1.6 pentru spațiere mai bună */
+  word-wrap: break-word;
   color: #ffffff;
+}
+
+/* Mutăm efectele pe question-container */
+#question-container.correct {
   box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
 }
 
-#answer-display.wrong {
-  color: #ffffff;
+#question-container.wrong {
   box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
 }
 
-/* Stilurile existente pentru secțiunea de jucători */
+#hints-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  display: none;
+}
+
 .players-section {
   display: flex;
   flex-direction: column;
@@ -178,8 +130,8 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   padding: 5px 50px;
-  width: 80px;
-  min-width: 80px;
+  width: 80px; /* Adăugăm o lățime fixă */
+  min-width: 80px; /* Pentru siguranță adăugăm și min-width */
   border-radius: 5px;
   text-align: center;
   transition: color 0.3s ease;
@@ -201,18 +153,19 @@ body {
   color: #e74c3c;
 }
 
-.player-name.correct {
-  color: #27ae60 !important;
-  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+.player1-hints-counter,
+.player2-hints-counter {
+  font-size: 1.2rem;
+  color: #8c8d8e;
+  padding: 5px 10px;
 }
 
-.player-name.wrong {
-  color: #e74c3c !important;
-  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+.game-action {
+  display: flex;
+  justify-content: center;
 }
 
-.game-action button,
-.end-game-buttons button {
+#start-game {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 10px 20px;
@@ -225,26 +178,48 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-.game-action button:hover,
-.end-game-buttons button:hover {
+#start-game:hover {
   background-color: #00a8a6;
   transform: translateY(-2px);
 }
 
-.game-action button:disabled {
+#start-game:disabled {
   background-color: #636e72;
   cursor: not-allowed;
   transform: none;
 }
 
-.end-game-buttons {
-  gap: 10px;
+#answer-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease;
+}
+
+#answer-display {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color: #8c8d8e;
+  height: 40px;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-#reset-game {
-  background-color: #e6af2e;
+#answer-display.correct {
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+}
+
+#answer-display.wrong {
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
 }
 
 .pause-overlay {
@@ -275,4 +250,41 @@ body {
 
 .pause-content p {
   font-size: 1.2rem;
+}
+
+.player-name.correct {
+  color: #27ae60 !important; /* verde */
+  box-shadow: 0 0 15px rgba(39, 174, 96, 0.5);
+}
+
+.player-name.wrong {
+  color: #e74c3c !important; /* roșu */
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.5);
+}
+
+.end-game-buttons {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.end-game-buttons button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#play-again {
+  background-color: #00cec9;
+  color: white;
+}
+
+#reset-game {
+  background-color: #e6af2e;
+  color: white;
 }

@@ -4,32 +4,206 @@
       "name": "Cultură Generală",
       "questions": [
         {
-          "id": "TXT_SA_1",
+          "id": "TXT_SA_2",
           "tags": {
             "domain": {
-              "artă": "pictură"
+              "istorie": "evenimente"
             },
             "period": {
               "modern": {
-                "century": ["XV", "XVI"]
+                "century": ["XX"]
               }
             },
             "region": {
               "global": ["Europa"],
-              "local": ["Italia", "Florența"]
+              "local": ["Germania"]
             },
-            "difficulty": "mediu",
-            "specific": ["artist", "Renascentist", "Gioconda"]
+            "difficulty": "ușor",
+            "specific": ["război", "Al Doilea Război Mondial"]
           },
           "question": {
-            "text": "Cine a pictat Mona Lisa?",
+            "text": "În ce an a început Al Doilea Război Mondial?",
+            "hints": ["Sfârșitul anilor '30", "A început cu invazia Poloniei"]
+          },
+          "answer": {
+            "text": "1939"
+          }
+        },
+        {
+          "id": "TXT_SA_3",
+          "tags": {
+            "domain": {
+              "știință": "fizică"
+            },
+            "period": {
+              "modern": {
+                "century": ["XX"]
+              }
+            },
+            "region": {
+              "global": []
+            },
+            "difficulty": "mediu",
+            "specific": ["teorie", "relativitate"]
+          },
+          "question": {
+            "text": "Cine a propus teoria relativității?",
+            "hints": ["Fizician german", "A câștigat Premiul Nobel în 1921"]
+          },
+          "answer": {
+            "text": "Albert Einstein"
+          }
+        },
+        {
+          "id": "TXT_SA_4",
+          "tags": {
+            "domain": {
+              "geografie": "continente"
+            },
+            "period": {
+              "modern": {}
+            },
+            "region": {
+              "global": ["Africa"]
+            },
+            "difficulty": "ușor",
+            "specific": ["fluviu", "Nil"]
+          },
+          "question": {
+            "text": "Care este cel mai lung fluviu din lume?",
+            "hints": ["Se află în Africa", "Traversează Egiptul"]
+          },
+          "answer": {
+            "text": "Nilul"
+          }
+        },
+        {
+          "id": "TXT_SA_5",
+          "tags": {
+            "domain": {
+              "artă": "muzică"
+            },
+            "period": {
+              "clasic": {
+                "century": ["XVIII"]
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["Austria"]
+            },
+            "difficulty": "mediu",
+            "specific": ["compozitor", "Simfonii"]
+          },
+          "question": {
+            "text": "Cine a fost supranumit „Tatăl Simfoniei”?",
+            "hints": ["Austriac", "A compus 104 simfonii"]
+          },
+          "answer": {
+            "text": "Joseph Haydn"
+          }
+        },
+        {
+          "id": "TXT_SA_6",
+          "tags": {
+            "domain": {
+              "literatură": "romane"
+            },
+            "period": {
+              "modern": {
+                "century": ["XIX"]
+              }
+            },
+            "region": {
+              "global": ["Europa"],
+              "local": ["Franța"]
+            },
+            "difficulty": "greu",
+            "specific": ["autor", "Victor Hugo", "romantism"]
+          },
+          "question": {
+            "text": "Cine a scris romanul „Mizerabilii”?",
+            "hints": ["Scriitor francez", "A fost și politician"]
+          },
+          "answer": {
+            "text": "Victor Hugo"
+          }
+        },
+        {
+          "id": "TXT_SA_7",
+          "tags": {
+            "domain": {
+              "istorie": "civilizații"
+            },
+            "period": {
+              "antichitate": {}
+            },
+            "region": {
+              "global": ["America"],
+              "local": ["Mexic"]
+            },
+            "difficulty": "ușor",
+            "specific": ["civilizație", "azteci"]
+          },
+          "question": {
+            "text": "Ce civilizație antică a construit orașul Tenochtitlan?",
+            "hints": ["Se afla în Mexic", "Este cunoscută pentru templele sale"]
+          },
+          "answer": {
+            "text": "Aztecii"
+          }
+        },
+        {
+          "id": "TXT_SA_8",
+          "tags": {
+            "domain": {
+              "știință": "astronomie"
+            },
+            "period": {
+              "modern": {
+                "century": ["XX"]
+              }
+            },
+            "region": {
+              "global": []
+            },
+            "difficulty": "mediu",
+            "specific": ["eveniment", "primul om pe Lună"]
+          },
+          "question": {
+            "text": "Cine a fost primul om care a pășit pe Lună?",
             "hints": [
-              "Artist renascentist italian",
-              "A proiectat și mașini zburătoare"
+              "Astronaut american",
+              "A făcut parte din misiunea Apollo 11"
             ]
           },
           "answer": {
-            "text": "Leonardo da Vinci"
+            "text": "Neil Armstrong"
+          }
+        },
+        {
+          "id": "TXT_SA_9",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "modern": {
+                "century": ["XX"]
+              }
+            },
+            "region": {
+              "global": ["Europa", "Asia"],
+              "local": ["Franța", "Germania", "Japonia", "Rusia"]
+            },
+            "difficulty": "greu",
+            "specific": ["tratat", "Primul Război Mondial", "politică"]
+          },
+          "question": {
+            "text": "După încheierea Primului Război Mondial, mai multe tratate internaționale au fost semnate pentru a stabili noi frontiere și condiții de pace. Unul dintre cele mai importante tratate a fost semnat în 1919 și a stabilit, printre altele, restricții economice și militare pentru Germania, inclusiv clauze care au fost considerate umilitoare de către populația germană. Acest tratat a avut loc într-un oraș din Franța, într-un palat regal celebru. Ce nume poartă acest tratat și care a fost locul semnării?"
+          },
+          "answer": {
+            "text": "Tratatul de la Versailles, semnat în Palatul Versailles, Franța."
           }
         }
       ]

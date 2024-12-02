@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control Organizatori</title>
+    <style>
+      body {
+        background-color: #0f172a;
+        color: #f8fafc;
+        font-family: "Inter", sans-serif;
+        padding: 20px;
+        margin: 0;
+        min-height: 100vh;
+      }
+
+      .questions-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+
+      .question-box {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 1.5rem;
+        display: none;
+      }
+
+      .question-box.current-box {
+        transform: scale(1.02);
+        border-color: #f1f1f1;
+        background: rgba(6, 182, 212, 0.05);
+        box-shadow: 0 0 20px rgba(6, 182, 212, 0.1);
+      }
+
+      .text-container {
+        min-height: 200px;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 2rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .question-text {
+        font-size: 1.8rem;
+        line-height: 1.5;
+        text-align: center;
+        color: #f8fafc;
+        font-weight: 500;
+      }
+
+      .players-container {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+      }
+
+      .player-box {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+        width: 300px;
+        transition: all 0.3s ease;
+      }
+
+      .player-box.active {
+        background: rgba(6, 182, 212, 0.1);
+        border-color: #06b6d4;
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);
+      }
+
+      .player-box.winner {
+        background: rgba(34, 197, 94, 0.1);
+        border-color: #22c55e;
+        box-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+      }
+
+      .player-box.loser {
+        background: rgba(239, 68, 68, 0.1);
+        border-color: #ef4444;
+        opacity: 0.8;
+      }
+
+      .player-name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      .progress-container {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        height: 8px;
+        overflow: hidden;
+      }
+
+      .progress-bar {
+        height: 100%;
+        background: #06b6d4;
+        transition: width 0.2s ease;
+      }
+
+      .progress-bar.warning {
+        background: #ef4444;
+      }
+
+      .answer {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+      }
+
+      .answer span {
+        color: #22d3ee;
+        font-weight: 600;
+      }
+
+      .hints {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        border-radius: 8px;
+      }
+
+      .hint {
+        color: #94a3b8;
+        padding: 0.5rem;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+
+      .waiting-message {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+        color: #06b6d4;
+        text-align: center;
+        padding: 3rem;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 12px;
+        backdrop-filter: blur(8px);
+      }
+
+      .box-title {
+        color: #06b6d4;
+        margin: 0 0 1.5rem 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      #game-content {
+        display: none;
+      }
+      .questions-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 2rem;
+        padding: 0 1rem;
+      }
+
+      .question-box {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 1.5rem;
+      }
+
+      /* @media (max-width: 1024px) {
+        .questions-container {
+          grid-template-columns: 1fr;
+        }
+
+        .question-box {
+          margin-bottom: 2rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .players-container {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .player-box {
+          width: 100%;
+          max-width: 400px;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <div id="waiting-message" class="waiting-message">
+      Așteptând începerea jocului...
+    </div>
+
+    <div id="game-content">
+      <div class="players-container">
+        <div id="player2-box" class="player-box">
+          <div id="player2-name" class="player-name">Jucător 2</div>
+          <div class="progress-container">
+            <div id="player2-progress" class="progress-bar"></div>
+          </div>
+        </div>
+        <div id="player1-box" class="player-box">
+          <div id="player1-name" class="player-name">Jucător 1</div>
+          <div class="progress-container">
+            <div id="player1-progress" class="progress-bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="questions-container">
+        <div id="current-box" class="question-box current-box">
+          <h2 class="box-title">Întrebarea Curentă</h2>
+          <div class="text-container">
+            <div id="current-text" class="question-text"></div>
+          </div>
+          <div class="answer">Răspuns: <span id="current-answer"></span></div>
+          <div class="hints" id="current-hints"></div>
+        </div>
+
+        <div id="next-box" class="question-box">
+          <h2 class="box-title">Următoarea Întrebare</h2>
+          <div class="text-container">
+            <div id="next-text" class="question-text"></div>
+          </div>
+          <div class="answer">Răspuns: <span id="next-answer"></span></div>
+          <div class="hints" id="next-hints"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let gameData = null;
+      let currentIndex = 0;
+      let lastTimerUpdate = {
+        player1: null,
+        player2: null,
+      };
+
+      function loadGameData() {
+        const savedConfig = localStorage.getItem("gameConfig");
+        if (savedConfig) {
+          gameData = JSON.parse(savedConfig);
+        }
+      }
+      function updateDisplay() {
+        if (!gameData || !gameData.questions) return;
+
+        const currentQ = gameData.questions[currentIndex];
+        if (currentQ) {
+          document.getElementById("current-text").textContent =
+            currentQ.question.text;
+          document.getElementById("current-answer").textContent =
+            currentQ.answer.text;
+
+          const currentHints = document.getElementById("current-hints");
+          currentHints.innerHTML = currentQ.question.hints
+            .map(
+              (hint, i) => `<div class="hint">Indiciu ${i + 1}: ${hint}</div>`
+            )
+            .join("");
+        }
+
+        const nextQ = gameData.questions[currentIndex + 1];
+        if (nextQ) {
+          document.getElementById("next-text").textContent =
+            nextQ.question.text;
+          document.getElementById("next-answer").textContent =
+            nextQ.answer.text;
+
+          const nextHints = document.getElementById("next-hints");
+          nextHints.innerHTML = nextQ.question.hints
+            .map(
+              (hint, i) => `<div class="hint">Indiciu ${i + 1}: ${hint}</div>`
+            )
+            .join("");
+        }
+      }
+
+      function updateActivePlayer() {
+        const activePlayer = localStorage.getItem("activePlayer");
+        const playerNames = JSON.parse(
+          localStorage.getItem("playerNames") || "{}"
+        );
+
+        document.getElementById("player1-name").textContent =
+          playerNames.player1Name || "Concurent 1";
+        document.getElementById("player2-name").textContent =
+          playerNames.player2Name || "Concurent 2";
+
+        document
+          .getElementById("player1-box")
+          .classList.toggle("active", activePlayer === "1");
+        document
+          .getElementById("player2-box")
+          .classList.toggle("active", activePlayer === "2");
+      }
+
+      function updateTimers() {
+        const timeLeft1 =
+          parseInt(localStorage.getItem("timeLeft1")) ||
+          gameData?.settings?.playerTime ||
+          50;
+        const timeLeft2 =
+          parseInt(localStorage.getItem("timeLeft2")) ||
+          gameData?.settings?.playerTime ||
+          50;
+        const maxTime = gameData?.settings?.playerTime || 50;
+
+        const progress1 = document.getElementById("player1-progress");
+        const progress2 = document.getElementById("player2-progress");
+
+        progress1.style.width = `${(timeLeft1 / maxTime) * 100}%`;
+        progress2.style.width = `${(timeLeft2 / maxTime) * 100}%`;
+
+        progress1.classList.toggle("warning", timeLeft1 <= 10);
+        progress2.classList.toggle("warning", timeLeft2 <= 10);
+
+        lastTimerUpdate = {
+          player1: timeLeft1,
+          player2: timeLeft2,
+        };
+      }
+      function handleGameEnd(winner) {
+        const player1Box = document.getElementById("player1-box");
+        const player2Box = document.getElementById("player2-box");
+
+        // Reset existing classes
+        player1Box.classList.remove("active", "winner", "loser");
+        player2Box.classList.remove("active", "winner", "loser");
+
+        // Add winner/loser classes
+        if (winner === 1) {
+          player1Box.classList.add("winner");
+          player2Box.classList.add("loser");
+        } else {
+          player2Box.classList.add("winner");
+          player1Box.classList.add("loser");
+        }
+      }
+
+      window.addEventListener("storage", (e) => {
+        if (e.key === "gameConfig") {
+          loadGameData();
+          updateDisplay();
+          updateTimers();
+        } else if (e.key === "gameStarted") {
+          document.getElementById("waiting-message").style.display =
+            e.newValue === "true" ? "none" : "block";
+          document.getElementById("game-content").style.display =
+            e.newValue === "true" ? "block" : "none";
+          document.getElementById("current-box").style.display =
+            e.newValue === "true" ? "block" : "none";
+          document.getElementById("next-box").style.display =
+            e.newValue === "true" ? "block" : "none";
+
+          if (e.newValue === "true") {
+            const player1Box = document.getElementById("player1-box");
+            const player2Box = document.getElementById("player2-box");
+            player1Box.classList.remove("winner", "loser");
+            player2Box.classList.remove("winner", "loser");
+            loadGameData();
+            updateDisplay();
+            updateTimers();
+          }
+        } else if (e.key === "currentQuestionIndex") {
+          if (e.newValue !== null) {
+            currentIndex = parseInt(e.newValue);
+            updateDisplay();
+          }
+        } else if (e.key === "activePlayer" || e.key === "playerNames") {
+          updateActivePlayer();
+        } else if (e.key === "timeLeft1" || e.key === "timeLeft2") {
+          updateTimers();
+        } else if (e.key === "gameEnded") {
+          const endState = JSON.parse(e.newValue);
+          handleGameEnd(endState.winner);
+        }
+      });
+
+      loadGameData();
+
+      if (localStorage.getItem("gameStarted") === "true") {
+        document.getElementById("waiting-message").style.display = "none";
+        document.getElementById("game-content").style.display = "block";
+        document.getElementById("current-box").style.display = "block";
+        document.getElementById("next-box").style.display = "block";
+        currentIndex = parseInt(
+          localStorage.getItem("currentQuestionIndex") || "0"
+        );
+        updateDisplay();
+        updateActivePlayer();
+        updateTimers();
+      }
+    </script>
+  </body>
+</html>
