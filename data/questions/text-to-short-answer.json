@@ -1,209 +1,1470 @@
 {
   "categories": {
-    "cultura-generală": {
-      "name": "Cultură Generală",
+    "cultura-generală-și-religie": {
+      "name": "Cultură Generală și Religie",
       "questions": [
+        {
+          "id": "TXT_SA_1",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "-V"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["arca", "Noe"]
+          },
+          "question": {
+            "text": "Cui i-a cerut Dumnezeu să construiască o arcă?",
+            "hints": ["Persoană din Vechiul Testament", "Potopul universal"]
+          },
+          "answer": {
+            "text": "Noe"
+          }
+        },
         {
           "id": "TXT_SA_2",
           "tags": {
             "domain": {
-              "istorie": "evenimente"
+              "religie": "Creștinism"
             },
             "period": {
-              "modern": {
-                "century": ["XX"]
+              "antic": {
+                "century": "-II"
               }
             },
-            "region": {
-              "global": ["Europa"],
-              "local": ["Germania"]
-            },
             "difficulty": "ușor",
-            "specific": ["război", "Al Doilea Război Mondial"]
+            "specific": ["promisiune", "popor numeros"]
           },
           "question": {
-            "text": "În ce an a început Al Doilea Război Mondial?",
-            "hints": ["Sfârșitul anilor '30", "A început cu invazia Poloniei"]
+            "text": "Cui i-a promis Dumnezeu că urmașii săi vor deveni un popor numeros?",
+            "hints": [
+              "A trăit în Canaan",
+              "Considerat patriarh în mai multe religii"
+            ]
           },
           "answer": {
-            "text": "1939"
+            "text": "Avraam"
           }
         },
         {
           "id": "TXT_SA_3",
           "tags": {
             "domain": {
-              "știință": "fizică"
+              "religie": "Creștinism"
             },
             "period": {
-              "modern": {
-                "century": ["XX"]
+              "antic": {
+                "century": "-I"
               }
             },
-            "region": {
-              "global": []
-            },
             "difficulty": "mediu",
-            "specific": ["teorie", "relativitate"]
+            "specific": ["nepot", "12 triburi ale Israelului"]
           },
           "question": {
-            "text": "Cine a propus teoria relativității?",
-            "hints": ["Fizician german", "A câștigat Premiul Nobel în 1921"]
+            "text": "A fost nepotul lui Avraam și a avut 12 fii care au devenit strămoșii celor 12 triburi ale Israelului.",
+            "hints": ["A fost numit Israel", "Fratele său geamăn era Esau"]
           },
           "answer": {
-            "text": "Albert Einstein"
+            "text": "Iacov"
           }
         },
         {
           "id": "TXT_SA_4",
           "tags": {
             "domain": {
-              "geografie": "continente"
+              "religie": "Creștinism"
             },
             "period": {
-              "modern": {}
-            },
-            "region": {
-              "global": ["Africa"]
+              "antic": {
+                "century": "-II"
+              }
             },
             "difficulty": "ușor",
-            "specific": ["fluviu", "Nil"]
+            "specific": ["Egipt", "vândut de frați"]
           },
           "question": {
-            "text": "Care este cel mai lung fluviu din lume?",
-            "hints": ["Se află în Africa", "Traversează Egiptul"]
+            "text": "A fost vândut de frații săi și a ajuns conducător în Egipt.",
+            "hints": ["Tatăl său era Iacov", "A interpretat visele faraonului"]
           },
           "answer": {
-            "text": "Nilul"
+            "text": "Iosif"
           }
         },
         {
           "id": "TXT_SA_5",
           "tags": {
             "domain": {
-              "artă": "muzică"
+              "religie": "Creștinism"
             },
             "period": {
-              "clasic": {
-                "century": ["XVIII"]
+              "antic": {
+                "century": "-XIV"
               }
             },
-            "region": {
-              "global": ["Europa"],
-              "local": ["Austria"]
-            },
             "difficulty": "mediu",
-            "specific": ["compozitor", "Simfonii"]
+            "specific": ["Cele Zece Porunci", "robia Egiptului"]
           },
           "question": {
-            "text": "Cine a fost supranumit „Tatăl Simfoniei”?",
-            "hints": ["Austriac", "A compus 104 simfonii"]
+            "text": "Cine a eliberat poporul evreu din robia Egiptului și a primit Cele Zece Porunci?",
+            "hints": [
+              "A traversat Marea Roșie",
+              "A fost crescut în casa faraonului"
+            ]
           },
           "answer": {
-            "text": "Joseph Haydn"
+            "text": "Moise"
           }
         },
         {
           "id": "TXT_SA_6",
           "tags": {
             "domain": {
-              "literatură": "romane"
+              "religie": "Creștinism"
             },
             "period": {
-              "modern": {
-                "century": ["XIX"]
+              "antic": {
+                "century": "-X"
               }
             },
-            "region": {
-              "global": ["Europa"],
-              "local": ["Franța"]
-            },
-            "difficulty": "greu",
-            "specific": ["autor", "Victor Hugo", "romantism"]
+            "difficulty": "ușor",
+            "specific": ["uriașul Goliat", "rege al Israelului"]
           },
           "question": {
-            "text": "Cine a scris romanul „Mizerabilii”?",
-            "hints": ["Scriitor francez", "A fost și politician"]
+            "text": "A învins uriașul Goliat și a devenit regele Israelului.",
+            "hints": [
+              "A fost păstor înainte de a fi rege",
+              "A scris multe psalmi"
+            ]
           },
           "answer": {
-            "text": "Victor Hugo"
+            "text": "David"
           }
         },
         {
           "id": "TXT_SA_7",
           "tags": {
             "domain": {
-              "istorie": "civilizații"
+              "religie": "Creștinism"
             },
             "period": {
-              "antichitate": {}
+              "antic": {
+                "century": "-X"
+              }
             },
-            "region": {
-              "global": ["America"],
-              "local": ["Mexic"]
-            },
-            "difficulty": "ușor",
-            "specific": ["civilizație", "azteci"]
+            "difficulty": "mediu",
+            "specific": ["înțelepciune", "Templul din Ierusalim"]
           },
           "question": {
-            "text": "Ce civilizație antică a construit orașul Tenochtitlan?",
-            "hints": ["Se afla în Mexic", "Este cunoscută pentru templele sale"]
+            "text": "A fost cunoscut pentru înțelepciunea sa și a construit Templul din Ierusalim.",
+            "hints": [
+              "A fost fiul lui David",
+              "A avut multe soții și concubine"
+            ]
           },
           "answer": {
-            "text": "Aztecii"
+            "text": "Solomon"
           }
         },
         {
           "id": "TXT_SA_8",
           "tags": {
             "domain": {
-              "știință": "astronomie"
+              "religie": "Creștinism"
             },
             "period": {
-              "modern": {
-                "century": ["XX"]
+              "antic": {
+                "century": "-VI"
               }
             },
-            "region": {
-              "global": []
-            },
-            "difficulty": "mediu",
-            "specific": ["eveniment", "primul om pe Lună"]
+            "difficulty": "greu",
+            "specific": ["groapă cu lei", "profeție"]
           },
           "question": {
-            "text": "Cine a fost primul om care a pășit pe Lună?",
+            "text": "A supraviețuit într-o groapă cu lei, fiind protejat de Dumnezeu.",
             "hints": [
-              "Astronaut american",
-              "A făcut parte din misiunea Apollo 11"
+              "Era din exilul babilonian",
+              "A interpretat visele regilor"
             ]
           },
           "answer": {
-            "text": "Neil Armstrong"
+            "text": "Daniel"
           }
         },
         {
           "id": "TXT_SA_9",
           "tags": {
             "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "-I"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["Iordan", "botez"]
+          },
+          "question": {
+            "text": "Cine a botezat oamenii în râul Iordan și a pregătit calea pentru Mesia?",
+            "hints": ["A fost decapitat de Irod", "Verișor al lui Iisus"]
+          },
+          "answer": {
+            "text": "Ioan"
+          }
+        },
+        {
+          "id": "TXT_SA_10",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "modern": {
+                "century": "I"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["apostoli", "creștinism"]
+          },
+          "question": {
+            "text": "Cine sunt cei trei apostoli care au avut un rol major în răspândirea creștinismului?",
+            "hints": [
+              "Unul a fost fratele lui Andrei",
+              "A scris multe epistole"
+            ]
+          },
+          "answer": {
+            "text": "Petru, Pavel și Ioan"
+          }
+        },
+        {
+          "id": "TXT_SA_11",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "modern": {
+                "century": "I"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["viața lui Iisus", "epistole"]
+          },
+          "question": {
+            "text": "Cum se numește colecția de cărți care cuprinde învățăturile despre viața lui Iisus și epistolele apostolilor?",
+            "hints": ["Este o parte a Bibliei", "Include Evangheliile"]
+          },
+          "answer": {
+            "text": "Noul Testament"
+          }
+        },
+        {
+          "id": "TXT_SA_12",
+          "tags": {
+            "domain": {
               "istorie": "evenimente"
             },
             "period": {
               "modern": {
-                "century": ["XX"]
+                "century": "IV"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["creștinism", "edict"]
+          },
+          "question": {
+            "text": "A emis Edictul de la Milano, recunoscând creștinismul ca religie.",
+            "hints": ["A fost împărat roman", "A fondat Constantinopolul"]
+          },
+          "answer": {
+            "text": "Constantin"
+          }
+        },
+        {
+          "id": "TXT_SA_13",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "antic": {
+                "century": "I"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["persecuții", "imperiul roman"]
+          },
+          "question": {
+            "text": "Au fost persecutați de împărații romani pentru credința lor.",
+            "hints": ["Au fost urmașii lui Hristos", "Martirii sunt printre ei"]
+          },
+          "answer": {
+            "text": "Creștinii"
+          }
+        },
+        {
+          "id": "TXT_SA_14",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "medieval": {
+                "century": "XI"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["biserică", "divizare"]
+          },
+          "question": {
+            "text": "Ce eveniment a împărțit Biserica în două: Ortodoxă și Catolică?",
+            "hints": ["A avut loc în 1054", "S-a numit Marea Schismă"]
+          },
+          "answer": {
+            "text": "Marea Schismă"
+          }
+        },
+        {
+          "id": "TXT_SA_15",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "medieval": {
+                "century": ["XI", "XIII"]
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["războaie religioase", "Ierusalim"]
+          },
+          "question": {
+            "text": "Cum se numește seria de războaie purtate între creștini și musulmani pentru controlul Ierusalimului?",
+            "hints": [
+              "A fost inițiată de Papa Urban al II-lea",
+              "Au fost numite Cruciadele"
+            ]
+          },
+          "answer": {
+            "text": "Cruciadele"
+          }
+        },
+        {
+          "id": "TXT_SA_16",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "modern": {
+                "century": "XVI"
+              }
+            },
+            "difficulty": "greu",
+            "specific": ["protestantism", "reformă"]
+          },
+          "question": {
+            "text": "Cine a inițiat Reforma Protestantă în 1517?",
+            "hints": ["A scris cele 95 de teze", "Era călugăr german"]
+          },
+          "answer": {
+            "text": "Martin Luther"
+          }
+        },
+        {
+          "id": "TXT_SA_17",
+          "tags": {
+            "domain": {
+              "istorie": "conducători"
+            },
+            "period": {
+              "medieval": {
+                "century": "XIII"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["Imperiul Mongol", "expansiune"]
+          },
+          "question": {
+            "text": "Cine a fost fondatorul Imperiului Mongol?",
+            "hints": [
+              "Era cunoscut și ca Temüjin",
+              "A unificat triburile mongole"
+            ]
+          },
+          "answer": {
+            "text": "Genghis Khan"
+          }
+        },
+        {
+          "id": "TXT_SA_18",
+          "tags": {
+            "domain": {
+              "geografie": "continente"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["continente", "dimensiuni"]
+          },
+          "question": {
+            "text": "Care este cel mai mic continent al lumii?",
+            "hints": [
+              "Se află în emisfera sudică",
+              "Țara principală este Australia"
+            ]
+          },
+          "answer": {
+            "text": "Australia"
+          }
+        },
+        {
+          "id": "TXT_SA_19",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
               }
             },
             "region": {
-              "global": ["Europa", "Asia"],
-              "local": ["Franța", "Germania", "Japonia", "Rusia"]
+              "local": ["Polonia"]
             },
-            "difficulty": "greu",
-            "specific": ["tratat", "Primul Război Mondial", "politică"]
+            "difficulty": "mediu",
+            "specific": ["lagăre", "Al Doilea Război Mondial"]
           },
           "question": {
-            "text": "După încheierea Primului Război Mondial, mai multe tratate internaționale au fost semnate pentru a stabili noi frontiere și condiții de pace. Unul dintre cele mai importante tratate a fost semnat în 1919 și a stabilit, printre altele, restricții economice și militare pentru Germania, inclusiv clauze care au fost considerate umilitoare de către populația germană. Acest tratat a avut loc într-un oraș din Franța, într-un palat regal celebru. Ce nume poartă acest tratat și care a fost locul semnării?"
+            "text": "În ce țară se afla lagărul Auschwitz?",
+            "hints": ["În Europa de Est", "Este acum un loc de comemorare"]
           },
           "answer": {
-            "text": "Tratatul de la Versailles, semnat în Palatul Versailles, Franța."
+            "text": "Polonia"
+          }
+        },
+        {
+          "id": "TXT_SA_20",
+          "tags": {
+            "domain": {
+              "geografie": "oceane"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["dimensiuni", "oceane"]
+          },
+          "question": {
+            "text": "Care este al doilea cel mai mare ocean din lume?",
+            "hints": [
+              "Se află între Americi și Europa/Africa",
+              "Este traversat de multe rute comerciale"
+            ]
+          },
+          "answer": {
+            "text": "Oceanul Atlantic"
+          }
+        },
+        {
+          "id": "TXT_SA_21",
+          "tags": {
+            "domain": {
+              "sport": "olimpiade"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["motto", "olimpiade"]
+          },
+          "question": {
+            "text": "„Citius, Altius, Fortius” este motto-ul cărei organizații?",
+            "hints": [
+              "Este legată de sport",
+              "Înseamnă „Mai repede, mai sus, mai puternic”"
+            ]
+          },
+          "answer": {
+            "text": "Comitetul Olimpic Internațional"
+          }
+        },
+        {
+          "id": "TXT_SA_22",
+          "tags": {
+            "domain": {
+              "știință": "lingvistică"
+            },
+            "period": {
+              "antic": {
+                "century": "-IX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["etimologie", "alfabet"]
+          },
+          "question": {
+            "text": "Din ce limbă provine cuvântul „alfabet”?",
+            "hints": [
+              "Are legătură cu Atena",
+              "Primele două litere sunt alfa și beta"
+            ]
+          },
+          "answer": {
+            "text": "Greacă"
+          }
+        },
+        {
+          "id": "TXT_SA_23",
+          "tags": {
+            "domain": {
+              "știință": "chimie"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["substanțe chimice", "alcool"]
+          },
+          "question": {
+            "text": "C2H5OH este formula pentru ce substanță?",
+            "hints": [
+              "Este o băutură alcoolică",
+              "Este folosită și în combustibili"
+            ]
+          },
+          "answer": {
+            "text": "Alcool"
+          }
+        },
+        {
+          "id": "TXT_SA_24",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "modern": {
+                "century": "I"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["Sfânt", "ucenic"]
+          },
+          "question": {
+            "text": "Ce profesie a avut Sfântul Luca înainte de a deveni ucenic al lui Iisus?",
+            "hints": ["A scris o Evanghelie", "Lucra în domeniul medical"]
+          },
+          "answer": {
+            "text": "Medic"
+          }
+        },
+        {
+          "id": "TXT_SA_25",
+          "tags": {
+            "domain": {
+              "geografie": "bucătărie"
+            },
+            "period": {
+              "antic": {
+                "century": "-III"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["condimente", "piper"]
+          },
+          "question": {
+            "text": "Care țară a fost prima care a folosit piperul în bucătărie?",
+            "hints": [
+              "Se află în Asia",
+              "Este cunoscută pentru condimentele sale"
+            ]
+          },
+          "answer": {
+            "text": "India"
+          }
+        },
+        {
+          "id": "TXT_SA_26",
+          "tags": {
+            "domain": {
+              "artă": "invenții"
+            },
+            "period": {
+              "medieval": {
+                "century": "XV"
+              }
+            },
+            "difficulty": "greu",
+            "specific": ["foarfeca", "invenții"]
+          },
+          "question": {
+            "text": "Cine a inventat foarfeca?",
+            "hints": [
+              "Era un renascentist italian",
+              "A creat multe schițe și invenții"
+            ]
+          },
+          "answer": {
+            "text": "Leonardo da Vinci"
+          }
+        },
+        {
+          "id": "TXT_SA_27",
+          "tags": {
+            "domain": {
+              "știință": "anatomie"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["os", "corp uman"]
+          },
+          "question": {
+            "text": "Cum se numește cel mai mare os din corpul uman?",
+            "hints": ["Se află în picior", "Suportă greutatea corpului"]
+          },
+          "answer": {
+            "text": "Femur"
+          }
+        },
+        {
+          "id": "TXT_SA_28",
+          "tags": {
+            "domain": {
+              "istorie": "spațiu"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX",
+                "decade": "1960-1969"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["spațiu", "explorare"]
+          },
+          "question": {
+            "text": "Cine a fost primul om care a călătorit în spațiu?",
+            "hints": ["Era rus", "A pilotat nava Vostok 1"]
+          },
+          "answer": {
+            "text": "Yuri Gagarin"
+          }
+        },
+        {
+          "id": "TXT_SA_29",
+          "tags": {
+            "domain": {
+              "știință": "biologie"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["organe", "filtrare"]
+          },
+          "question": {
+            "text": "Ce organ uman are ca funcție principală filtrarea sângelui?",
+            "hints": [
+              "Avem doi astfel de organe",
+              "Sunt conectați la vezica urinară"
+            ]
+          },
+          "answer": {
+            "text": "Rinichii"
+          }
+        },
+        {
+          "id": "TXT_SA_30",
+          "tags": {
+            "domain": {
+              "știință": "descoperiri"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["Marie Curie", "descoperire"]
+          },
+          "question": {
+            "text": "Ce descoperire majoră a fost făcută de Marie Curie?",
+            "hints": [
+              "Este legată de elemente radioactive",
+              "A câștigat două Premii Nobel"
+            ]
+          },
+          "answer": {
+            "text": "Radioactivitatea"
+          }
+        },
+        {
+          "id": "TXT_SA_31",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "-IX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["profeți", "ceruri"]
+          },
+          "question": {
+            "text": "Ce profet nu a murit pentru că a fost mutat la cer într-un car de foc?",
+            "hints": [
+              "A fost un profet al lui Dumnezeu",
+              "Evenimentul este menționat în Vechiul Testament"
+            ]
+          },
+          "answer": {
+            "text": "Ilie"
+          }
+        },
+        {
+          "id": "TXT_SA_32",
+          "tags": {
+            "domain": {
+              "geografie": "orașe"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["capitale", "Europa"]
+          },
+          "question": {
+            "text": "Care este capitala Finlandei?",
+            "hints": [
+              "Se află în nordul Europei",
+              "Este un port important la Marea Baltică"
+            ]
+          },
+          "answer": {
+            "text": "Helsinki"
+          }
+        },
+        {
+          "id": "TXT_SA_33",
+          "tags": {
+            "domain": {
+              "știință": "astronomie"
+            },
+            "period": {
+              "modern": {
+                "century": "XVI"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["heliocentrism", "teorie astronomică"]
+          },
+          "question": {
+            "text": "Ce este teoria heliocentrică?",
+            "hints": [
+              "A fost propusă de Copernic",
+              "Soarele este în centrul sistemului nostru solar"
+            ]
+          },
+          "answer": {
+            "text": "Ideea că Soarele este centrul universului"
+          }
+        },
+        {
+          "id": "TXT_SA_34",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "modern": {
+                "century": "XVIII"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["revoluții", "Franța"]
+          },
+          "question": {
+            "text": "În ce țară a avut loc revoluția din 1789?",
+            "hints": [
+              "Este cunoscută pentru simbolul libertății",
+              "A dus la căderea monarhiei franceze"
+            ]
+          },
+          "answer": {
+            "text": "Franța"
+          }
+        },
+        {
+          "id": "TXT_SA_35",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "I"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["terminologie", "Evanghelie"]
+          },
+          "question": {
+            "text": "Ce înseamnă termenul „Evanghelie” în creștinism?",
+            "hints": [
+              "Este un cuvânt din greaca veche",
+              "Se referă la vestea mântuirii"
+            ]
+          },
+          "answer": {
+            "text": "Vestea bună"
+          }
+        },
+        {
+          "id": "TXT_SA_36",
+          "tags": {
+            "domain": {
+              "știință": "tehnologie"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["invenții", "radio"]
+          },
+          "question": {
+            "text": "Cine a inventat radioul?",
+            "hints": [
+              "A fost un inventator italian",
+              "Numele său este legat de comunicarea fără fir"
+            ]
+          },
+          "answer": {
+            "text": "Guglielmo Marconi"
+          }
+        },
+        {
+          "id": "TXT_SA_37",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente spațiale"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX",
+                "decade": "1960-1969"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["spațiu", "explorare lunară"]
+          },
+          "question": {
+            "text": "În ce an au ajuns primii oameni pe Lună?",
+            "hints": ["Misiunea Apollo 11", "Evenimentul a avut loc în 1969"]
+          },
+          "answer": {
+            "text": "1969"
+          }
+        },
+        {
+          "id": "TXT_SA_38",
+          "tags": {
+            "domain": {
+              "geografie": "insule"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["insule", "dimensiuni"]
+          },
+          "question": {
+            "text": "Care este cea mai mare insulă din lume?",
+            "hints": ["Se află în Arctica", "Este parte a Danemarcei"]
+          },
+          "answer": {
+            "text": "Groenlanda"
+          }
+        },
+        {
+          "id": "TXT_SA_39",
+          "tags": {
+            "domain": {
+              "geografie": "continente"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["Africa", "țări"]
+          },
+          "question": {
+            "text": "Ce continent are cele mai multe țări?",
+            "hints": [
+              "Are 54 de țări",
+              "Este cunoscut ca locul de naștere al umanității"
+            ]
+          },
+          "answer": {
+            "text": "Africa"
+          }
+        },
+        {
+          "id": "TXT_SA_40",
+          "tags": {
+            "domain": {
+              "istorie": "civilizații"
+            },
+            "period": {
+              "antic": {
+                "century": "-V"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["democrație", "civilizație antică"]
+          },
+          "question": {
+            "text": "Ce țară este considerată locul de naștere al democrației?",
+            "hints": [
+              "Are legături cu filozofii Platon și Aristotel",
+              "Se află în Europa de Sud"
+            ]
+          },
+          "answer": {
+            "text": "Grecia"
+          }
+        },
+        {
+          "id": "TXT_SA_41",
+          "tags": {
+            "domain": {
+              "geografie": "orașe"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["capitale", "America de Nord"]
+          },
+          "question": {
+            "text": "Care este capitala Canadei?",
+            "hints": [
+              "Nu este Toronto sau Vancouver",
+              "Este situată în provincia Ontario"
+            ]
+          },
+          "answer": {
+            "text": "Ottawa"
+          }
+        },
+        {
+          "id": "TXT_SA_42",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "I"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["martiri", "Noul Testament"]
+          },
+          "question": {
+            "text": "Cine a fost primul martir creștin menționat în Noul Testament?",
+            "hints": [
+              "A fost ucis prin lapidare",
+              "Este menționat în Faptele Apostolilor"
+            ]
+          },
+          "answer": {
+            "text": "Ștefan"
+          }
+        },
+        {
+          "id": "TXT_SA_43",
+          "tags": {
+            "domain": {
+              "știință": "astronomie"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["planete", "Marte"]
+          },
+          "question": {
+            "text": "Ce planetă este cunoscută drept „Planeta Roșie”?",
+            "hints": [
+              "Este al patrulea corp ceresc de la Soare",
+              "Are o suprafață acoperită cu praf de oxid de fier"
+            ]
+          },
+          "answer": {
+            "text": "Marte"
+          }
+        },
+        {
+          "id": "TXT_SA_44",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "IV"
+              }
+            },
+            "difficulty": "greu",
+            "specific": ["monahism", "fondatori"]
+          },
+          "question": {
+            "text": "Cine este considerat fondatorul monahismului creștin?",
+            "hints": [
+              "A trăit în deșert",
+              "Este cunoscut drept Sfântul Antonie cel Mare"
+            ]
+          },
+          "answer": {
+            "text": "Sfântul Antonie cel Mare"
+          }
+        },
+        {
+          "id": "TXT_SA_45",
+          "tags": {
+            "domain": {
+              "geografie": "deșerturi"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["dimensiuni", "extreme"]
+          },
+          "question": {
+            "text": "Care este cel mai mare deșert din lume?",
+            "hints": [
+              "Este situat în Antarctica",
+              "Este acoperit de gheață, nu de nisip"
+            ]
+          },
+          "answer": {
+            "text": "Deșertul Antarctic"
+          }
+        },
+        {
+          "id": "TXT_SA_46",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["teorii științifice", "evoluție"]
+          },
+          "question": {
+            "text": "Ce descoperire majoră a fost realizată de Charles Darwin?",
+            "hints": ["Este legată de biologie", "Explică selecția naturală"]
+          },
+          "answer": {
+            "text": "Teoria evoluției"
+          }
+        },
+        {
+          "id": "TXT_SA_47",
+          "tags": {
+            "domain": {
+              "artă": "muzică"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["compozitori", "muzică clasică"]
+          },
+          "question": {
+            "text": "Cine a compus Simfonia a 9-a, cunoscută pentru „Oda Bucuriei”?",
+            "hints": ["Era surd la finalul vieții", "Era german"]
+          },
+          "answer": {
+            "text": "Beethoven"
+          }
+        },
+        {
+          "id": "TXT_SA_48",
+          "tags": {
+            "domain": {
+              "știință": "fizică"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["teorie", "relativitate"]
+          },
+          "question": {
+            "text": "Cine a propus teoria relativității?",
+            "hints": [
+              "Era fizician german",
+              "Este cunoscut pentru formula E=mc²"
+            ]
+          },
+          "answer": {
+            "text": "Albert Einstein"
+          }
+        },
+        {
+          "id": "TXT_SA_49",
+          "tags": {
+            "domain": {
+              "istorie": "conducători"
+            },
+            "period": {
+              "modern": {
+                "century": "XIX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["Napoleon", "Franța"]
+          },
+          "question": {
+            "text": "Cine a fost împăratul francez care a cucerit o mare parte din Europa?",
+            "hints": ["A fost exilat pe insula Elba", "A pierdut la Waterloo"]
+          },
+          "answer": {
+            "text": "Napoleon Bonaparte"
+          }
+        },
+        {
+          "id": "TXT_SA_50",
+          "tags": {
+            "domain": {
+              "geografie": "țări"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["țări", "Asia"]
+          },
+          "question": {
+            "text": "Care este cea mai populată țară din lume?",
+            "hints": [
+              "Este situată în Asia",
+              "Are peste 1,4 miliarde de locuitori"
+            ]
+          },
+          "answer": {
+            "text": "China"
+          }
+        },
+        {
+          "id": "TXT_MC_31",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "-IX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["profeți", "ceruri"]
+          },
+          "question": {
+            "text": "Ce profet nu a murit pentru că a fost mutat la cer într-un car de foc?",
+            "hints": [
+              "A fost un profet al lui Dumnezeu",
+              "Evenimentul este menționat în Vechiul Testament"
+            ]
+          },
+          "answer": {
+            "correct": "Ilie",
+            "options": ["Ilie", "Ezechiel", "Daniel"]
+          }
+        },
+        {
+          "id": "TXT_MC_32",
+          "tags": {
+            "domain": {
+              "geografie": "orașe"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["capitale", "Europa"]
+          },
+          "question": {
+            "text": "Care este capitala Finlandei?",
+            "hints": [
+              "Se află în nordul Europei",
+              "Este un port important la Marea Baltică"
+            ]
+          },
+          "answer": {
+            "correct": "Helsinki",
+            "options": ["Helsinki", "Oslo", "Stockholm"]
+          }
+        },
+        {
+          "id": "TXT_MC_33",
+          "tags": {
+            "domain": {
+              "știință": "astronomie"
+            },
+            "period": {
+              "modern": {
+                "century": "XVI"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["heliocentrism", "teorie astronomică"]
+          },
+          "question": {
+            "text": "Ce este teoria heliocentrică?",
+            "hints": [
+              "A fost propusă de Copernic",
+              "Soarele este în centrul sistemului nostru solar"
+            ]
+          },
+          "answer": {
+            "correct": "Ideea că Soarele este centrul universului",
+            "options": [
+              "Ideea că Soarele este centrul universului",
+              "Ideea că Pământul este centrul universului",
+              "Ideea că planetele nu au centru fix"
+            ]
+          }
+        },
+        {
+          "id": "TXT_MC_34",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente"
+            },
+            "period": {
+              "modern": {
+                "century": "XVIII"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["revoluții", "Franța"]
+          },
+          "question": {
+            "text": "În ce țară a avut loc revoluția din 1789?",
+            "hints": [
+              "Este cunoscută pentru simbolul libertății",
+              "A dus la căderea monarhiei franceze"
+            ]
+          },
+          "answer": {
+            "correct": "Franța",
+            "options": ["Franța", "Statele Unite", "Rusia"]
+          }
+        },
+        {
+          "id": "TXT_MC_35",
+          "tags": {
+            "domain": {
+              "religie": "Creștinism"
+            },
+            "period": {
+              "antic": {
+                "century": "I"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["terminologie", "Evanghelie"]
+          },
+          "question": {
+            "text": "Ce înseamnă termenul „Evanghelie” în creștinism?",
+            "hints": [
+              "Este un cuvânt din greaca veche",
+              "Se referă la vestea mântuirii"
+            ]
+          },
+          "answer": {
+            "correct": "Vestea bună",
+            "options": ["Vestea bună", "Predica", "Cuvântul sacru"]
+          }
+        },
+        {
+          "id": "TXT_MC_36",
+          "tags": {
+            "domain": {
+              "știință": "tehnologie"
+            },
+            "period": {
+              "modern": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["invenții", "radio"]
+          },
+          "question": {
+            "text": "Cine a inventat radioul?",
+            "hints": [
+              "A fost un inventator italian",
+              "Numele său este legat de comunicarea fără fir"
+            ]
+          },
+          "answer": {
+            "correct": "Guglielmo Marconi",
+            "options": [
+              "Guglielmo Marconi",
+              "Nikola Tesla",
+              "Alexander Graham Bell"
+            ]
+          }
+        },
+        {
+          "id": "TXT_MC_37",
+          "tags": {
+            "domain": {
+              "istorie": "evenimente spațiale"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX",
+                "decade": "1960-1969"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["spațiu", "explorare lunară"]
+          },
+          "question": {
+            "text": "În ce an au ajuns primii oameni pe Lună?",
+            "hints": ["Misiunea Apollo 11", "Evenimentul a avut loc în 1969"]
+          },
+          "answer": {
+            "correct": "1969",
+            "options": ["1969", "1971", "1967"]
+          }
+        },
+        {
+          "id": "TXT_MC_38",
+          "tags": {
+            "domain": {
+              "geografie": "insule"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XX"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["insule", "dimensiuni"]
+          },
+          "question": {
+            "text": "Care este cea mai mare insulă din lume?",
+            "hints": ["Se află în Arctica", "Este parte a Danemarcei"]
+          },
+          "answer": {
+            "correct": "Groenlanda",
+            "options": ["Groenlanda", "Australia", "Borneo"]
+          }
+        },
+        {
+          "id": "TXT_MC_39",
+          "tags": {
+            "domain": {
+              "geografie": "continente"
+            },
+            "period": {
+              "contemporan": {
+                "century": "XXI"
+              }
+            },
+            "difficulty": "mediu",
+            "specific": ["Africa", "țări"]
+          },
+          "question": {
+            "text": "Ce continent are cele mai multe țări?",
+            "hints": [
+              "Are 54 de țări",
+              "Este cunoscut ca locul de naștere al umanității"
+            ]
+          },
+          "answer": {
+            "correct": "Africa",
+            "options": ["Africa", "Asia", "Europa"]
+          }
+        },
+        {
+          "id": "TXT_MC_40",
+          "tags": {
+            "domain": {
+              "istorie": "civilizații"
+            },
+            "period": {
+              "antic": {
+                "century": "-V"
+              }
+            },
+            "difficulty": "ușor",
+            "specific": ["democrație", "civilizație antică"]
+          },
+          "question": {
+            "text": "Ce țară este considerată locul de naștere al democrației?",
+            "hints": [
+              "Are legături cu filozofii Platon și Aristotel",
+              "Se află în Europa de Sud"
+            ]
+          },
+          "answer": {
+            "correct": "Grecia",
+            "options": ["Grecia", "Roma", "Egipt"]
           }
         }
       ]
