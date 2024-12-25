@@ -14,22 +14,6 @@
         min-height: 100vh;
       }
 
-      .questions-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-      }
-
-      .question-box {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 12px;
-        padding: 1.5rem;
-        display: none;
-      }
-
       .question-box.current-box {
         transform: scale(1.02);
         border-color: #f1f1f1;
@@ -41,7 +25,7 @@
         min-height: 200px;
         background: rgba(0, 0, 0, 0.2);
         border-radius: 8px;
-        padding: 2rem;
+        padding: 1rem;
         margin-bottom: 1rem;
         display: flex;
         align-items: center;
@@ -60,14 +44,14 @@
         display: flex;
         justify-content: center;
         gap: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1.5rem;
       }
 
       .player-box {
         background: rgba(255, 255, 255, 0.03);
         border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 12px;
-        padding: 1.5rem 2rem;
+        padding: 1rem 1.5rem;
         width: 300px;
         transition: all 0.3s ease;
       }
@@ -118,8 +102,6 @@
       .answer {
         background: rgba(0, 0, 0, 0.2);
         padding: 1rem 1.5rem;
-        border-radius: 8px;
-        margin-bottom: 1rem;
         font-size: 1.1rem;
       }
 
@@ -130,14 +112,12 @@
 
       .hints {
         background: rgba(0, 0, 0, 0.2);
-        padding: 1rem;
-        border-radius: 8px;
+        padding: 0.5rem;
       }
 
       .hint {
         color: #94a3b8;
         padding: 0.5rem;
-        border-radius: 4px;
         font-size: 1rem;
       }
 
@@ -166,7 +146,7 @@
         display: none;
       }
       .questions-container {
-        max-width: 1100px;
+        max-width: 1300px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1.2fr 0.8fr;
@@ -185,27 +165,30 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
-        margin: 1rem 0;
         background: rgba(0, 0, 0, 0.2);
-        padding: 1rem;
-        border-radius: 8px;
+        padding: 0.5rem;
       }
 
       .option {
         background: rgba(255, 255, 255, 0.03);
         border: 1px solid rgba(255, 255, 255, 0.08);
-        padding: 0.8rem;
-        border-radius: 6px;
+        padding: 0.5rem;
         text-align: center;
         color: #94a3b8;
+        border-radius: 8px;
       }
 
       .number {
         font-size: 1.3rem;
         font-weight: 600;
-        color: #22d3ee;
+        text-align: center;
       }
-
+      .question-progress-container {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        color: #06b6d4;
+      }
       /* .option.correct {
         border-color: #22c55e;
         color: #22c55e;
@@ -218,6 +201,10 @@
     </div>
 
     <div id="game-content">
+      <div class="question-progress-container">
+        Întrebarea curentă: <span id="current-question-index">0</span> /
+        <span id="total-questions">0</span>
+      </div>
       <div class="players-container">
         <div id="player2-box" class="player-box">
           <div id="player2-name" class="player-name">Jucător 2</div>
@@ -241,9 +228,9 @@
           </div>
 
           <div class="options-container">
-            <div class="option number">⬅️</div>
-            <div class="option number">⬆️</div>
-            <div class="option number">➡️</div>
+            <div class="number">⬅️</div>
+            <div class="number">⬆️</div>
+            <div class="number">➡️</div>
             <div id="current-option1" class="option"></div>
             <div id="current-option2" class="option"></div>
             <div id="current-option3" class="option"></div>
@@ -259,11 +246,7 @@
           <div class="text-container">
             <div id="next-text" class="question-text"></div>
           </div>
-          <div class="options-container">
-            <div id="next-option1" class="option">Opțiunea 1</div>
-            <div id="next-option2" class="option">Opțiunea 2</div>
-            <div id="next-option3" class="option">Opțiunea 3</div>
-          </div>
+
           <div class="answer">
             Răspuns Corect: <span id="next-answer"></span>
           </div>
@@ -284,34 +267,41 @@
         const savedConfig = localStorage.getItem("gameConfig");
         if (savedConfig) {
           gameData = JSON.parse(savedConfig);
+          document.getElementById("total-questions").textContent =
+            gameData.questions.length;
         }
       }
-
       function updateDisplay() {
         if (!gameData || !gameData.questions) return;
 
+        // Afișăm întrebarea curentă
         const currentQ = gameData.questions[currentIndex];
         if (currentQ) {
-          // Update text and answer
+          // Actualizăm numărul de întrebări din numărul total de întrebări
+          document.getElementById("current-question-index").textContent =
+            currentIndex + 1;
+
+          // Actualizăm textul întrebării și răspunsul corect
           document.getElementById("current-text").textContent =
             currentQ.question.text;
           document.getElementById("current-answer").textContent =
             currentQ.answer.correct;
 
-          // Update options for current question
+          // Actualizăm opțiunile amestecate
           currentQ.answer.options.forEach((option, index) => {
             const optionElement = document.getElementById(
               `current-option${index + 1}`
             );
             optionElement.textContent = option;
-            // Highlight correct answer
+
+            // Evidențiem răspunsul corect
             optionElement.classList.toggle(
               "correct",
               option === currentQ.answer.correct
             );
           });
 
-          // Update hints
+          // Actualizăm indiciile pentru întrebarea curentă
           const currentHints = document.getElementById("current-hints");
           currentHints.innerHTML = currentQ.question.hints
             .map(
@@ -320,28 +310,15 @@
             .join("");
         }
 
+        // Actualizăm doar textul pentru următoarea întrebare (fără opțiuni)
         const nextQ = gameData.questions[currentIndex + 1];
         if (nextQ) {
-          // Update text and answer for next question
           document.getElementById("next-text").textContent =
             nextQ.question.text;
           document.getElementById("next-answer").textContent =
             nextQ.answer.correct;
 
-          // Update options for next question
-          nextQ.answer.options.forEach((option, index) => {
-            const optionElement = document.getElementById(
-              `next-option${index + 1}`
-            );
-            optionElement.textContent = option;
-            // Highlight correct answer
-            optionElement.classList.toggle(
-              "correct",
-              option === nextQ.answer.correct
-            );
-          });
-
-          // Update hints for next question
+          // Nu afișăm opțiunile pentru următoarea întrebare
           const nextHints = document.getElementById("next-hints");
           nextHints.innerHTML = nextQ.question.hints
             .map(

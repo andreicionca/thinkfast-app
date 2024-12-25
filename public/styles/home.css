@@ -71,8 +71,8 @@ h2 {
   margin-bottom: 2rem;
 }
 
-/* Game Modes */
-.game-modes {
+/* Game Type */
+.game-type {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;

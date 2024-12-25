@@ -141,6 +141,7 @@ let gameState = {
   },
   penaltyTimer: null,
   penaltyTimeLeft: 0,
+  correctOptionIndex: null, // Poziția răspunsului corect după amestecare
 };
 
 // Flags pentru diverse stări
@@ -183,6 +184,14 @@ function shuffleQuestions() {
       gameState.questions[i],
     ];
   }
+}
+// Funcție de amestecare a raspunsurilor
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
 // Inițializare joc
@@ -239,8 +248,6 @@ function setupEventListeners() {
   document.addEventListener("keydown", handleKeyPress);
 }
 
-// Gestionare evenimente tastatură
-// Modifică funcția handleKeyPress pentru a verifica flag-ul
 function handleKeyPress(event) {
   if (gameEnded) return;
 
@@ -252,8 +259,9 @@ function handleKeyPress(event) {
   if (penaltyActive || answerDisplaying || gameState.isPaused) return;
 
   const currentTime = Date.now();
-  const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
+  let selectedOption;
 
+  // Determinăm opțiunea selectată pe baza tastelor apăsate
   switch (event.key) {
     case "1":
     case "ArrowLeft":
@@ -274,21 +282,17 @@ function handleKeyPress(event) {
       return;
   }
 
-  const correctOptionIndex =
-    currentQuestion.answer.options.findIndex(
-      (option) => option === currentQuestion.answer.correct
-    ) + 1;
-
-  if (selectedOption === correctOptionIndex) {
+  // Verificăm dacă opțiunea selectată este corectă
+  if (selectedOption === gameState.correctOptionIndex) {
     if (
       currentTime - lastCorrectAnswerTime <
       gameState.settings.pauseTime * 1000
     )
-      return;
+      return; // Evităm procesarea dublă a răspunsului corect
     lastCorrectAnswerTime = currentTime;
-    handleCorrectAnswer(correctOptionIndex);
+    handleCorrectAnswer(selectedOption); // Opțiunea selectată este corectă
   } else {
-    handlePenalty(selectedOption, correctOptionIndex);
+    handlePenalty(selectedOption, gameState.correctOptionIndex); // Penalizăm pentru răspuns greșit
   }
 }
 
@@ -332,16 +336,32 @@ function startRound() {
   updatePlayerStatus();
 }
 
-// Afișare imagine curentă
 function showCurrentQuestion() {
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
   currentText.textContent = currentQuestion.question.text;
   currentText.style.display = "flex";
 
-  // Populăm opțiunile
-  currentQuestion.answer.options.forEach((option, index) => {
+  // Amestecăm răspunsurile
+  const shuffledOptions = shuffleArray([...currentQuestion.answer.options]);
+
+  // Populăm opțiunile amestecate
+  shuffledOptions.forEach((option, index) => {
     document.getElementById(`option${index + 1}`).textContent = option;
   });
+
+  // Salvăm indexul răspunsului corect
+  gameState.correctOptionIndex =
+    shuffledOptions.indexOf(currentQuestion.answer.correct) + 1;
+
+  // Salvăm opțiunile amestecate în localStorage
+  gameState.questions[gameState.currentQuestionIndex].answer.options =
+    shuffledOptions;
+
+  const gameConfig = {
+    ...JSON.parse(localStorage.getItem("gameConfig")),
+    questions: gameState.questions,
+  };
+  localStorage.setItem("gameConfig", JSON.stringify(gameConfig));
 
   adjustTextSize();
   resetIndicii();
@@ -410,8 +430,7 @@ function handleCorrectAnswer(correctOption) {
   }, gameState.settings.pauseTime * 1000);
 }
 
-// Gestionare penalizare
-function handlePenalty(selectedOption, correctOption) {
+function handlePenalty(selectedOption) {
   if (penaltyActive) return;
 
   penaltyActive = true;
@@ -419,7 +438,9 @@ function handlePenalty(selectedOption, correctOption) {
 
   // Evidențiem opțiunea greșită și cea corectă
   document.getElementById(`option${selectedOption}`).classList.add("wrong");
-  document.getElementById(`option${correctOption}`).classList.add("correct");
+  document
+    .getElementById(`option${gameState.correctOptionIndex}`)
+    .classList.add("correct");
 
   updatePlayerStatus();
 
@@ -437,7 +458,7 @@ function handlePenalty(selectedOption, correctOption) {
           .getElementById(`option${selectedOption}`)
           .classList.remove("wrong");
         document
-          .getElementById(`option${correctOption}`)
+          .getElementById(`option${gameState.correctOptionIndex}`)
           .classList.remove("correct");
         updatePlayerStatus();
         if (
@@ -590,14 +611,8 @@ function endGame(winner) {
   audioManager.stopBackgroundMusic();
   audioManager.playEndGame();
 
-  const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
-  const correctOptionIndex =
-    currentQuestion.answer.options.findIndex(
-      (option) => option === currentQuestion.answer.correct
-    ) + 1;
-  // Evidențiem opțiunea corectă la final
   document
-    .getElementById(`option${correctOptionIndex}`)
+    .getElementById(`option${gameState.correctOptionIndex}`)
     .classList.add("final-correct");
 
   player1Name.classList.remove("name-penalty");
