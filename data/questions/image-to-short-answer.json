@@ -78,784 +78,156 @@
           "answer": {
             "text": "Avocado"
           }
-        },
+        }
+      ]
+    },
+    "steaguri-nivel-usor": {
+      "name": "Steaguri nivel ușor",
+      "questions": [
         {
           "id": "IMG_SA_5",
           "tags": {
             "domain": {
-              "știință": "biologie"
+              "geografie": "steaguri"
             },
             "period": {},
             "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "galben"]
+            "difficulty": "greu",
+            "specific": ["europa"]
           },
           "question": {
-            "media": "/assets/database/images/legume/ardei_galben.jpg",
+            "media": "/assets/database/images/steaguri-nivel-usor/Albania.png",
             "hints": [""]
           },
           "answer": {
-            "text": "Ardei galben"
+            "text": "Albania"
           }
         },
         {
           "id": "IMG_SA_6",
           "tags": {
             "domain": {
-              "știință": "biologie"
+              "geografie": "steaguri"
             },
             "period": {},
             "region": {},
             "difficulty": "ușor",
-            "specific": ["aliment", "verde"]
+            "specific": ["europa"]
           },
           "question": {
-            "media": "/assets/database/images/legume/castravete.jpg",
+            "media": "/assets/database/images/steaguri-nivel-usor/Belgium.png",
             "hints": [""]
           },
           "answer": {
-            "text": "Castravete"
+            "text": "Belgium"
           }
         },
         {
           "id": "IMG_SA_7",
           "tags": {
             "domain": {
-              "știință": "biologie"
+              "geografie": "steaguri"
             },
             "period": {},
             "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "dulce"]
+            "difficulty": "ușor",
+            "specific": ["europa"]
           },
           "question": {
-            "media": "/assets/database/images/legume/cartof.jpg",
+            "media": "/assets/database/images/steaguri-nivel-usor/Bulgaria.png",
             "hints": [""]
           },
           "answer": {
-            "text": "Cartof"
+            "text": "Bulgaria"
           }
-        },
+        }
+      ]
+    },
+    "jucători-de-fotbal": {
+      "name": "Jucători de fotbal",
+      "questions": [
         {
           "id": "IMG_SA_8",
           "tags": {
             "domain": {
-              "știință": "biologie"
+              "sport": "fotbal"
             },
-            "period": {},
-            "region": {},
-            "difficulty": "greu",
-            "specific": ["aliment", "amar"]
+            "period": {
+              "contemporan": ["XXI", "2020-prezent"]
+            },
+            "region": ["Norvegia", "Europa"],
+            "difficulty": "ușor",
+            "specific": ["atacant", "goluri", "talentat"]
           },
           "question": {
-            "media": "/assets/database/images/legume/ardei_iute.jpg",
+            "media": "/assets/database/images/jucatori-de-fotbal/Erling_Haaland.jpg",
             "hints": [""]
           },
           "answer": {
-            "text": "Ardei iute"
+            "text": "Erling Haaland"
           }
         },
         {
           "id": "IMG_SA_9",
           "tags": {
             "domain": {
-              "știință": "biologie"
+              "sport": "fotbal"
             },
-            "period": {},
-            "region": {},
+            "period": {
+              "contemporan": ["XXI", "2020-prezent"]
+            },
+            "region": ["Maroc", "Europa"],
             "difficulty": "mediu",
-            "specific": ["aliment", "verde"]
+            "specific": ["mijlocaș", "rapid", "PSG"]
           },
           "question": {
-            "media": "/assets/database/images/legume/bostănel.jpg",
+            "media": "/assets/database/images/jucatori-de-fotbal/Achraf_Hakimi.jpg",
             "hints": [""]
           },
           "answer": {
-            "text": "Bostănel"
+            "text": "Achraf Hakimi"
           }
         },
         {
           "id": "IMG_SA_10",
           "tags": {
             "domain": {
-              "știință": "biologie"
+              "sport": "fotbal"
             },
-            "period": {},
-            "region": {},
+            "period": {
+              "contemporan": ["XXI", "2010-2019", "2020-prezent"]
+            },
+            "region": ["Franța", "Europa"],
             "difficulty": "ușor",
-            "specific": ["aliment", "alb"]
+            "specific": ["atacant", "Balonul de Aur", "Real Madrid"]
           },
           "question": {
-            "media": "/assets/database/images/legume/ceapă.jpg",
+            "media": "/assets/database/images/jucatori-de-fotbal/Karim_Benzema.jpg",
             "hints": [""]
           },
           "answer": {
-            "text": "Ceapă"
+            "text": "Karim Benzema"
           }
         },
         {
           "id": "IMG_SA_11",
           "tags": {
             "domain": {
-              "știință": "biologie"
+              "sport": "fotbal"
             },
-            "period": {},
-            "region": {},
+            "period": {
+              "contemporan": ["XXI", "2010-2019", "2020-prezent"]
+            },
+            "region": ["Argentina", "Europa"],
             "difficulty": "ușor",
-            "specific": ["aliment", "condiment"]
+            "specific": ["atacant", "legendă", "Cupa Mondială"]
           },
           "question": {
-            "media": "/assets/database/images/legume/cimbru.jpg",
+            "media": "/assets/database/images/jucatori-de-fotbal/Lionel_Messi.jpg",
             "hints": [""]
           },
           "answer": {
-            "text": "Cimbru"
-          }
-        },
-        {
-          "id": "IMG_SA_12",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "alb"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/conopidă.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Conopidă"
-          }
-        },
-        {
-          "id": "IMG_SA_13",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "portocaliu"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/dovleac_bostan.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Dovleac bostan"
-          }
-        },
-        {
-          "id": "IMG_SA_14",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/dovlecel.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Dovlecel"
-          }
-        },
-        {
-          "id": "IMG_SA_15",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "proteine"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/fasole.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Fasole"
-          }
-        },
-        {
-          "id": "IMG_SA_16",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "greu",
-            "specific": ["aliment", "rădăcină"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/ghimbir.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Ghimbir"
-          }
-        },
-        {
-          "id": "IMG_SA_17",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/gulie.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Gulie"
-          }
-        },
-        {
-          "id": "IMG_SA_18",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "greu",
-            "specific": ["aliment", "picant"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/hrean.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Hrean"
-          }
-        },
-        {
-          "id": "IMG_SA_19",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "salată"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/lăptucă.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Lăptucă"
-          }
-        },
-        {
-          "id": "IMG_SA_20",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "leguminoasă"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/linte.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Linte"
-          }
-        },
-        {
-          "id": "IMG_SA_21",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "greu",
-            "specific": ["aliment", "amar"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/lufă.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Lufă"
-          }
-        },
-        {
-          "id": "IMG_SA_22",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/măcriș.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Măcriș"
-          }
-        },
-        {
-          "id": "IMG_SA_23",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "condiment"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/mărar.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Mărar"
-          }
-        },
-        {
-          "id": "IMG_SA_24",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "proteine"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/mazăre.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Mazăre"
-          }
-        },
-        {
-          "id": "IMG_SA_25",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "portocaliu"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/morcov.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Morcov"
-          }
-        },
-        {
-          "id": "IMG_SA_26",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "leguminoasă"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/năut.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Năut"
-          }
-        },
-        {
-          "id": "IMG_SA_27",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "rădăcină"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/păstârnac.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Păstârnac"
-          }
-        },
-        {
-          "id": "IMG_SA_28",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/pătrunjel.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Pătrunjel"
-          }
-        },
-        {
-          "id": "IMG_SA_29",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/praz.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Praz"
-          }
-        },
-        {
-          "id": "IMG_SA_30",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "roșu"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/ridiche.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Ridiche"
-          }
-        },
-        {
-          "id": "IMG_SA_31",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "roșu"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/roșie.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Roșie"
-          }
-        },
-        {
-          "id": "IMG_SA_32",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/salată_verde.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Salată verde"
-          }
-        },
-        {
-          "id": "IMG_SA_33",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "dulce"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/sfeclă_de_zahăr.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Sfeclă de zahăr"
-          }
-        },
-        {
-          "id": "IMG_SA_34",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "roșu"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/sfeclă.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Sfeclă"
-          }
-        },
-        {
-          "id": "IMG_SA_35",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "proteine"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/soia.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Soia"
-          }
-        },
-        {
-          "id": "IMG_SA_36",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/spanac.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Spanac"
-          }
-        },
-        {
-          "id": "IMG_SA_37",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/sparanghel.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Sparanghel"
-          }
-        },
-        {
-          "id": "IMG_SA_38",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/ștevie.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Ștevie"
-          }
-        },
-        {
-          "id": "IMG_SA_39",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "condiment"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/tarhon.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Tarhon"
-          }
-        },
-        {
-          "id": "IMG_SA_40",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "rădăcină"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/țelină.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Țelină"
-          }
-        },
-        {
-          "id": "IMG_SA_41",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "greu",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/urzică.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Urzică"
-          }
-        },
-        {
-          "id": "IMG_SA_42",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "alb"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/usturoi.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Usturoi"
-          }
-        },
-        {
-          "id": "IMG_SA_43",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "mov"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/vânătă.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Vânătă"
-          }
-        },
-        {
-          "id": "IMG_SA_44",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "mediu",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/varză_de_Bruxelles.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Varză de Bruxelles"
-          }
-        },
-        {
-          "id": "IMG_SA_45",
-          "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
-            "difficulty": "ușor",
-            "specific": ["aliment", "verde"]
-          },
-          "question": {
-            "media": "/assets/database/images/legume/varză.jpg",
-            "hints": [""]
-          },
-          "answer": {
-            "text": "Varză"
+            "text": "Lionel Messi"
           }
         }
       ]
