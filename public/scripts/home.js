@@ -40,6 +40,27 @@ const gameTypes = {
   isAudioGame: (type) => type.startsWith("audio-"),
 };
 
+function setupTabs() {
+  const tabs = document.querySelectorAll(".tab-trigger");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      // Remove active class from all tabs and content
+      document
+        .querySelectorAll(".tab-trigger")
+        .forEach((t) => t.classList.remove("active"));
+      document
+        .querySelectorAll(".tab-content")
+        .forEach((c) => c.classList.remove("active"));
+
+      // Add active class to clicked tab and corresponding content
+      tab.classList.add("active");
+      const contentId = tab.dataset.tab;
+      document.getElementById(contentId).classList.add("active");
+    });
+  });
+}
+
 // Adaugă funcția de handler pentru dificultate
 function handleDifficultySelection() {
   const difficultyCheckboxes = document.querySelectorAll(
@@ -180,6 +201,10 @@ function updateLogicDescription(isAnd) {
 async function updateAvailableQuestionsCount() {
   const questions = await getSelectedQuestions();
   const count = questions.length;
+  document.getElementById(
+    "questionCount"
+  ).textContent = `${count} întrebări disponibile`;
+
   const hasSelectedTags = Object.values(gameData.selectedTags).some(
     (tags) => tags.length > 0
   );
@@ -608,6 +633,7 @@ function setupEventListeners() {
 document.addEventListener("DOMContentLoaded", () => {
   loadGameData();
   setupEventListeners();
+  setupTabs();
 
   // Setăm radio button-ul corect în funcție de lastGameType
   const savedType = localStorage.getItem("lastGameType");

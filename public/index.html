@@ -135,54 +135,77 @@
       </section>
 
       <section class="section">
-        <h2>Selectează categoria</h2>
-        <div class="categories-grid" id="categoriesGrid">
-          <!-- Populated by JavaScript -->
+        <div class="section-header">
+          <h2>Filtrare întrebări</h2>
+          <div class="question-count" id="questionCount">0 întrebări disponibile</div>
         </div>
-      </section>
-      <section class="section">
-        <h2>Filtrare după taguri</h2>
         
-        <div class="tags-search-container">
-          <!-- Search bars pentru fiecare tip de tag -->
-          <div class="search-group">
-            <input 
-              type="text" 
-              id="domainSearch" 
-              class="tag-search" 
-              placeholder="Caută domeniu..."
-            >
-            <div class="search-suggestions" id="domainSuggestions"></div>
+        <div class="tabs">
+          <div class="tabs-list">
+            <button class="tab-trigger active" data-tab="categories">Categorii</button>
+            <button class="tab-trigger" data-tab="filters">Criterii specifice</button>
+            <button class="tab-trigger" data-tab="difficulty">Dificultate</button>
           </div>
       
-          <div class="search-group">
-            <input 
-              type="text" 
-              id="periodSearch" 
-              class="tag-search" 
-              placeholder="Perioada..."
-            >
-            <div class="search-suggestions" id="periodSuggestions"></div>
+          <div class="tab-content active" id="categories">
+            <div class="categories-grid" id="categoriesGrid">
+              <!-- Populated by JavaScript -->
+            </div>
           </div>
       
-          <div class="search-group">
-            <input 
-              type="text" 
-              id="regionSearch" 
-              class="tag-search" 
-              placeholder="Regiune..."
-            >
-            <div class="search-suggestions" id="regionSuggestions"></div>
+          <div class="tab-content" id="filters">
+            <div class="tags-search-container">
+              <div class="search-group">
+                <input type="text" id="domainSearch" class="tag-search" placeholder="Caută domeniu...">
+                <div class="search-suggestions" id="domainSuggestions"></div>
+              </div>
+              
+              <div class="search-group">
+                <input type="text" id="periodSearch" class="tag-search" placeholder="Perioada...">
+                <div class="search-suggestions" id="periodSuggestions"></div>
+              </div>
+              
+              <div class="search-group">
+                <input type="text" id="regionSearch" class="tag-search" placeholder="Regiune...">
+                <div class="search-suggestions" id="regionSuggestions"></div>
+              </div>
+              
+              <div class="search-group">
+                <input type="text" id="specificSearch" class="tag-search" placeholder="Specific...">
+                <div class="search-suggestions" id="specificSuggestions"></div>
+              </div>
+            </div>
           </div>
       
-          <div class="search-group">
-            <input 
-              type="text" 
-              id="specificSearch" 
-              class="tag-search" 
-              placeholder="Specific..."
-            >
-            <div class="search-suggestions" id="specificSuggestions"></div>
+          <div class="tab-content" id="difficulty">
+            <div class="difficulty-grid">
+              <div class="difficulty-item">
+                <label class="difficulty-checkbox">
+                  <input type="checkbox" value="ușor" checked>
+                  <div class="difficulty-content">
+                    <span class="difficulty-name">Ușor</span>
+                  </div>
+                </label>
+              </div>
+      
+              <div class="difficulty-item">
+                <label class="difficulty-checkbox">
+                  <input type="checkbox" value="mediu" checked>
+                  <div class="difficulty-content">
+                    <span class="difficulty-name">Mediu</span>
+                  </div>
+                </label>
+              </div>
+      
+              <div class="difficulty-item">
+                <label class="difficulty-checkbox">
+                  <input type="checkbox" value="greu" checked>
+                  <div class="difficulty-content">
+                    <span class="difficulty-name">Greu</span>
+                  </div>
+                </label>
+              </div>
+            </div>
           </div>
         </div>
       
@@ -198,40 +221,8 @@
           </div>
         </div>
       
-        <!-- Grid pentru tagurile selectate -->
         <div class="selected-tags-grid" id="selectedTags">
-          <!-- Aici vor fi afișate tagurile selectate -->
-        </div>
-      </section>
-      <section class="section">
-        <h2>Filtrare după Dificultate</h2>
-        <div class="difficulty-grid">
-          <div class="difficulty-item">
-            <label class="difficulty-checkbox">
-              <input type="checkbox" value="ușor" checked>
-              <div class="difficulty-content">
-                <span class="difficulty-name">Ușor</span>
-              </div>
-            </label>
-          </div>
-      
-          <div class="difficulty-item">
-            <label class="difficulty-checkbox">
-              <input type="checkbox" value="mediu" checked>
-              <div class="difficulty-content">
-                <span class="difficulty-name">Mediu</span>
-              </div>
-            </label>
-          </div>
-      
-          <div class="difficulty-item">
-            <label class="difficulty-checkbox">
-              <input type="checkbox" value="greu" checked>
-              <div class="difficulty-content">
-                <span class="difficulty-name">Greu</span>
-              </div>
-            </label>
-          </div>
+          <!-- Tags will be populated here -->
         </div>
       </section>
 

@@ -400,6 +400,11 @@ input:invalid {
 /* Stilizare pentru fiecare grup de search */
 .search-group {
   position: relative;
+  z-index: inherit;
+}
+
+.search-group:focus-within {
+  z-index: 40;
 }
 
 .tag-search {
@@ -422,18 +427,12 @@ input:invalid {
 
 /* Sugestii pentru autocomplete */
 .search-suggestions {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
+  position: fixed; /* Change from absolute to fixed */
   background: rgba(15, 23, 42, 0.95);
   border: 1px solid var(--border);
   border-radius: 8px;
-  margin-top: 0.5rem;
-  max-height: 200px;
-  overflow-y: auto;
-  display: none;
-  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Much higher z-index */
 }
 
 .search-suggestions.active {
@@ -538,17 +537,6 @@ input:invalid {
   background: rgba(6, 182, 212, 0.1);
 }
 
-.search-suggestions {
-  background: rgba(15, 23, 42, 0.95);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  margin-top: 0.5rem;
-  max-height: 200px;
-  overflow-y: auto;
-  z-index: 100;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .filter-logic-switch {
   margin: 1rem 0;
   padding: 1rem;
@@ -631,4 +619,69 @@ input:invalid {
   ~ .logic-description
   .and-description {
   display: block;
+}
+
+/* Stilizare pentru elementele din filtre */
+/* Add these new styles to your CSS file */
+.tabs {
+  background: var(--surface);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.tabs-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.tab-trigger {
+  background: var(--surface);
+  border: none;
+  color: var(--text);
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.tab-trigger:hover {
+  background: rgba(6, 182, 212, 0.1);
+}
+
+.tab-trigger.active {
+  background: var(--primary);
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.question-count {
+  background: var(--surface);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
 }
