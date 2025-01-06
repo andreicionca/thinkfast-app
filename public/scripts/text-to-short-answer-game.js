@@ -1,4 +1,4 @@
-// Selectori elemente DOM
+// Selectori elemente DOM text-to-short-answer-game.html
 const questionContainer = document.getElementById("question-container");
 const currentText = document.getElementById("current-text");
 const answerDisplay = document.getElementById("answer-display");

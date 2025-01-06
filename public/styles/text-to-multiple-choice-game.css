@@ -1,3 +1,5 @@
+/* CSS for page text-to-multiple-choice-game */
+
 body {
   font-family: "Inter", sans-serif;
   background: #171717;
@@ -51,6 +53,11 @@ body {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
   transition: all 0.3s ease;
+}
+
+.question-text {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 #current-text {
@@ -204,6 +211,12 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#options-container[style*="display: flex"] {
+  opacity: 1;
 }
 
 .option {

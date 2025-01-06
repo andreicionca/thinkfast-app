@@ -130,37 +130,62 @@ function populateSearchSuggestions(uniqueTags) {
 function setupAutocomplete(inputElement, suggestionsId, suggestions) {
   const suggestionsElement = document.getElementById(suggestionsId);
   const selectedTagsGrid = document.getElementById("selectedTags");
+  let isOpen = false;
+
+  inputElement.addEventListener("focus", () => {
+    if (!isOpen) {
+      const initialSuggestions = suggestions
+        .slice(0, 5)
+        .sort((a, b) => a.localeCompare(b, "ro"));
+
+      suggestionsElement.innerHTML = initialSuggestions
+        .map((tag) => `<div class="suggestion-item">${tag}</div>`)
+        .join("");
+      suggestionsElement.style.display = "block";
+      isOpen = true;
+    } else {
+      suggestionsElement.style.display = "none";
+      isOpen = false;
+    }
+  });
+
+  document.addEventListener("click", (e) => {
+    if (
+      !inputElement.contains(e.target) &&
+      !suggestionsElement.contains(e.target)
+    ) {
+      suggestionsElement.style.display = "none";
+      isOpen = false;
+    }
+  });
 
   inputElement.addEventListener("input", () => {
     const value = inputElement.value.toLowerCase();
-    const filteredSuggestions = suggestions.filter((tag) =>
-      tag.toLowerCase().includes(value)
-    );
+    const filteredSuggestions = suggestions
+      .filter((tag) => tag.toLowerCase().includes(value))
+      .sort((a, b) => a.localeCompare(b, "ro"));
 
     if (value && filteredSuggestions.length > 0) {
       suggestionsElement.innerHTML = filteredSuggestions
         .map((tag) => `<div class="suggestion-item">${tag}</div>`)
         .join("");
       suggestionsElement.style.display = "block";
+      isOpen = true;
     } else {
       suggestionsElement.style.display = "none";
+      isOpen = false;
     }
   });
 
-  // Adăugăm event listener pentru click pe sugestii
   suggestionsElement.addEventListener("click", (e) => {
     if (e.target.classList.contains("suggestion-item")) {
       const selectedTag = e.target.textContent;
-      const tagType = suggestionsId.replace("Suggestions", ""); // Extrage tipul de tag
+      const tagType = suggestionsId.replace("Suggestions", "");
 
-      // Adaugă tag-ul în grid și în gameData
       addTag(selectedTag, tagType);
-
-      // Curăță input-ul și ascunde sugestiile
       inputElement.value = "";
       suggestionsElement.style.display = "none";
-
-      // Actualizează numărul de întrebări disponibile
+      isOpen = false;
       updateAvailableQuestionsCount();
     }
   });

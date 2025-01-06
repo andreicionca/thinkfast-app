@@ -332,39 +332,60 @@ function startRound() {
   showCurrentQuestion();
   startTimer();
   audioManager.startBackgroundMusic();
-  audioManager.startTick();
+
   updatePlayerStatus();
 }
 
 function showCurrentQuestion() {
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
-  currentText.textContent = currentQuestion.question.text;
+  currentText.textContent = "";
   currentText.style.display = "flex";
+  optionsContainer.style.display = "none";
+  gameState.isPaused = true;
+  audioManager.stopTick();
 
-  // Amestecăm răspunsurile
-  const shuffledOptions = shuffleArray([...currentQuestion.answer.options]);
+  const words = currentQuestion.question.text.split(" ");
+  let wordIndex = 0;
 
-  // Populăm opțiunile amestecate
-  shuffledOptions.forEach((option, index) => {
-    document.getElementById(`option${index + 1}`).textContent = option;
-  });
+  const wordInterval = setInterval(() => {
+    if (wordIndex < words.length) {
+      currentText.textContent += (wordIndex > 0 ? " " : "") + words[wordIndex];
+      adjustTextSize();
+      wordIndex++;
+    } else {
+      clearInterval(wordInterval);
+      setTimeout(() => {
+        const shuffledOptions = shuffleArray([
+          ...currentQuestion.answer.options,
+        ]);
 
-  // Salvăm indexul răspunsului corect
-  gameState.correctOptionIndex =
-    shuffledOptions.indexOf(currentQuestion.answer.correct) + 1;
+        // Populăm opțiunile și setăm indexul corect
+        shuffledOptions.forEach((option, index) => {
+          document.getElementById(`option${index + 1}`).textContent = option;
+        });
 
-  // Salvăm opțiunile amestecate în localStorage
-  gameState.questions[gameState.currentQuestionIndex].answer.options =
-    shuffledOptions;
+        // Important: Setăm indexul înainte de a afișa opțiunile
+        gameState.correctOptionIndex =
+          shuffledOptions.indexOf(currentQuestion.answer.correct) + 1;
 
-  const gameConfig = {
-    ...JSON.parse(localStorage.getItem("gameConfig")),
-    questions: gameState.questions,
-  };
-  localStorage.setItem("gameConfig", JSON.stringify(gameConfig));
+        // Salvăm starea în localStorage
+        gameState.questions[gameState.currentQuestionIndex].answer.options =
+          shuffledOptions;
+        const gameConfig = {
+          ...JSON.parse(localStorage.getItem("gameConfig")),
+          questions: gameState.questions,
+        };
+        localStorage.setItem("gameConfig", JSON.stringify(gameConfig));
 
-  adjustTextSize();
-  resetIndicii();
+        optionsContainer.style.display = "flex";
+        setTimeout(() => {
+          gameState.isPaused = false;
+          audioManager.startTick();
+          resetIndicii();
+        }, 1000);
+      }, 500);
+    }
+  }, 160);
 }
 
 function startTimer() {
@@ -426,7 +447,7 @@ function handleCorrectAnswer(correctOption) {
     nextQuestion();
     switchPlayer();
     startTimer();
-    audioManager.startTick();
+    // audioManager.startTick();
   }, gameState.settings.pauseTime * 1000);
 }
 

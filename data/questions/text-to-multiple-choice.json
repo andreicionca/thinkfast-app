@@ -17,7 +17,7 @@
             "hints": ["Persoană din Vechiul Testament", "Potopul universal"]
           },
           "answer": {
-            "text": "Noe",
+            "correct": "Noe",
             "options": ["Avraam", "Moise", "Noe"]
           }
         },
@@ -38,7 +38,7 @@
             ]
           },
           "answer": {
-            "text": "Avraam",
+            "correct": "Avraam",
             "options": ["Avraam", "David", "Moise"]
           }
         },
@@ -56,7 +56,7 @@
             "hints": ["A fost numit Israel", "Fratele său geamăn era Esau"]
           },
           "answer": {
-            "text": "Iacov",
+            "correct": "Iacov",
             "options": ["David", "Moise", "Iacov"]
           }
         },
@@ -74,7 +74,7 @@
             "hints": ["Tatăl său era Iacov", "A interpretat visele faraonului"]
           },
           "answer": {
-            "text": "Iosif",
+            "correct": "Iosif",
             "options": ["Iosif", "Moise", "Solomon"]
           }
         },
@@ -95,7 +95,7 @@
             ]
           },
           "answer": {
-            "text": "Moise",
+            "correct": "Moise",
             "options": ["Avraam", "Moise", "Iosif"]
           }
         },
@@ -116,7 +116,7 @@
             ]
           },
           "answer": {
-            "text": "David",
+            "correct": "David",
             "options": ["Iacov", "David", "Solomon"]
           }
         },
@@ -137,7 +137,7 @@
             ]
           },
           "answer": {
-            "text": "Solomon",
+            "correct": "Solomon",
             "options": ["David", "Solomon", "Saul"]
           }
         }
