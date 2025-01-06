@@ -633,10 +633,7 @@ input:invalid {
 .tabs-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
   background: var(--border);
-  padding: 4px;
-  border-radius: 8px;
   margin-bottom: 2rem;
 }
 
@@ -648,7 +645,8 @@ input:invalid {
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 500;
-  border-radius: 6px;
+  font-size: 1rem;
+  border-radius: 2px;
 }
 
 .tab-trigger:hover {

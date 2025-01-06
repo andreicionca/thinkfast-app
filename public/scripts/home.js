@@ -18,7 +18,7 @@ let gameData = {
     specific: [],
   },
   selectedDifficulties: ["ușor", "mediu", "greu"], // by default toate sunt selectate
-  filterLogic: "OR", // sau 'AND'
+  filterLogic: "SAU", // sau 'AND'
 
   settings: {
     playerTime: 50,
@@ -190,11 +190,11 @@ function updateLogicDescription(isAnd) {
   if (isAnd) {
     orDescription.style.display = "none";
     andDescription.style.display = "block";
-    logicLabel.textContent = "AND";
+    logicLabel.textContent = "ȘI";
   } else {
     orDescription.style.display = "block";
     andDescription.style.display = "none";
-    logicLabel.textContent = "OR";
+    logicLabel.textContent = "SAU";
   }
 }
 // Funcție pentru actualizarea numărului de întrebări disponibile
@@ -218,7 +218,7 @@ async function updateAvailableQuestionsCount() {
   if (hasSelectedTags || hasSelectedCategories) {
     buttonText.textContent = `ÎNCARCĂ JOCUL (${count} întrebări)`;
   } else {
-    buttonText.textContent = "Selectează cel puțin un tag sau o categorie";
+    buttonText.textContent = "Selectează cel puțin un filtru sau o categorie";
   }
 }
 
@@ -253,7 +253,7 @@ async function getSelectedQuestions() {
 
   let finalQuestions = [];
 
-  if (gameData.filterLogic === "AND") {
+  if (gameData.filterLogic === "ȘI") {
     finalQuestions = filteredQuestions.filter((question) => {
       // Check category (if categories are selected)
       if (
@@ -610,12 +610,12 @@ function setupEventListeners() {
 
   // Inițializare switch
   const logicSwitch = document.getElementById("filterLogicSwitch");
-  logicSwitch.checked = gameData.filterLogic === "AND";
+  logicSwitch.checked = gameData.filterLogic === "ȘI";
   updateLogicDescription(logicSwitch.checked);
 
   // Event listener pentru schimbări
   logicSwitch.addEventListener("change", (e) => {
-    gameData.filterLogic = e.target.checked ? "AND" : "OR";
+    gameData.filterLogic = e.target.checked ? "ȘI" : "SAU";
     updateLogicDescription(e.target.checked);
     updateAvailableQuestionsCount();
   });

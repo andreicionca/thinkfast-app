@@ -136,14 +136,14 @@
 
       <section class="section">
         <div class="section-header">
-          <h2>Filtrare întrebări</h2>
+          <h2>Întrebări</h2>
           <div class="question-count" id="questionCount">0 întrebări disponibile</div>
         </div>
         
         <div class="tabs">
           <div class="tabs-list">
             <button class="tab-trigger active" data-tab="categories">Categorii</button>
-            <button class="tab-trigger" data-tab="filters">Criterii specifice</button>
+            <button class="tab-trigger" data-tab="filters">Filtre specifice</button>
             <button class="tab-trigger" data-tab="difficulty">Dificultate</button>
           </div>
       
@@ -213,11 +213,11 @@
           <label class="switch-container">
             <input type="checkbox" id="filterLogicSwitch">
             <span class="switch-label">Mod de filtrare:</span>
-            <span class="logic-label">OR</span>
+            <span class="logic-label">SAU</span>
           </label>
           <div class="logic-description">
-            <span class="or-description">OR - Afișează întrebări care îndeplinesc oricare dintre criterii</span>
-            <span class="and-description">AND - Afișează doar întrebări care îndeplinesc toate criteriile</span>
+            <span class="or-description">SAU - Încarcă întrebările care conțin cel puțin unul dintre filtrele selectate</span>
+            <span class="and-description">ȘI - Încarcă întrebările care conțin toate filtrele selectate.</span>
           </div>
         </div>
       
@@ -305,7 +305,7 @@
       </section>
 
       <button id="loadGameBtn" class="load-button" disabled>
-        <span class="button-text">Selectează cel puțin o categorie</span>
+        <span class="button-text">Selectează cel puțin un filtru sau o categorie</span>
         <div class="loading-progress">
           <div class="progress-bar"></div>
         </div>
