@@ -6,11 +6,9 @@
         {
           "id": "IMG_SA_1",
           "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
+            "domain": ["biologie"],
+            "period": [""],
+            "region": [""],
             "difficulty": "ușor",
             "specific": ["aliment", "verde"]
           },
@@ -25,13 +23,11 @@
         {
           "id": "IMG_SA_2",
           "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
+            "domain": ["biologie"],
+            "period": [""],
+            "region": [""],
             "difficulty": "ușor",
-            "specific": ["aliment", "dulce"]
+            "specific": ["aliment"]
           },
           "question": {
             "media": "/assets/database/images/legume/cartof_dulce.jpg",
@@ -44,11 +40,9 @@
         {
           "id": "IMG_SA_3",
           "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
+            "domain": ["biologie"],
+            "period": [""],
+            "region": [""],
             "difficulty": "ușor",
             "specific": ["aliment", "roșu"]
           },
@@ -63,11 +57,9 @@
         {
           "id": "IMG_SA_4",
           "tags": {
-            "domain": {
-              "știință": "biologie"
-            },
-            "period": {},
-            "region": {},
+            "domain": ["biologie"],
+            "period": [""],
+            "region": [""],
             "difficulty": "mediu",
             "specific": ["aliment", "verde"]
           },
@@ -87,13 +79,11 @@
         {
           "id": "IMG_SA_5",
           "tags": {
-            "domain": {
-              "geografie": "steaguri"
-            },
-            "period": {},
-            "region": {},
+            "domain": ["geografie"],
+            "period": [""],
+            "region": ["Europa"],
             "difficulty": "greu",
-            "specific": ["europa"]
+            "specific": [""]
           },
           "question": {
             "media": "/assets/database/images/steaguri-nivel-usor/Albania.png",
@@ -106,13 +96,11 @@
         {
           "id": "IMG_SA_6",
           "tags": {
-            "domain": {
-              "geografie": "steaguri"
-            },
-            "period": {},
-            "region": {},
+            "domain": ["geografie"],
+            "period": [""],
+            "region": ["Europa"],
             "difficulty": "ușor",
-            "specific": ["europa"]
+            "specific": [""]
           },
           "question": {
             "media": "/assets/database/images/steaguri-nivel-usor/Belgium.png",
@@ -125,13 +113,11 @@
         {
           "id": "IMG_SA_7",
           "tags": {
-            "domain": {
-              "geografie": "steaguri"
-            },
-            "period": {},
-            "region": {},
+            "domain": ["geografie"],
+            "period": [""],
+            "region": ["Europa"],
             "difficulty": "ușor",
-            "specific": ["europa"]
+            "specific": [""]
           },
           "question": {
             "media": "/assets/database/images/steaguri-nivel-usor/Bulgaria.png",
@@ -149,15 +135,11 @@
         {
           "id": "IMG_SA_8",
           "tags": {
-            "domain": {
-              "sport": "fotbal"
-            },
-            "period": {
-              "contemporan": ["XXI", "2020-prezent"]
-            },
+            "domain": ["sport"],
+            "period": ["XXI", "2020-2030"],
             "region": ["Norvegia", "Europa"],
             "difficulty": "ușor",
-            "specific": ["atacant", "goluri", "talentat"]
+            "specific": ["fotbal"]
           },
           "question": {
             "media": "/assets/database/images/jucatori-de-fotbal/Erling_Haaland.jpg",
@@ -170,15 +152,11 @@
         {
           "id": "IMG_SA_9",
           "tags": {
-            "domain": {
-              "sport": "fotbal"
-            },
-            "period": {
-              "contemporan": ["XXI", "2020-prezent"]
-            },
+            "domain": ["sport"],
+            "period": ["XXI", "2010-2019", "2020-2030"],
             "region": ["Maroc", "Europa"],
             "difficulty": "mediu",
-            "specific": ["mijlocaș", "rapid", "PSG"]
+            "specific": ["fotbal"]
           },
           "question": {
             "media": "/assets/database/images/jucatori-de-fotbal/Achraf_Hakimi.jpg",
@@ -191,15 +169,11 @@
         {
           "id": "IMG_SA_10",
           "tags": {
-            "domain": {
-              "sport": "fotbal"
-            },
-            "period": {
-              "contemporan": ["XXI", "2010-2019", "2020-prezent"]
-            },
+            "domain": ["sport"],
+            "period": ["XXI", "2010-2019", "2020-2030"],
             "region": ["Franța", "Europa"],
             "difficulty": "ușor",
-            "specific": ["atacant", "Balonul de Aur", "Real Madrid"]
+            "specific": ["fotbal"]
           },
           "question": {
             "media": "/assets/database/images/jucatori-de-fotbal/Karim_Benzema.jpg",
@@ -212,15 +186,11 @@
         {
           "id": "IMG_SA_11",
           "tags": {
-            "domain": {
-              "sport": "fotbal"
-            },
-            "period": {
-              "contemporan": ["XXI", "2010-2019", "2020-prezent"]
-            },
+            "domain": ["sport"],
+            "period": ["XXI", "2010-2019", "2020-2030"],
             "region": ["Argentina", "Europa"],
             "difficulty": "ușor",
-            "specific": ["atacant", "legendă", "Cupa Mondială"]
+            "specific": ["fotbal", "legendar", "celebritate"]
           },
           "question": {
             "media": "/assets/database/images/jucatori-de-fotbal/Lionel_Messi.jpg",

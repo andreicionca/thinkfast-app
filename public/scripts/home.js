@@ -62,35 +62,22 @@ function extractUniqueTags(questions) {
 
   questions.forEach((question) => {
     if (question.tags) {
-      // Procesăm domain tags
-      if (question.tags.domain) {
-        Object.entries(question.tags.domain).forEach(([key, value]) => {
-          tags.domain.add(`${key}: ${value}`);
-        });
+      // Process domain tags
+      if (Array.isArray(question.tags.domain)) {
+        question.tags.domain.forEach((domain) => tags.domain.add(domain));
       }
 
-      // Procesăm period tags
-      if (
-        question.tags.period &&
-        Object.keys(question.tags.period).length > 0
-      ) {
-        Object.entries(question.tags.period).forEach(([key, value]) => {
-          if (typeof value === "object") {
-            Object.entries(value).forEach(([subKey, subValue]) => {
-              tags.period.add(`${key}: ${subValue}`);
-            });
-          } else {
-            tags.period.add(key);
-          }
-        });
+      // Process period tags
+      if (Array.isArray(question.tags.period)) {
+        question.tags.period.forEach((period) => tags.period.add(period));
       }
 
-      // Procesăm region tags
+      // Process region tags
       if (Array.isArray(question.tags.region)) {
         question.tags.region.forEach((region) => tags.region.add(region));
       }
 
-      // Procesăm specific tags
+      // Process specific tags (unchanged as it was already array-based)
       if (Array.isArray(question.tags.specific)) {
         question.tags.specific.forEach((spec) => tags.specific.add(spec));
       }
@@ -225,7 +212,7 @@ async function getSelectedQuestions() {
       }))
   );
 
-  // Filtrăm după dificultate (întotdeauna AND)
+  // Filter by difficulty (always AND)
   let filteredQuestions = allQuestions.filter((question) =>
     gameData.selectedDifficulties.includes(question.tags.difficulty)
   );
@@ -243,7 +230,7 @@ async function getSelectedQuestions() {
 
   if (gameData.filterLogic === "AND") {
     finalQuestions = filteredQuestions.filter((question) => {
-      // Pentru AND, întrebarea trebuie să fie și în categoria selectată (dacă există categorii selectate)
+      // Check category (if categories are selected)
       if (
         hasSelectedCategories &&
         !gameData.selectedCategories.includes(question.category)
@@ -251,7 +238,7 @@ async function getSelectedQuestions() {
         return false;
       }
 
-      // Pentru AND, întrebarea trebuie să aibă toate tag-urile selectate din fiecare tip
+      // For AND logic, question must have all selected tags from each type
       if (hasSelectedTags) {
         for (const [tagType, selectedValues] of Object.entries(
           gameData.selectedTags
@@ -259,55 +246,16 @@ async function getSelectedQuestions() {
           if (selectedValues.length === 0) continue;
 
           const questionTags = question.tags[tagType];
-          if (!questionTags) {
+          if (!Array.isArray(questionTags)) {
             return false;
           }
 
-          switch (tagType) {
-            case "domain":
-              // Pentru domain, trebuie să existe cel puțin unul dintre tag-urile selectate
-              const hasDomain = selectedValues.some((selectedTag) => {
-                const [selectedKey, selectedValue] = selectedTag
-                  .split(": ")
-                  .map((s) => s.trim());
-                return Object.entries(questionTags).some(
-                  ([key, value]) =>
-                    `${key}: ${value}` === `${selectedKey}: ${selectedValue}`
-                );
-              });
-              if (!hasDomain) {
-                return false;
-              }
-              break;
-
-            case "period":
-              const hasPeriod = selectedValues.some((tag) => {
-                if (typeof questionTags === "object") {
-                  return Object.entries(questionTags).some(([key, value]) => {
-                    if (typeof value === "object") {
-                      return Object.values(value).includes(tag.split(": ")[1]);
-                    }
-                    return value === tag;
-                  });
-                }
-                return false;
-              });
-              if (!hasPeriod) {
-                return false;
-              }
-              break;
-
-            case "region":
-            case "specific":
-              // Pentru specific și region, TOATE tag-urile selectate trebuie să fie prezente
-              const hasAllTags = selectedValues.every(
-                (tag) =>
-                  Array.isArray(questionTags) && questionTags.includes(tag)
-              );
-              if (!hasAllTags) {
-                return false;
-              }
-              break;
+          // For all tag types, check if all selected values are present
+          const hasAllTags = selectedValues.every((tag) =>
+            questionTags.includes(tag)
+          );
+          if (!hasAllTags) {
+            return false;
           }
         }
       }
@@ -315,6 +263,7 @@ async function getSelectedQuestions() {
       return true;
     });
   } else {
+    // OR logic
     const selectedQuestionIds = new Set();
 
     const addIfNotExists = (q) => {
@@ -324,61 +273,28 @@ async function getSelectedQuestions() {
       }
     };
 
-    // Adăugăm întrebările care se potrivesc cu categoriile selectate
+    // Add questions matching selected categories
     if (hasSelectedCategories) {
       filteredQuestions
         .filter((q) => gameData.selectedCategories.includes(q.category))
-        .forEach((q) => {
-          addIfNotExists(q);
-        });
+        .forEach((q) => addIfNotExists(q));
     }
 
-    // Adăugăm întrebările care se potrivesc cu tag-urile
+    // Add questions matching tags
     if (hasSelectedTags) {
       filteredQuestions.forEach((question) => {
         for (const [tagType, selectedValues] of Object.entries(
           gameData.selectedTags
         )) {
           if (selectedValues.length === 0) continue;
+
           const questionTags = question.tags[tagType];
-          if (!questionTags) continue;
+          if (!Array.isArray(questionTags)) continue;
 
-          let hasMatch = false;
-          switch (tagType) {
-            case "domain":
-              hasMatch = selectedValues.some((selectedTag) => {
-                const [selectedKey, selectedValue] = selectedTag
-                  .split(": ")
-                  .map((s) => s.trim());
-                return Object.entries(questionTags).some(
-                  ([key, value]) =>
-                    `${key}: ${value}` === `${selectedKey}: ${selectedValue}`
-                );
-              });
-              break;
-
-            case "period":
-              hasMatch = selectedValues.some((tag) => {
-                if (typeof questionTags === "object") {
-                  return Object.entries(questionTags).some(([key, value]) => {
-                    if (typeof value === "object") {
-                      return Object.values(value).includes(tag.split(": ")[1]);
-                    }
-                    return value === tag;
-                  });
-                }
-                return false;
-              });
-              break;
-
-            case "region":
-            case "specific":
-              hasMatch = selectedValues.some(
-                (tag) =>
-                  Array.isArray(questionTags) && questionTags.includes(tag)
-              );
-              break;
-          }
+          // For OR logic, check if any selected tag matches
+          const hasMatch = selectedValues.some((tag) =>
+            questionTags.includes(tag)
+          );
 
           if (hasMatch) {
             addIfNotExists(question);
