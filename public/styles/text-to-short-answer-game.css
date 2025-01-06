@@ -42,7 +42,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 800px;
-  height: 400px;
+  height: 500px;
   margin: 20px auto;
   padding: 20px;
   display: flex;
@@ -61,6 +61,7 @@ body {
   align-items: center;
   text-align: center;
   font-weight: bold;
+  font-size: 60px;
   padding: 20px;
   line-height: 1.6; /* Mărită de la 1.2 la 1.6 pentru spațiere mai bună */
   word-wrap: break-word;

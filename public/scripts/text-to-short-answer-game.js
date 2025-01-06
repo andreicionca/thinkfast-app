@@ -157,9 +157,9 @@ function adjustTextSize() {
   while (
     (textElement.scrollHeight > textElement.clientHeight ||
       textElement.scrollWidth > textElement.clientWidth) &&
-    fontSize > 22
+    fontSize > 17
   ) {
-    fontSize -= 2;
+    fontSize -= 14;
     textElement.style.fontSize = `${fontSize}px`;
   }
 }
@@ -303,18 +303,11 @@ function startRound() {
   showCurrentQuestion();
   startTimer();
   audioManager.startBackgroundMusic();
-  audioManager.startTick();
+  //remove startTick
+  // audioManager.startTick();
   updatePlayerStatus();
 }
 
-// Afișare imagine curentă
-function showCurrentQuestion() {
-  const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
-  currentText.textContent = currentQuestion.question.text;
-  currentText.style.display = "flex";
-  adjustTextSize();
-  resetIndicii();
-}
 function startTimer() {
   clearInterval(gameState.interval);
   let updateCounter = 0;
@@ -329,7 +322,6 @@ function startTimer() {
         }
         gameState.timeLeft1--;
         player1Timer.textContent = gameState.timeLeft1;
-        // Actualizăm localStorage doar la fiecare 5 secunde
         if (updateCounter % 5 === 0) {
           localStorage.setItem("timeLeft1", gameState.timeLeft1.toString());
           localStorage.setItem("timeLeft2", gameState.timeLeft2.toString());
@@ -342,7 +334,6 @@ function startTimer() {
         }
         gameState.timeLeft2--;
         player2Timer.textContent = gameState.timeLeft2;
-        // Actualizăm localStorage doar la fiecare 5 secunde
         if (updateCounter % 5 === 0) {
           localStorage.setItem("timeLeft1", gameState.timeLeft1.toString());
           localStorage.setItem("timeLeft2", gameState.timeLeft2.toString());
@@ -351,6 +342,34 @@ function startTimer() {
       updateCounter++;
     }
   }, 1000);
+}
+
+function showCurrentQuestion() {
+  const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
+  currentText.textContent = "";
+  currentText.style.display = "flex";
+  gameState.isPaused = true;
+  audioManager.stopTick();
+
+  const words = currentQuestion.question.text.split(" ");
+  let wordIndex = 0;
+
+  const wordInterval = setInterval(() => {
+    if (wordIndex < words.length) {
+      currentText.textContent += (wordIndex > 0 ? " " : "") + words[wordIndex];
+      adjustTextSize();
+      wordIndex++;
+    } else {
+      clearInterval(wordInterval);
+      setTimeout(() => {
+        setTimeout(() => {
+          gameState.isPaused = false;
+          audioManager.startTick();
+          resetIndicii();
+        }, 500);
+      }, 500);
+    }
+  }, 160);
 }
 
 // Gestionare răspuns corect
@@ -375,7 +394,8 @@ function handleCorrectAnswer() {
     nextQuestion();
     switchPlayer();
     startTimer();
-    audioManager.startTick();
+    //remove startTick
+    // audioManager.startTick();
   }, gameState.settings.pauseTime * 1000);
 }
 

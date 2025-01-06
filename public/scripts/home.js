@@ -251,15 +251,31 @@ async function getSelectedQuestions() {
   const response = await fetch(`/api/questions/${gameData.selectedType}`);
   const data = await response.json();
 
+  // Map game types to ID prefixes
+  const typePatterns = {
+    "text-to-short-answer": "TXT_SA_",
+    "text-to-multiple-choice": "TXT_MC_",
+    "image-to-short-answer": "IMG_SA_",
+    "image-to-multiple-choice": "IMG_MC_",
+    "hints-to-short-answer": "HNT_SA_",
+    "hints-to-multiple-choice": "HNT_MC_",
+    "audio-to-short-answer": "AUD_SA_",
+    "audio-to-multiple-choice": "AUD_MC_",
+  };
+
+  const pattern = typePatterns[gameData.selectedType];
+
   const allQuestions = Object.entries(data.categories).flatMap(
     ([categoryName, category]) =>
-      category.questions.map((q) => ({
-        ...q,
-        category: categoryName,
-        question: q.question,
-        answer: q.answer,
-        tags: q.tags,
-      }))
+      category.questions
+        .filter((q) => q.id.startsWith(pattern))
+        .map((q) => ({
+          ...q,
+          category: categoryName,
+          question: q.question,
+          answer: q.answer,
+          tags: q.tags,
+        }))
   );
 
   // Filter by difficulty (always AND)
