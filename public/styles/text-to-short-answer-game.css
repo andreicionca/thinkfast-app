@@ -55,14 +55,14 @@ body {
 
 #current-text {
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-weight: bold;
   font-size: 60px;
-  padding: 20px;
+  padding: 10px;
   line-height: 1.6; /* Mărită de la 1.2 la 1.6 pentru spațiere mai bună */
   word-wrap: break-word;
   color: #ffffff;

@@ -159,7 +159,7 @@ function adjustTextSize() {
       textElement.scrollWidth > textElement.clientWidth) &&
     fontSize > 17
   ) {
-    fontSize -= 14;
+    fontSize -= 8;
     textElement.style.fontSize = `${fontSize}px`;
   }
 }
