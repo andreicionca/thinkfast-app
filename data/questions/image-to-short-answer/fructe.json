@@ -1,0 +1,645 @@
+{
+  "name": "Fructe",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/afine.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Afine"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/ananas.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ananas"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/avocado.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Avocado"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/banană.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Banană"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/caise.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Caise"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/căpșuni.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Căpșuni"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/cireșe.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cireșe"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/clementină.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Clementină"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/cocos.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cocos"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/curmale.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Curmale"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/durian.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Durian"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/fructe_de_acai.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fructe de acai"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/fructul_pasiunii.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fructul pasiunii"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/goji.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Goji"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/granadilla.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Granadilla"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/guava.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Guava"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/kaki.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kaki"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/kiwi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kiwi"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/lămâie.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lămâie"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/litchi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Litchi"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/mandarină.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mandarină"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/mango.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mango"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/mangustan.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mangustan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/măr.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Măr"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/mure.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mure"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/nectarine.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Nectarine"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/papaya.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Papaya"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/pepene_galben.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pepene galben"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/pepene_verde.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pepene verde"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/pere.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pere"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/physalis.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Physalis"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/piersici.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Piersici"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/portocală.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Portocală"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/prune.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Prune"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/rambutan.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rambutan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/rodie.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rodie"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/smochine.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Smochine"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/struguri.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Struguri"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/vișine.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Vișine"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["aliment", "natural"]
+      },
+      "question": {
+        "media": "/assets/database/images/fructe/zmeură.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Zmeură"
+      }
+    }
+  ]
+}

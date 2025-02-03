@@ -1,0 +1,624 @@
+{
+  "name": "Biologie - Diversitatea lumii vii (I)",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "clasificare"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Care este taxonul de bază în clasificarea organismelor vii?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Specia",
+        "options": ["Familia", "Specia", "Regnul"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "clasificare"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Câte regnuri sunt incluse în clasificarea organismelor vii?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "cinci",
+        "options": ["trei", "patru", "cinci"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "clasificare"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Care este ordinea taxonilor de la cel mai specific la cel mai general?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Specie -> Gen -> Familie -> Regn",
+        "options": [
+          "Specie -> Gen -> Familie -> Regn",
+          "Regn -> Familie -> Gen -> Specie",
+          "Gen -> Specie -> Familie -> Regn"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "taxonomie"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se numește știința care se ocupă cu clasificarea organismelor vii?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Taxonomie",
+        "options": ["Ecologie", "Taxonomie", "Biogeografie"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "clasificare"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce caracterizează speciile din același gen?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Au un strămoș comun și asemănări genetice",
+        "options": [
+          "Au metabolism comun",
+          "Au un strămoș comun și asemănări genetice",
+          "Au forme de reproducere diferite"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "virusuri"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce componentă lipsește virusurilor, motiv pentru care nu sunt considerate organisme vii?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Organisme celulare",
+        "options": ["Capsida", "Organisme celulare", "Genom viral"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "virusuri"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce tip de material genetic pot conține virusurile?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Fie ADN, fie ARN",
+        "options": ["Doar ADN", "Doar ARN", "Fie ADN, fie ARN"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "virusuri"],
+        "difficulty": "greu"
+      },
+      "question": {
+        "text": "Care dintre următoarele este un virus ARN?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Virusul HIV",
+        "options": ["Virusul herpesului", "Virusul HIV", "Virusul hepatitei B"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "virusuri"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se numește învelișul proteic al virusurilor?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Capsidă",
+        "options": ["Capsomere", "Capsidă", "Genom"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "virusuri"],
+        "difficulty": "greu"
+      },
+      "question": {
+        "text": "Care este un exemplu de dezoxiribovirus?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Virusul herpesului",
+        "options": ["Virusul HIV", "Virusul herpesului", "Virusul gripal"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "bacterii"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce formă au bacteriile numite coci?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Sferică",
+        "options": ["Bastonaș", "Sferică", "Spirală"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "bacterii"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce bacterii sunt implicate în fixarea azotului?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Simbioticele din rădăcinile leguminoaselor",
+        "options": [
+          "Saprofitele",
+          "Simbioticele din rădăcinile leguminoaselor",
+          "Anaerobe"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "bacterii"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se reproduc bacteriile?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Asexuat",
+        "options": ["Sexuat", "Asexuat", "Prin spori"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "bacterii"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Care dintre următoarele boli este cauzată de bacterii?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Tuberculoza",
+        "options": ["HIV", "Tuberculoza", "Malaria"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "bacterii"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Cum sunt numite bacteriile care trăiesc în lipsa oxigenului?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Anaerobe",
+        "options": ["Aerobe", "Anaerobe", "Facultative"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "protiste"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce nutriție poate avea Euglena?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Mixotrofă",
+        "options": ["Heterotrofă", "Mixotrofă", "Saprofită"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "protiste"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Care este principalul mod de reproducere al protistelor?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Asexuat",
+        "options": ["Sexuat", "Asexuat", "Prin gemulație"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "protiste"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce organite de locomoție au amibele?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Pseudopode",
+        "options": ["Pseudopode", "Cili", "Flageli"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "protiste"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Care dintre următoarele este un protist parazit?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Plasmodium malariae",
+        "options": ["Plasmodium malariae", "Stafilococul auriu", "Penicillium"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "protiste"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Protistele asemănătoare plantelor trăiesc predominant în mediul...",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Acvatic",
+        "options": ["Acvatic", "Terestru", "Parazitar"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "fungi"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Din ce este alcătuit peretele celular al fungilor?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Chitină",
+        "options": ["Celuloză", "Chitină", "Peptidoglican"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "fungi"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Cum se numesc sporii sexuati ai ascomicetelor?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Ascospori",
+        "options": ["Ascospori", "Basidiospori", "Zoospori"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "fungi"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce exemplu de ascomicet este utilizat în panificație?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drojdia de bere",
+        "options": ["Mucegaiul verde-albăstrui", "Drojdia de bere", "Ghebele"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "fungi"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Care este un exemplu de fung parazit?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Candida",
+        "options": ["Candida", "Mătasea broaștei", "Euglena verde"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "fungi"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Care dintre următoarele este o ciupercă otrăvitoare?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Muscarița",
+        "options": ["Ghebele", "Muscarița", "Hribul"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "plante avasculare"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce caracterizează plantele avasculare?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Nu au vase conducătoare",
+        "options": [
+          "Nu au vase conducătoare",
+          "Au flori bine dezvoltate",
+          "Trăiesc doar în apă"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "plante avasculare"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se înmulțesc briofitele?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Prin spori",
+        "options": ["Prin spori", "Prin semințe", "Prin rizomi"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "plante gimnosperme"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Care dintre următoarele este o plantă gimnospermă?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Molidul",
+        "options": ["Molidul", "Feriga", "Laleaua"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "plante"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce conțin vasele liberiene?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Nutrienți",
+        "options": ["Apă", "Nutrienți", "Aer"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "plante angiosperme"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Care este un exemplu de angiospermă dicotiledonată?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Trandafirul",
+        "options": ["Grâul", "Trandafirul", "Crinul"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "mamifere"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce caracterizează mamiferele placentare?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Hrănirea puilor cu lapte",
+        "options": [
+          "Fecundație externă",
+          "Corp acoperit cu solzi",
+          "Hrănirea puilor cu lapte"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "vertebrate"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce clasă de vertebrate prezintă respirație branhială?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Pești",
+        "options": ["Pești", "Reptile", "Amfibieni"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "păsări"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Cum sunt clasificate păsările?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Acarenate și carenate",
+        "options": [
+          "Acarenate și carenate",
+          "Placentare și ovipare",
+          "Homeoterme și poikiloterme"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "reptile"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce animal aparține clasei reptile?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Șarpele de casă",
+        "options": ["Șarpele de casă", "Delfinul", "Broasca de lac"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["biologie"],
+        "period": [""],
+        "region": [""],
+        "specific": ["bac", "biologie", "păsări"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce adaptare permite păsărilor să zboare?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Oase pneumatice",
+        "options": ["Oase grele", "Penajul izolat termic", "Oase pneumatice"]
+      }
+    }
+  ]
+}

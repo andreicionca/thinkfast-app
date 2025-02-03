@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manager Competiție</title>
+    <link rel="icon" type="image/x-icon" href="competition.ico" />
+
+    <link rel="stylesheet" href="game.css" />
+    <!-- În head, după CSS-ul tău -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-bracket/0.11.1/jquery.bracket.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bracket/0.11.1/jquery.bracket.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="top-section">
+        <!-- Import JSON -->
+        <div class="import-container">
+          <input type="file" id="jsonInput" accept=".json" class="hidden" />
+          <button id="importBtn" class="btn-secondary">Import JSON</button>
+        </div>
+
+        <!-- Adăugare manuală -->
+        <div class="manual-input">
+          <div class="input-modes">
+            <div class="single-input">
+              <div class="input-group">
+                <input
+                  type="text"
+                  id="playerName"
+                  placeholder="Nume participant"
+                />
+                <button id="addPlayer" class="btn-primary">Adaugă</button>
+              </div>
+            </div>
+            <div class="multi-input hidden">
+              <div class="input-group">
+                <textarea
+                  id="multipleNames"
+                  placeholder="Introduceți mai multe nume (unul pe linie sau separate prin virgulă)"
+                ></textarea>
+                <button id="addMultiple" class="btn-primary">
+                  Adaugă Multiplu
+                </button>
+              </div>
+            </div>
+          </div>
+          <button id="toggleInput" class="btn-secondary">
+            Comută mod introducere participanți manual
+          </button>
+        </div>
+      </section>
+
+      <section class="main-content">
+        <!-- Secțiunea clase -->
+        <div class="classes-section">
+          <h3>Clase</h3>
+          <div class="classes-list" id="classesList">
+            <!-- Lista claselor va fi populată dinamic -->
+          </div>
+        </div>
+
+        <!-- Secțiunea participanți -->
+        <div class="selection-section">
+          <div class="selection-header">
+            <h3>Participanți</h3>
+            <div class="selection-controls">
+              <button id="selectAll" class="btn-control">Selectează Tot</button>
+              <button id="deselectAll" class="btn-control">
+                Deselectează Tot
+              </button>
+              <span id="selectedCount" class="counter">0 selectați</span>
+            </div>
+          </div>
+
+          <div class="players-container">
+            <div id="playersList" class="players-list">
+              <!-- Lista participanți va fi populată dinamic -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Secțiunea echipe - modificată conform cerințelor -->
+      <section class="teams-section hidden">
+        <div class="teams-header">
+          <h3>Configurare Echipe</h3>
+          <div class="teams-config">
+            <div class="config-group">
+              <label for="teamsCount">Număr de echipe:</label>
+              <input
+                type="number"
+                id="teamsCount"
+                class="form-input"
+                min="2"
+                max="16"
+                value="4"
+                placeholder="ex: 4"
+              />
+            </div>
+            <div class="config-group">
+              <label for="teamSize">Membri per echipă:</label>
+              <input
+                type="number"
+                id="teamSize"
+                class="form-input"
+                min="1"
+                value="2"
+                placeholder="ex: 2"
+              />
+            </div>
+            <div class="teams-buttons">
+              <button id="generateTeams" class="btn-primary">
+                Generează Echipe
+              </button>
+              <button id="clearTeams" class="btn-secondary">
+                Șterge Echipe
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="teamsContainer" class="teams-container">
+          <!-- Aici vor fi afișate echipele generate -->
+        </div>
+      </section>
+
+      <!-- Navigare între faze -->
+      <div class="navigation">
+        <button id="goToBracketBtn" class="btn-primary" disabled>
+          Continuă la Tablou
+        </button>
+      </div>
+
+      <!-- Secțiunea bracket - inițial ascunsă -->
+      <section class="bracket-section hidden">
+        <div class="bracket-header">
+          <h3>🏆 Tablou competiție - Quiz CULTURĂ GENERALĂ 🌍</h3>
+          <div class="bracket-controls">
+            <button id="regenerateBracket" class="btn-secondary">
+              Refă tragererea la sorți
+            </button>
+
+            <button id="showTeamsBtn" class="btn-secondary">
+              👥 Vezi Echipele
+            </button>
+            <div id="teamsDropdown" class="teams-dropdown hidden">
+              <div class="teams-dropdown-content"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tournamentBracket" class="bracket-container">
+          <!-- Aici va fi generat bracket-ul -->
+        </div>
+
+        <div class="bracket-footer">
+          <button id="backToConfigBtn" class="btn-secondary">
+            Înapoi la Configurare
+          </button>
+        </div>
+      </section>
+      <!-- Închide bracket-section -->
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

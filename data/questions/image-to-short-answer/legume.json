@@ -1,0 +1,725 @@
+{
+  "name": "Legume",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/ardei_galben.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ardei galben"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/ardei_gras_roşu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ardei gras roșu"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/ardei_iute.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ardei iute"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America Centrală", "Mexic"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Fruct"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/avocado.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Avocado"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/bostănel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bostănel"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/broccoli.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Broccoli"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/cartof_dulce.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cartof dulce"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Sud", "Peru"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/cartof.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cartof"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/castravete.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Castravete"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia Centrală"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/ceapă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ceapă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Plantă aromatică"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/cimbru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cimbru"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/conopidă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Conopidă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/dovleac_bostan.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Dovleac bostan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/dovlecel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Dovlecel"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America Centrală"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/fasole.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fasole"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia de Sud"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Condiment"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/ghimbir.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ghimbir"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/gulie.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gulie"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Condiment"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/hrean.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Hrean"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/lăptucă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lăptucă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia de Sud-Vest"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/linte.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Linte"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/lufă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lufă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/măcriș.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Măcriș"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Plantă aromatică"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/mărar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mărar"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/mazăre.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mazăre"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia Centrală"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/morcov.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Morcov"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia de Sud-Vest"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/năut.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Năut"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/păstârnac.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Păstârnac"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Plantă aromatică"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/pătrunjel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pătrunjel"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia", "Europa"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/praz.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Praz"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/ridiche.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ridiche"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Fruct"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/roșie.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Roșie"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/salată_verde.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Salată verde"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/sfeclă_de_zahăr.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sfeclă de zahăr"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/sfeclă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sfeclă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia", "China"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/soia.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Soia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/spanac.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Spanac"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/sparanghel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sparanghel"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/ștevie.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ștevie"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia", "Europa"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Plantă aromatică"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/tarhon.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tarhon"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/țelină.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Țelină"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/urzică.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Urzică"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia Centrală"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/usturoi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Usturoi"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Fruct"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/vânătă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Vânătă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Belgia"],
+        "difficulty": "mediu",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/varză_de_Bruxelles.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Varză de Bruxelles"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Biologie"],
+        "period": [""],
+        "region": ["Europa", "Asia"],
+        "difficulty": "ușor",
+        "specific": ["Aliment", "Vegetal"]
+      },
+      "question": {
+        "media": "/assets/database/images/legume/varză.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Varză"
+      }
+    }
+  ]
+}

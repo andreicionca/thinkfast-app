@@ -1,0 +1,119 @@
+{
+  "name": "Orașe ale Lumii",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "specific": ["capitală", "oraș"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "hints": [
+          "Capitala Regatului Unit",
+          "Traversat de râul Tamisa",
+          "Aici se află Big Ben"
+        ]
+      },
+      "answer": {
+        "text": "Londra"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "specific": ["oraș"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "hints": [
+          "Este situat pe coasta de vest a Statelor Unite.",
+          "Aici se află celebrul pod Golden Gate.",
+          "Orașul este cunoscut pentru dealurile sale și pentru tramvaiele iconice."
+        ]
+      },
+      "answer": {
+        "text": "San Francisco"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "specific": ["capitală", "oraș"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "hints": [
+          "Este unul dintre cele mai populate orașe din lume.",
+          "Cunoscut pentru tehnologia avansată și cultura sa vibrantă.",
+          "Simboluri iconice includ intersecția Shibuya și muntele Fuji."
+        ]
+      },
+      "answer": {
+        "text": "Tokyo"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "specific": ["capitală", "oraș"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "hints": [
+          "Este adesea numit 'Orașul Luminilor'.",
+          "Aici se află unul dintre cele mai celebre repere turistice din lume.",
+          "Este traversat de râul Sena."
+        ]
+      },
+      "answer": {
+        "text": "Paris"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "specific": ["oraș"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "hints": [
+          "Cunoscut pentru statuia iconică a lui Cristos Mântuitorul.",
+          "Plajele Copacabana și Ipanema atrag turiști din întreaga lume.",
+          "Orașul este renumit pentru carnavalurile sale vibrante."
+        ]
+      },
+      "answer": {
+        "text": "Rio de Janeiro"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "specific": ["oraș"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "hints": [
+          "Este considerată capitala modei din Italia.",
+          "Găzduiește faimoasa catedrală gotică, Duomo di ......",
+          "Este un centru economic important în nordul Italiei."
+        ]
+      },
+      "answer": {
+        "text": "Milano"
+      }
+    }
+  ]
+}

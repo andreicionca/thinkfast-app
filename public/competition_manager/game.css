@@ -1,0 +1,566 @@
+:root {
+  --background-start: #0f172a;
+  --background-end: #1e293b;
+  --surface: rgba(255, 255, 255, 0.03);
+  --primary: #06b6d4;
+  --primary-light: #22d3ee;
+  --text: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border: rgba(255, 255, 255, 0.08);
+  --error: #ef4444;
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    var(--background-start),
+    var(--background-end)
+  );
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Top Section */
+.top-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.import-container {
+  margin-bottom: 1rem;
+}
+
+.manual-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-group input,
+.input-group textarea {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.input-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.classes-section {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.selection-section {
+  flex-grow: 1;
+  width: calc(100% - 250px - 1.5rem);
+}
+
+/* Classes Section */
+.classes-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.classes-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.class-item {
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.class-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.class-item.selected {
+  background: rgba(6, 182, 212, 0.1);
+  border-color: var(--primary);
+}
+
+/* Selection Section */
+.selection-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.selection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.selection-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.players-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.players-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  padding: 0.5rem;
+}
+
+.player-item {
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+.player-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.player-item.selected {
+  background: rgba(6, 182, 212, 0.1);
+  border-color: var(--primary);
+}
+/* Teams Section - Updated */
+.teams-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.teams-header {
+  margin-bottom: 2rem;
+}
+
+.teams-config {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-end;
+}
+
+.config-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.config-group label {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.config-group input {
+  width: 120px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.config-group input:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.teams-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.team {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.team h4 {
+  color: var(--primary);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.team-size {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.team-member {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.teams-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Button Styles */
+.btn-primary,
+.btn-secondary,
+.btn-control {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--text);
+}
+
+.btn-primary:hover {
+  background: var(--primary-light);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-control {
+  background: transparent;
+  color: var(--text-secondary);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+}
+
+.btn-control:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Utility Classes */
+.hidden {
+  display: none !important;
+}
+
+.counter {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+}
+
+/* Headings */
+h3 {
+  color: var(--text);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Fixed Dimensions */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Stilizare secțiune bracket */
+/* Container principal pentru secțiunea de bracket */
+.bracket-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+  min-height: 80vh; /* Asigură spațiu vertical suficient */
+}
+
+/* Header cu titlu și controale */
+.bracket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.bracket-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: relative; /* Adăugat */
+}
+
+/* Container pentru bracket */
+.bracket-container {
+  margin: 3rem 0;
+  padding: 1rem;
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* Footer pentru butonul de înapoi */
+.bracket-footer {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+/* Stilizare jQuery Bracket */
+.jQBracket {
+  background-color: transparent !important;
+  font-family: inherit !important;
+}
+
+.jQBracket .team {
+  background-color: var(--surface) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 4px !important;
+  padding: 0.5rem 1rem !important;
+  margin: 0.25rem 0 !important;
+  width: 250px !important; /* Ajustează lățimea dorită */
+  min-width: 250px !important; /* Pentru dimensiuni minime */
+  max-width: 350px !important; /* Dacă e nevoie de limitare superioară */
+}
+
+.jQBracket .connector {
+  border-color: var(--border) !important;
+}
+
+.jQBracket .score {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: var(--text-secondary) !important;
+  border-radius: 4px !important;
+}
+
+/* Hover și stări active */
+.jQBracket .team:hover {
+  background-color: rgba(6, 182, 212, 0.1) !important;
+}
+
+.jQBracket .team.win {
+  background-color: rgba(6, 182, 212, 0.2) !important;
+  border-color: var(--primary) !important;
+}
+
+.jQBracket .team.lose {
+  opacity: 0.7;
+}
+
+/* BYE styling */
+.jQBracket .team.na {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+  color: var(--text-secondary) !important;
+  opacity: 0.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .bracket-container {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
+
+/* tooltip */
+
+.team-tooltip {
+  position: absolute;
+  background: var(--background-start);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  z-index: 1000;
+  color: var(--text);
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  pointer-events: none; /* Previne flickering */
+  min-width: 200px;
+}
+
+.team-tooltip ul {
+  list-style: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+.team-tooltip li {
+  padding: 4px 0;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.team-tooltip li:last-child {
+  border-bottom: none;
+}
+
+.team-tooltip strong {
+  color: var(--primary);
+  display: block;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Stilizare secțiune afisare echipe*/
+
+.teams-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem); /* Poziționăm imediat sub buton */
+  right: -150px;
+  background: var(--background-start);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+#showTeamsBtn {
+  position: relative;
+}
+.teams-dropdown-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dropdown-team {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.75rem;
+}
+
+.dropdown-team-header {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.dropdown-team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.dropdown-team-member {
+  color: var(--text-secondary);
+  padding: 0.25rem 0;
+}

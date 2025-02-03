@@ -1,0 +1,3285 @@
+{
+  "name": "Steaguri țări",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Albania.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Albania"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Andorra.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Andorra"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Argentina.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Argentina"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Armenia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Armenia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Australia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Australia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Austria.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Austria"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Belarus.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Belarus"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Belgium.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Belgia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bosnia_and_Herzegovina.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bosnia și Herțegovina"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Brazil.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Brazilia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bulgaria.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bulgaria"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Canada.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Canada"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Croatia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Croația"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cyprus.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cipru"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Czech_Republic.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Republica Cehă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Denmark.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Danemarca"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Estonia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Estonia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Finland.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Finlanda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/France.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Franța"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Germany.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Germania"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Great_Britain.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Marea Britanie"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Greece.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Grecia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Hungary.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ungaria"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Iceland.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Islanda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/India.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "India"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Ireland.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Irlanda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Israel.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Israel"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Italy.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Italia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Japan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Japonia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Latvia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Letonia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Liechtenstein.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Liechtenstein"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Lithuania.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lituania"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Luxembourg.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Luxemburg"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Malta.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Malta"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Mexico.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mexic"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Monaco.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Monaco"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Montenegro.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Muntenegru"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Netherlands.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Olanda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/New_Zealand.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Noua Zeelandă"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Norway.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Norvegia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Peoples_Republic_of_China.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "China"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Poland.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Polonia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Portugal.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Portugalia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Republic_of_Korea.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Coreea de Sud"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Republic_of_Moldova.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Moldova"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Romania.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "România"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/San_Marino.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "San Marino"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Serbia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Serbia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Slovakia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Slovacia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Slovenia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Slovenia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Spain.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Spania"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Sweden.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Suedia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Switzerland.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Elveția"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Turkey.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Turcia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Ukraine.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ucraina"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "ușor",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/United_States_of_America.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Statele Unite ale Americii"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Afghanistan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Afganistan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Algeria.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Algeria"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Angola.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Angola"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Azerbaijan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Azerbaidjan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bahamas.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bahamas"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bangladesh.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bangladesh"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Chile.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Chile"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Colombia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Columbia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Costa_Rica.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Costa Rica"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cuba.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cuba"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Dominican_Republic.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Republica Dominicană"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Ecuador.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ecuador"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Egypt.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Egipt"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Georgia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Georgia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Ghana.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ghana"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Indonesia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Indonezia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Iraq.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Irak"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Islamic_Republic_of_Iran.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Iran"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Jamaica.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Jamaica"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Jordan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Iordania"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Kazakhstan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kazahstan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Kenya.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kenya"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Kosovo.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kosovo"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Kuwait.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kuweit"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Lebanon.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Liban"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Libya.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Libia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Malaysia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Malaezia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Morocco.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Maroc"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Nepal.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Nepal"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Nigeria.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Nigeria"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/North_Macedonia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Macedonia de Nord"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Europa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/North_Macedonia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Macedonia de Nord"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Pakistan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pakistan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Palestine.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Palestina"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Panama.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Panama"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Peru.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Peru"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Philippines.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Filipine"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Qatar.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Qatar"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Saudi_Arabia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Arabia Saudită"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Singapore.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Singapore"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/South_Africa.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Africa de Sud"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Sri_Lanka.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sri Lanka"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Syrian_Arab_Republic.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Siria"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Thailand.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Thailanda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Tunisia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tunisia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/United_Arab_Emirates.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Emiratele Arabe Unite"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Uruguay.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Uruguay"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Venezuela.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Venezuela"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Vietnam.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Vietnam"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/American_Samoa.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Samoa Americană"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Antigua_and_Barbuda.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Antigua și Barbuda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Aruba.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Aruba"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bahrain.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bahrain"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Barbados.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Barbados"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America Centrală"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Belize.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Belize"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Benin.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Benin"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bermuda.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bermuda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bhutan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bhutan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Bolivia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bolivia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Botswana.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Botswana"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Brunei_Darussalam.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Brunei"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Burkina_Faso.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Burkina Faso"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Burundi.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Burundi"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cambodia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cambodgia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cameroon.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Camerun"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cape_Verde.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Capul Verde"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cayman_Islands.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Insulele Cayman"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Central_African_Republic.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Republica Centrafricană"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "mediu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Chad.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ciad"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Taiwan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Taiwan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Comoros.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Comore"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Congo.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Congo"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cook_Islands.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Insulele Cook"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Cte_dIvoire.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Coasta de Fildeș"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Democratic_Republic_of_the_Congo.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Republica Democrată Congo"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Democratic_Republic_of_Timor_Leste.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Timorul de Est"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Djibouti.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Djibouti"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Dominica.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Dominica"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America Centrală"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/El_Salvador.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "El Salvador"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Equatorial_Guinea.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Guineea Ecuatorială"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Eritrea.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Eritreea"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Eswatini.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Eswatini"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Ethiopia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Etiopia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Federated_States_of_Micronesia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Statele Federate ale Microneziei"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Fiji.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fiji"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Gabon.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gabon"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Gambia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gambia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Grenada.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Grenada"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Guam.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Guam"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America Centrală"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Guatemala.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Guatemala"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Guinea-Bissau.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Guineea-Bissau"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Guinea.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Guineea"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Guyana.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Guyana"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Haiti.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Haiti"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America Centrală"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Honduras.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Honduras"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Hong_Kong_China.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Hong Kong"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Kiribati.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kiribati"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Kyrgyzstan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kârgâzstan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Lao_Peoples_Democratic_Republic.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Laos"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Lesotho.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lesotho"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Liberia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Liberia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Madagascar.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Madagascar"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Malawi.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Malawi"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Maldives.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Maldive"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Mali.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mali"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Marshall_Islands.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Insulele Marshall"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Mauritania.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mauritania"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Mauritius.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mauritius"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Mongolia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mongolia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Mozambique.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mozambic"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Myanmar.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Myanmar"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Namibia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Namibia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Nauru.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Nauru"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America Centrală"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Nicaragua.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Nicaragua"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Niger.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Niger"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Oman.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Oman"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Palau.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Palau"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Papua_New_Guinea.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Papua Noua Guinee"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Paraguay.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Paraguay"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Puerto_Rico.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Puerto Rico"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Rwanda.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rwanda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Saint_Kitts_and_Nevis.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sfântul Kitts și Nevis"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Saint_Lucia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sfânta Lucia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Samoa.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Samoa"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Sao_Tome_and_Principe.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "São Tomé și Príncipe"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Senegal.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Senegal"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Seychelles.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Seychelles"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Sierra_Leone.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sierra Leone"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Solomon_Islands.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Insulele Solomon"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Somalia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Somalia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/South_Sudan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sudanul de Sud"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/St_Vincent_and_the_Grenadines.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sfântul Vincent și Grenadinele"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Sudan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sudan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Sud"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Suriname.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Surinam"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Tajikistan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tadjikistan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Togo.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Togo"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Tonga.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tonga"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Trinidad_and_Tobago.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Trinidad și Tobago"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Turkmenistan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Turkmenistan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Tuvalu.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tuvalu"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Uganda.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Uganda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/United_Republic_of_Tanzania.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tanzania"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Uzbekistan.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Uzbekistan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Oceania"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Vanuatu.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Vanuatu"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Virgin_Islands_British.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Insulele Virgine Britanice"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["America de Nord"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Virgin_Islands_US.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Insulele Virgine Americane"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Asia"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Yemen.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Yemen"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Zambia.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Zambia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["geografie"],
+        "period": [""],
+        "region": ["Africa"],
+        "difficulty": "greu",
+        "specific": ["steaguri"]
+      },
+      "question": {
+        "media": "/assets/database/images/steaguri-țări/Zimbabwe.png",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Zimbabwe"
+      }
+    }
+  ]
+}

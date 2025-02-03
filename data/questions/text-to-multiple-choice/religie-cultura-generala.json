@@ -1,0 +1,450 @@
+{
+  "name": "Religie - Cultură Generală",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul III î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cui i-a cerut Dumnezeu să construiască o arcă?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Noe",
+        "options": ["Noe", "Isaac", "Avraam"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul II î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cui i-a promis Dumnezeu că urmașii săi vor deveni un popor numeros?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Avraam",
+        "options": ["Avraam", "David", "Isaac"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul II î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "patriarhi"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "A fost nepotul lui Avraam și a avut 12 fii care au devenit strămoșii celor 12 triburi ale Israelului",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Iacov",
+        "options": ["David", "Iacov", "Isaac"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul II î.Hr."],
+        "region": ["Egipt"],
+        "specific": ["iudaism", "istorie biblică"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "A fost vândut de frații săi și a ajuns conducător în Egipt",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Iosif",
+        "options": ["David", "Iosif", "Noe"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul II î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "istorie biblică"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Cine a eliberat poporul evreu din robia Egiptului și a primit Cele Zece Porunci?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Moise",
+        "options": ["Moise", "Solomon", "David"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul I î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "istorie biblică"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "A învins uriașul Goliat și a devenit regele Israelului",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "David",
+        "options": ["Noe", "David", "Iacov"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul I î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "istorie biblică"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "A fost cunoscut pentru înțelepciunea sa și a construit Templul din Ierusalim",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Solomon",
+        "options": ["Iosif", "Solomon", "Moise"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul I î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "istorie biblică"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "A fost aruncat într-o groapă cu lei, dar a supraviețuit, fiind protejat de Dumnezeu.",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Daniel",
+        "options": ["Noe", "David", "Daniel"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cine a botezat oamenii în râul Iordan și a pregătit calea pentru Mesia?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Ioan",
+        "options": ["Isaia", "Ioan", "David"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "istorie biblică"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Cine sunt cei trei apostoli care au avut un rol major în răspândirea creștinismului?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Petru, Pavel și Ioan",
+        "options": [
+          "David, Noe și Avraam",
+          "Petru, Pavel și Ioan",
+          "Iacov, Moise și Solomon"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "istorie biblică"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se numește colecția de cărți care cuprinde învățăturile despre viața lui Iisus și epistolele apostolilor?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Noul Testament",
+        "options": [
+          "Evanghelia după Moise",
+          "Faptele Apostolilor",
+          "Noul Testament"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["istorie"],
+        "period": ["Secolul IV"],
+        "region": ["Europa"],
+        "specific": ["creștinism", "imperiu roman"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "A emis Edictul de la Milano, recunoscând creștinismul ca religie",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Constantin",
+        "options": ["Nero", "Constantin", "Augustus"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["istorie"],
+        "period": ["Secolul III", "Secolul IV"],
+        "region": ["Europa"],
+        "specific": ["creștinism", "imperiu roman"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Au fost persecutați de împărații romani pentru credința lor",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Creștinii",
+        "options": ["Evreii", "Musulmanii", "Creștinii"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul XI"],
+        "region": ["Europa"],
+        "specific": ["creștinism", "istorie bisericească"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce eveniment a împărțit Biserica în două: Ortodoxă și Catolică?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Marea Schismă",
+        "options": ["Reforma Protestantă", "Cruciadele", "Marea Schismă"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["istorie"],
+        "period": ["Secolul XI", "Secolul XIII"],
+        "region": ["Europa", "Orientul Apropiat"],
+        "specific": ["cruciade", "istorie medievală"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se numește seria de războaie purtate între creștini și musulmani pentru controlul Ierusalimului?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Cruciade",
+        "options": ["Reforma Protestantă", "Marea Schismă", "Cruciade"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["istorie"],
+        "period": ["Secolul XVI"],
+        "region": ["Europa"],
+        "specific": ["reformă religioasă", "istorie creștinism"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Cine a inițiat Reforma Protestantă în 1517?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Martin Luther",
+        "options": ["Toma de Aquino", "Martin Luther", "Constantin cel Mare"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Geneza"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["biblic", "creație"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cine a fost primul om creat de Dumnezeu, conform Bibliei?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Adam",
+        "options": ["Moise", "Avraam", "Adam"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Exod"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["biblic", "mozaic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce reprezintă Decalogul?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Cele zece porunci date de Dumnezeu lui Moise",
+        "options": [
+          "Cele zece minuni ale lui Iisus",
+          "Cele zece plăgi din Egipt",
+          "Cele zece porunci date de Dumnezeu lui Moise"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "sărbători"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se numește sărbătoarea care marchează Nașterea Domnului?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Crăciun",
+        "options": ["Botezul Domnului", "Paști", "Crăciun"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul II î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "istorie biblică"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce reprezintă Sfânta Treime?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Tatăl, Fiul și Sfântul Duh",
+        "options": [
+          "Tatăl, Fiul și Sfântul Duh",
+          "Dumnezeu, Iisus și Apostolii",
+          "Tatăl, Maica Domnului și Sfântul Duh"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "sărbători"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce sărbătorim de Paște?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Învierea Domnului",
+        "options": [
+          "Botezul Domnului",
+          "Nașterea Domnului",
+          "Învierea Domnului"
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Mileniul I î.Hr."],
+        "region": ["Orientul Apropiat"],
+        "specific": ["iudaism", "patriarhi"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Cine a fost tatăl lui Iosif, personajul biblic din Vechiul Testament?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Iacov",
+        "options": ["Iacov", "Avraam", "David"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul IV"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "simboluri"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Care este simbolul principal al creștinismului?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Crucea",
+        "options": ["Steaua", "Biblia", "Crucea"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "rugăciuni"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce rugăciune ne-a învățat Iisus Hristos?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Tatăl nostru",
+        "options": ["Născătoare de Dumnezeu", "Tatăl nostru", "Crezul"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "sărbători"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Ce sărbătoare creștină este asociată cu Pogorârea Duhului Sfânt peste apostoli?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Rusalii",
+        "options": ["Paști", "Rusalii", "Crăciun"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "name": "Logo-uri mașini",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/acura.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Acura"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/alfa_romeo.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Alfa Romeo"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/aston_martin.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Aston Martin"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/audi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Audi"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/bentley.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bentley"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/bmw.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "BMW"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/bugatti.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bugatti"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/cadillac.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cadillac"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/chevrolet.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Chevrolet"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/chrysler.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Chrysler"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/citroen.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Citroën"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/dacia.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Dacia"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/dodge.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Dodge"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/ferrari.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ferrari"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/fiat.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fiat"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/honda.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Honda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/hyundai.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Hyundai"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/infiniti.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Infiniti"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/jaguar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Jaguar"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/koenigsegg.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Koenigsegg"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/lamborghini.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lamborghini"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/land_rover.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Land Rover"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/lexus.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lexus"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/maserati.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Maserati"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/mazda.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mazda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/mercedes.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mercedes"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/mini.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mini"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/mitsubishi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mitsubishi"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/nissan.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Nissan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/pagani.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pagani"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/peugeot.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Peugeot"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/porsche.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Porsche"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/ram.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "RAM"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/renault.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Renault"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/rolls_royce.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rolls-Royce"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/saab.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Saab"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/seat.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "SEAT"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/skoda.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Škoda"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/subaru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Subaru"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/suzuki.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Suzuki"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/tesla.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tesla"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/toyota.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Toyota"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/volkswagen.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Volkswagen"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "specific": ["automobile", "logo-uri"]
+      },
+      "question": {
+        "media": "/assets/database/images/logo-mașini/volvo.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Volvo"
+      }
+    }
+  ]
+}

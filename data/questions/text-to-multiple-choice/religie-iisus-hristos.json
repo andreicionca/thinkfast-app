@@ -1,0 +1,234 @@
+{
+  "name": "Religie - Iisus Hristos",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Unde s-a născut Iisus Hristos?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "În Betleem",
+        "options": ["În Betleem", "În Ierusalim", "În Nazaret"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Unde a locuit Iisus Hristos până la vârsta de 30 de ani?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "În Nazaret",
+        "options": ["În Nazaret", "În Betleem", "În Egipt"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "De către cine a fost botezat Iisus în râul Iordan?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Sfântul Ioan",
+        "options": ["Sfântul Ioan", "Sfântul Petru", "Sfântul Ștefan"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Câte zile a postit Iisus în pustie?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "40 de zile",
+        "options": ["40 de zile", "50 de zile", "20 de zile"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se numeau cei 12 bărbați aleși de Iisus pentru a-L urma?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Apostoli",
+        "options": ["Apostoli", "Îngeri", "Sfinți"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Schimbarea la Față a lui Iisus, adică momentul când își arată natura sa dumnezeiască, a avut loc:",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Pe Muntele Tabor",
+        "options": ["Pe Muntele Sinai", "Pe Muntele Tabor", "Pe Golgota"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Lui Iisus îi plăcea să spună povești, care uneori erau destul de confuze. Ele sunt cunoscute ca:",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Parabole",
+        "options": ["Mituri", "Parabole", "Psalmi"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "sărbători"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "De Rusalii sărbătorim:",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Pogorârea Duhului Sfânt.",
+        "options": [
+          "Schimbarea la Față a Domnului Iisus Hristos.",
+          "Înălțarea Domnului la cer.",
+          "Pogorârea Duhului Sfânt."
+        ]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Câți ani a trăit Iisus Hristos?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "33",
+        "options": ["47", "33", "31"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Conform tradiției creștine, Părinții Mariei, mama lui Iisus s-ar fi numit:",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Ioachim și Ana",
+        "options": ["Ioachim și Ana", "Iosif și Maria", "Zaharia și Elisabeta"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "greu"
+      },
+      "question": {
+        "text": "Care dintre apostoli NU l-a cunoscut personal pe Iisus Hristos, dar și-a dat viața pentru El?",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Pavel",
+        "options": ["Petru", "Ioan", "Pavel"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Povestea vieții lui Iisus și cuvântările Sale se găsesc în:",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Evanghelii",
+        "options": ["Psalmi", "Evanghelii", "Faptele Apostolilor"]
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "învățături"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Care dintre aceste mesaje reprezintă o învățătură a lui Iisus:",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "„Iubește-ți dușmanul”",
+        "options": [
+          "„Cuget deci exist”",
+          "„Urmează-ți visul”",
+          "„Iubește-ți dușmanul”"
+        ]
+      }
+    }
+  ]
+}

@@ -131,62 +131,117 @@ function setupAutocomplete(inputElement, suggestionsId, suggestions) {
   const suggestionsElement = document.getElementById(suggestionsId);
   const selectedTagsGrid = document.getElementById("selectedTags");
   let isOpen = false;
+  let sortedSuggestions = suggestions
+    .slice()
+    .sort((a, b) => a.localeCompare(b, "ro"));
 
+  // Funcție helper pentru crearea elementelor de sugestie
+  const createSuggestionItems = (items) => {
+    const fragment = document.createDocumentFragment();
+    items.forEach((tag) => {
+      const div = document.createElement("div");
+      div.className = "suggestion-item";
+      div.textContent = tag; // Utilizăm textContent în loc de innerHTML
+      div.setAttribute("role", "option");
+      div.setAttribute("tabindex", "0");
+      fragment.appendChild(div);
+    });
+    return fragment;
+  };
+
+  // Gestionare focus
   inputElement.addEventListener("focus", () => {
     if (!isOpen) {
-      const initialSuggestions = suggestions
-        .slice(0, 5)
-        .sort((a, b) => a.localeCompare(b, "ro"));
-
-      suggestionsElement.innerHTML = initialSuggestions
-        .map((tag) => `<div class="suggestion-item">${tag}</div>`)
-        .join("");
+      const initialSuggestions = sortedSuggestions.slice(0, 5);
+      suggestionsElement.innerHTML = "";
+      suggestionsElement.appendChild(createSuggestionItems(initialSuggestions));
       suggestionsElement.style.display = "block";
+      inputElement.setAttribute("aria-expanded", "true");
       isOpen = true;
-    } else {
-      suggestionsElement.style.display = "none";
-      isOpen = false;
     }
   });
 
+  // Gestionare click extern
   document.addEventListener("click", (e) => {
     if (
+      isOpen &&
       !inputElement.contains(e.target) &&
       !suggestionsElement.contains(e.target)
     ) {
       suggestionsElement.style.display = "none";
+      inputElement.setAttribute("aria-expanded", "false");
       isOpen = false;
     }
   });
 
-  inputElement.addEventListener("input", () => {
-    const value = inputElement.value.toLowerCase();
-    const filteredSuggestions = suggestions
-      .filter((tag) => tag.toLowerCase().includes(value))
-      .sort((a, b) => a.localeCompare(b, "ro"));
+  // Gestionare input cu debounce
+  let timeoutId;
+  inputElement.addEventListener("input", (e) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      const value = e.target.value.trim().toLowerCase();
 
-    if (value && filteredSuggestions.length > 0) {
-      suggestionsElement.innerHTML = filteredSuggestions
-        .map((tag) => `<div class="suggestion-item">${tag}</div>`)
-        .join("");
-      suggestionsElement.style.display = "block";
-      isOpen = true;
-    } else {
-      suggestionsElement.style.display = "none";
-      isOpen = false;
-    }
+      const filtered = sortedSuggestions
+        .filter((tag) => tag.toLowerCase().includes(value))
+        .slice(0, 6); // Limităm la primele 6 rezultate
+
+      suggestionsElement.innerHTML = "";
+      if (value && filtered.length > 0) {
+        suggestionsElement.appendChild(createSuggestionItems(filtered));
+        suggestionsElement.style.display = "block";
+        isOpen = true;
+      } else {
+        suggestionsElement.style.display = "none";
+        isOpen = false;
+      }
+    }, 150);
   });
 
+  // Gestionare selecție
+  const handleSuggestionSelect = (element) => {
+    const selectedTag = element.textContent;
+    const tagType = suggestionsId.replace("Suggestions", "");
+
+    addTag(selectedTag, tagType);
+    inputElement.value = "";
+    suggestionsElement.style.display = "none";
+    inputElement.setAttribute("aria-expanded", "false");
+    isOpen = false;
+    updateAvailableQuestionsCount();
+  };
+
+  // Evenimente pentru click și tastatură
   suggestionsElement.addEventListener("click", (e) => {
     if (e.target.classList.contains("suggestion-item")) {
-      const selectedTag = e.target.textContent;
-      const tagType = suggestionsId.replace("Suggestions", "");
+      handleSuggestionSelect(e.target);
+    }
+  });
 
-      addTag(selectedTag, tagType);
-      inputElement.value = "";
-      suggestionsElement.style.display = "none";
-      isOpen = false;
-      updateAvailableQuestionsCount();
+  // Navigare cu tastatura
+  inputElement.addEventListener("keydown", (e) => {
+    if (!isOpen) return;
+
+    const items = suggestionsElement.querySelectorAll(".suggestion-item");
+    let currentIndex = Array.from(items).findIndex(
+      (item) => item === document.activeElement
+    );
+
+    switch (e.key) {
+      case "ArrowDown":
+        e.preventDefault();
+        currentIndex = (currentIndex + 1) % items.length;
+        items[currentIndex]?.focus();
+        break;
+      case "ArrowUp":
+        e.preventDefault();
+        currentIndex = (currentIndex - 1 + items.length) % items.length;
+        items[currentIndex]?.focus();
+        break;
+      case "Enter":
+        if (document.activeElement.classList.contains("suggestion-item")) {
+          handleSuggestionSelect(document.activeElement);
+        }
+        break;
     }
   });
 }
@@ -248,35 +303,30 @@ async function updateAvailableQuestionsCount() {
 }
 
 async function getSelectedQuestions() {
-  const response = await fetch(`/api/questions/${gameData.selectedType}`);
-  const data = await response.json();
-
-  // Map game types to ID prefixes
-  const typePatterns = {
-    "text-to-short-answer": "TXT_SA_",
-    "text-to-multiple-choice": "TXT_MC_",
-    "image-to-short-answer": "IMG_SA_",
-    "image-to-multiple-choice": "IMG_MC_",
-    "hints-to-short-answer": "HNT_SA_",
-    "hints-to-multiple-choice": "HNT_MC_",
-    "audio-to-short-answer": "AUD_SA_",
-    "audio-to-multiple-choice": "AUD_MC_",
-  };
-
-  const pattern = typePatterns[gameData.selectedType];
-
-  const allQuestions = Object.entries(data.categories).flatMap(
-    ([categoryName, category]) =>
-      category.questions
-        .filter((q) => q.id.startsWith(pattern))
-        .map((q) => ({
-          ...q,
-          category: categoryName,
-          question: q.question,
-          answer: q.answer,
-          tags: q.tags,
-        }))
+  // 1. Mai întâi obținem lista categoriilor
+  const categoriesResponse = await fetch(
+    `/api/categories/${gameData.selectedType}`
   );
+  const categories = await categoriesResponse.json();
+
+  // 2. Obținem toate întrebările din categoriile disponibile
+  let allQuestions = [];
+  for (const category of categories) {
+    const response = await fetch(
+      `/api/questions/${gameData.selectedType}/${category}`
+    );
+    const data = await response.json();
+
+    // Adăugăm întrebările din această categorie
+    const categoryQuestions = data.questions.map((q) => ({
+      ...q,
+      category: category,
+      question: q.question,
+      answer: q.answer,
+      tags: q.tags,
+    }));
+    allQuestions = allQuestions.concat(categoryQuestions);
+  }
 
   // Filter by difficulty (always AND)
   let filteredQuestions = allQuestions.filter((question) =>
@@ -330,11 +380,15 @@ async function getSelectedQuestions() {
     });
   } else {
     // OR logic
-    const selectedQuestionIds = new Set();
-
+    // Noul cod poate folosi calea media ca identificator unic
+    const selectedQuestionTexts = new Set();
+    // În funcția getSelectedQuestions() -> OR logic
     const addIfNotExists = (q) => {
-      if (!selectedQuestionIds.has(q.id)) {
-        selectedQuestionIds.add(q.id);
+      // Adăugăm verificare pentru hints
+      const identifier =
+        q.question.text || q.question.media || JSON.stringify(q.question.hints);
+      if (!selectedQuestionTexts.has(identifier)) {
+        selectedQuestionTexts.add(identifier);
         finalQuestions.push(q);
       }
     };
@@ -376,13 +430,36 @@ async function getSelectedQuestions() {
 
 async function loadGameData() {
   try {
-    const response = await fetch(`/api/questions/${gameData.selectedType}`);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    // 1. Obținem lista categoriilor disponibile pentru tipul de joc selectat
+    const categoriesResponse = await fetch(
+      `/api/categories/${gameData.selectedType}`
+    );
+    if (!categoriesResponse.ok) {
+      throw new Error(`HTTP error! status: ${categoriesResponse.status}`);
     }
-    const data = await response.json();
+    const categories = await categoriesResponse.json();
+
+    // 2. Încărcăm datele pentru fiecare categorie
+    const loadedCategories = {};
+    for (const category of categories) {
+      const categoryResponse = await fetch(
+        `/api/questions/${gameData.selectedType}/${category}`
+      );
+      if (!categoryResponse.ok) {
+        console.warn(`Could not load category ${category}`);
+        continue;
+      }
+      const categoryData = await categoryResponse.json();
+      loadedCategories[category] = categoryData;
+    }
+
+    // 3. Combinăm datele într-un format compatibil
+    const data = {
+      categories: loadedCategories,
+    };
+
+    // 4. Procesăm datele ca înainte
     if (data && data.categories) {
-      // Extragem toate întrebările într-un array
       const allQuestions = Object.values(data.categories).flatMap(
         (category) => category.questions
       );
@@ -393,10 +470,11 @@ async function loadGameData() {
       // Populăm sugestiile pentru search bars
       populateSearchSuggestions(uniqueTags);
 
-      // Populăm categoriile ca și până acum
+      // Populăm categoriile
       populateCategories(data.categories);
-    } else {
-      console.error("Invalid data format");
+
+      // Actualizăm numărul de întrebări disponibile
+      updateAvailableQuestionsCount();
     }
   } catch (error) {
     console.error("Error loading data:", error);
@@ -429,6 +507,9 @@ function handleGameTypeChange(event) {
   gameData.selectedType = event.target.value;
   localStorage.setItem("lastGameType", event.target.value);
   gameData.selectedCategories = [];
+  gameData.selectedTags = { domain: [], period: [], region: [], specific: [] };
+  updateSelectedTagsDisplay(); // Actualizează afișajul tag-urilor
+
   loadGameData();
 }
 
@@ -493,12 +574,18 @@ async function handleGameLoad() {
 
     const shuffledQuestions = shuffleQuestions(selectedQuestions);
     // Verifică structura întrebărilor
-    if (shuffledQuestions.some((q) => !q.question || !q.question.media)) {
-      console.error(
-        "Întrebări invalide detectate:",
-        shuffledQuestions.filter((q) => !q.question || !q.question.media)
-      );
+    if (
+      shuffledQuestions.some((q) => {
+        if (gameTypes.isHintsGame(gameData.selectedType)) {
+          return !q.question?.hints;
+        } else {
+          return !q.question || (!q.question.text && !q.question.media);
+        }
+      })
+    ) {
+      console.error("Întrebări invalide detectate:", shuffledQuestions);
     }
+
     const gameConfig = {
       ...gameData,
       questions: shuffledQuestions,
@@ -531,61 +618,60 @@ async function preloadResources(questions) {
   const totalResources = questions.length;
 
   if (gameTypes.isImageGame(gameData.selectedType)) {
-    // Pentru jocuri cu imagini
+    // Logica pentru imagini
     for (const question of questions) {
-      // Verificăm dacă cheia `question.media` există
-      if (!question.question || !question.question.media) {
-        console.warn(
-          `Întrebare invalidă sau incompletă pentru ID-ul ${question.id}`
-        );
-        continue; // Sarim peste întrebarea invalidă
+      if (!question.question?.media) {
+        console.warn(`Întrebare invalidă: ${question.id}`);
+        continue;
       }
 
       const isValid = await preloadImage(question.question.media);
-      if (isValid) {
-        validQuestions.push(question);
-      } else {
-        console.warn(
-          `Imagine lipsă sau coruptă pentru întrebarea cu ID-ul ${question.id}`
-        );
-      }
+      if (isValid) validQuestions.push(question);
       loadedCount++;
       updateLoadingProgress(loadedCount, totalResources);
     }
   } else if (gameTypes.isAudioGame(gameData.selectedType)) {
-    // Pentru jocuri audio
+    // Logica pentru audio
     for (const question of questions) {
-      // Verificăm dacă cheia `question.media` există
-      if (!question.question || !question.question.media) {
-        console.warn(
-          `Întrebare invalidă sau incompletă pentru ID-ul ${question.id}`
-        );
-        continue; // Sarim peste întrebarea invalidă
+      if (!question.question?.media) {
+        console.warn(`Întrebare invalidă: ${question.id}`);
+        continue;
       }
 
-      const isValid = await preloadAudio(question.question.media);
-      if (isValid) {
+      try {
+        await preloadAudio(question.question.media);
         validQuestions.push(question);
-      } else {
-        console.warn(
-          `Fișier audio lipsă sau corupt pentru întrebarea cu ID-ul ${question.id}`
-        );
+      } catch (e) {
+        console.warn(`Audio invalid: ${question.question.media}`);
       }
       loadedCount++;
       updateLoadingProgress(loadedCount, totalResources);
     }
   } else {
-    // Pentru text și hints (nu există resurse de preîncărcat)
-    validQuestions = questions;
+    // Logica pentru text, hints și alte tipuri
+    validQuestions = questions.filter((q) => {
+      if (gameTypes.isTextGame(gameData.selectedType)) {
+        return !!q.question?.text; // Validează text
+      }
+      if (gameTypes.isHintsGame(gameData.selectedType)) {
+        const isValid =
+          Array.isArray(q.question?.hints) && q.question.hints.length > 0;
+        if (!isValid) console.warn("Întrebare hints invalidă:", q);
+        return isValid;
+      }
+      return true; // Tipuri necunoscute (nu filtra)
+    });
+
+    // Simulare încărcare
     const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-    for (let i = 0; i < totalResources; i++) {
-      await delay(50);
+    for (let i = 0; i < questions.length; i++) {
+      await delay(20);
       loadedCount++;
       updateLoadingProgress(loadedCount, totalResources);
     }
   }
 
-  return validQuestions; // Returnăm doar întrebările valide
+  return validQuestions;
 }
 
 function updateLoadingProgress(current, total) {

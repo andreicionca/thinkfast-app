@@ -369,8 +369,12 @@ function showCurrentQuestion() {
         }, 500);
       }, 500);
     }
-  }, 160);
+  }, 180);
 }
+// VITEZA AFIȘARE TEXT:
+// - Valori mai MICI = text mai RAPID (ex: 100ms)
+// - Valori mai MARI = text mai LENT (ex: 250ms)
+// Modifică valoarea de mai sus pentru a ajusta viteza
 
 // Gestionare răspuns corect
 function handleCorrectAnswer() {

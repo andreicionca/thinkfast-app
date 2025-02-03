@@ -1,7 +1,7 @@
 {
   "defaultSettings": {
-    "playerTime": 50,
-    "penaltyTime": 5,
+    "playerTime": 60,
+    "penaltyTime": 4,
     "pauseTime": 2
   }
 }

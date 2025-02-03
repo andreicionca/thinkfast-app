@@ -1,0 +1,197 @@
+{
+  "name": "Religie - Iisus Hristos",
+  "questions": [
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Unde s-a născut Iisus Hristos?",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "În Betleem"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Unde a locuit Iisus Hristos până la vârsta de 30 de ani?",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "În Nazaret"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "De către cine a fost botezat Iisus în râul Iordan?",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sfântul Ioan"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Câte zile a postit Iisus în pustie?",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "40 de zile"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Cum se numeau cei 12 bărbați aleși de Iisus pentru a-L urma?",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Apostoli"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Schimbarea la Față a lui Iisus, adică momentul când își arată natura sa dumnezeiască, a avut loc:",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pe Muntele Tabor"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Lui Iisus îi plăcea să spună povești, care uneori erau destul de confuze. Ele sunt cunoscute ca:",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Parabole"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "sărbători"],
+        "difficulty": "mediu"
+      },
+      "question": {
+        "text": "Ce sărbătoare se celebrează în creștinism la 40 de zile de la Învierea lui Iisus:",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Înălțarea lui Iisus la Cer"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Câți ani a trăit Iisus Hristos?",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "33"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Conform tradiției creștine, Părinții Mariei, mama lui Iisus s-ar fi numit:",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ioachim și Ana"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "greu"
+      },
+      "question": {
+        "text": "Care dintre apostoli NU l-a cunoscut personal pe Iisus Hristos, dar și-a dat viața pentru El?",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pavel"
+      }
+    },
+    {
+      "tags": {
+        "domain": ["religie"],
+        "period": ["Secolul I"],
+        "region": ["Orientul Apropiat"],
+        "specific": ["creștinism", "biblic"],
+        "difficulty": "ușor"
+      },
+      "question": {
+        "text": "Povestea vieții lui Iisus și cuvântările Sale se găsesc în:",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Evanghelii"
+      }
+    }
+  ]
+}
