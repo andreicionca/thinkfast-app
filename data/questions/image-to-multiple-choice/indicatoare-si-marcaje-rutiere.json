@@ -1,0 +1,1019 @@
+{
+  "name": "Indicatoare și marcaje rutiere",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/accident.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Accident",
+        "options": ["Accident", "Intersecție de mașini", "Parcare interzisă"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/acostament_periculos.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Acostament periculos",
+        "options": [
+          "Acostament periculos",
+          "Parcare laterală",
+          "Pietriș pe carosabil"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/aeroport.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Aeroport",
+        "options": ["Aeroport", "Avion", "Pericol de prăbușire avion"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/alte_pericole.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Alte pericole",
+        "options": ["Alte pericole", "Zonă cu restricții", "Atenție generală"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/baliza_directionala_care_indica_ocolirea_obstacolului_prin_partea_dreapta.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Baliză direcțională care indică ocolirea obstacolului prin partea dreaptă",
+        "options": [
+          "Baliză direcțională care indică ocolirea obstacolului prin partea dreaptă",
+          "Baliză direcțională care indică ocolirea obstacolului prin partea stângă",
+          "Indicator de direcționare pentru lucrări în carosabil în preajma unui obstacol fix"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/baliza_directionala_care_indica_ocolirea_obstacolului_prin_partea_stanga.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Baliză direcțională care indică ocolirea obstacolului prin partea stângă",
+        "options": [
+          "Baliză direcțională care indică ocolirea obstacolului prin partea stângă",
+          "Baliză direcțională care indică ocolirea obstacolului prin partea dreaptă",
+          "Indicator de direcționare pentru lucrări în carosabil în preajma unui obstacol fix"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/biciclisti.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Bicicliști",
+        "options": [
+          "Bicicliști",
+          "Pistă pentru biciclete",
+          "Interzis bicicliști"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/caderi_de_pietre.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Căderi de pietre",
+        "options": [
+          "Căderi de pietre",
+          "Zonă montană periculoasă",
+          "Risc de avalanșă"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/circulatie_in_ambele_sensuri.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Circulație în ambele sensuri",
+        "options": [
+          "Circulație în ambele sensuri",
+          "Prioritate în ambele direcții",
+          "Drum cu sens unic alternativ"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/coborare_periculoasa.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Coborâre periculoasă",
+        "options": [
+          "Coborâre periculoasă",
+          "Rampă abruptă descendentă",
+          "Drum de munte cu coborâre accentuată"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/copii.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Copii",
+        "options": ["Copii", "Zonă școlară", "Trecere minori"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/curba_deosebit_de_periculoasa.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Curbă deosebit de periculoasă",
+        "options": [
+          "Curbă deosebit de periculoasă",
+          "Viraj cu pericol maxim",
+          "Curbă cu risc major"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/curba_dubla.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Curbă dublă",
+        "options": [
+          "Curbă dublă",
+          "Două viraje consecutive",
+          "Serpentină dublă"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/curba_dubla_sau_o_succesiune_de_mai_mult_de_doua_curbe_prima_la_dreapta.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Curbă dublă sau o succesiune de mai mult de două curbe, prima la dreapta",
+        "options": [
+          "Curbă dublă sau o succesiune de mai mult de două curbe, prima la dreapta",
+          "Succesiune de viraje multiple începând cu o serie de curbe consecutive",
+          "Curbă dublă sau o succesiune de mai mult de două curbe, prima la stânga"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/curba_la_dreapta.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Curbă la dreapta",
+        "options": ["Curbă la dreapta", "Curbă la stânga", "Schimbare direcție"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/curba_la_stanga.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Curbă la stânga",
+        "options": [
+          "Curbă la stânga",
+          "Curbă la dreapta",
+          "Schimbare direcție de mers"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/denivelare_pentru_limitarea_vitezei.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Denivelare pentru limitarea vitezei",
+        "options": [
+          "Denivelare pentru limitarea vitezei",
+          "Groapă periculoasă",
+          "Pericol de accident"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/drum_aglomerat.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drum aglomerat",
+        "options": [
+          "Drum aglomerat",
+          "Parcare algomerată",
+          "Zonă interzisă circulației rutiere"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/drum_cu_denivelari.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drum cu denivelări",
+        "options": [
+          "Drum cu denivelări",
+          "Carosabil deteriorat",
+          "Suprafață cu gropi"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/drum_ingustat_pe_ambele_parti.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drum îngustat pe ambele părți",
+        "options": [
+          "Drum îngustat pe ambele părți",
+          "Îngustare bilaterală a carosabilului",
+          "Reducere lățime drum bilateral"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/drum_ingustat_pe_partea_dreapta.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drum îngustat pe partea dreaptă",
+        "options": [
+          "Drum îngustat pe partea dreaptă",
+          "Drum îngustat pe partea stângă",
+          "Reducere lățime drum"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/drum_ingustat_pe_partea_stanga.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drum îngustat pe partea stângă",
+        "options": [
+          "Drum îngustat pe partea stângă",
+          "Drum îngustat pe partea dreaptă",
+          "Reducere lățime drum"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/drum_lunecos.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drum lunecos",
+        "options": [
+          "Drum lunecos",
+          "Carosabil inzăpezit",
+          "Substanță inflamabilă pe carosabil"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/iesire_spre_un_chei_sau_mal_abrupt.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Ieșire spre un chei sau mal abrupt",
+        "options": [
+          "Ieșire spre un chei sau mal abrupt",
+          "Urmează o spălătorie auto",
+          "Pericol de prăbușire"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/imprescare_cu_pietris.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Împrășcare cu pietriș",
+        "options": [
+          "Împrășcare cu pietriș",
+          "Drum cu material granular",
+          "Pericol de gheață pe carosabil"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/intersectie_cu_drum_fara_prioritate.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Intersecție cu drum fără prioritate",
+        "options": [
+          "Intersecție cu drum fără prioritate",
+          "Drum secundar la intersecție",
+          "Cedează trecerea în față"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/intersectie_de_drumuri.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Intersecție de drumuri",
+        "options": [
+          "Intersecție de drumuri",
+          "Zonă interzisă circulației auto",
+          "Trecere în cruce la nivel de cale ferată"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/lucrari.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Lucrări",
+        "options": ["Lucrări", "Atenție la muncitori", "Zonă în construcție"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/masini_si_utilaje_agricole.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Mașini și utilaje agricole",
+        "options": [
+          "Mașini și utilaje agricole",
+          "Vehicule cu viteză redusă",
+          "Trafic utilaje cu tracțiune motorizată"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/panouri_succesive_pentru_curbe_deosebit_de_periculoase.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Panouri succesive pentru curbe deosebit de periculoase",
+        "options": [
+          "Panouri succesive pentru curbe deosebit de periculoase",
+          "Indicatoare de avertizare pentru viraje cu risc major",
+          "Semne succesive pentru schimbare direcție de mers"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/panouri_suplimentare_la_nodurile_rutiere_de_pe_autostrazi.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Panouri suplimentare la nodurile rutiere de pe autostrăzi",
+        "options": [
+          "Panouri suplimentare la nodurile rutiere de pe autostrăzi",
+          "Indicatoare adiționale pentru oprire urgentă pe autostradă",
+          "Semnalizare suplimentară intersecții autostrăzi"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/panouri_suplimentare_pentru_trecerea_la_nivel_cu_cale_ferata.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Panouri suplimentare pentru trecerea la nivel cu cale ferată",
+        "options": [
+          "Panouri suplimentare pentru trecerea la nivel cu cale ferată",
+          "Indicatoare adiționale pentru traversare line de tramvai",
+          "Semnalizare suplimentară intersecție cu balize direcționale"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/pod_mobil.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Pod mobil",
+        "options": ["Pod mobil", "Pod basculant", "Pod cu deschidere"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/presemnalizarea_unei_amenajari_rutiere_care_permite_intoarcerea_vehiculului.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Presemnalizarea unei amenajări rutiere care permite întoarcerea vehiculului",
+        "options": [
+          "Presemnalizarea unei amenajări rutiere care permite întoarcerea vehiculului",
+          "Sens giratoriu cu zonă de întoarcere pentru vehicule în apropiere",
+          "Spațiu amenajat pentru schimbarea direcției de mers"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/presemnalizare_intersectie_cu_sens_giratoriu.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Presemnalizare intersecție cu sens giratoriu",
+        "options": [
+          "Presemnalizare intersecție cu sens giratoriu",
+          "Presemnalizarea unei amenajări rutiere care permite oprirea vehiculului",
+          "Avertizare intersecție periculoasă"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/presemnalizare_trecere_pietoni.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Presemnalizare trecere pietoni",
+        "options": [
+          "Presemnalizare trecere pietoni",
+          "Avertizare zonă pietonală",
+          "Trecere pentru pietoni în față"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/semafoare.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Semafoare",
+        "options": [
+          "Semafoare",
+          "Semnalizare luminoasă defectă",
+          "Trafic dirijat electronic"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/trecere_la_nivel_cu_cale_ferata_cu_bariere_sau_semibariere.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Trecere la nivel cu cale ferată cu bariere sau semibariere",
+        "options": [
+          "Trecere la nivel cu cale ferată cu bariere sau semibariere",
+          "Intersecție cu calea ferată protejată cu bariere și sistem de protecție",
+          "Trecere la nivel cu cale ferată fără bariere"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/trecere_la_nivel_cu_cale_ferata_dubla_fara_bariere.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Trecere la nivel cu cale ferată dublă fără bariere",
+        "options": [
+          "Trecere la nivel cu cale ferată dublă fără bariere",
+          "Intersecție cu două căi ferate neprotejată",
+          "Trecere la nivel cu cale ferată cu bariere"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/trecere_la_nivel_cu_linii_de_tramvai.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Trecere la nivel cu linii de tramvai",
+        "options": [
+          "Trecere la nivel cu linii de tramvai",
+          "Intersecție cu calea troleybusului",
+          "Traversare șine tramvai"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/trecere_la_nivel_cu_o_cale_ferata_fara_bariere.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Trecere la nivel cu o cale ferată fără bariere",
+        "options": [
+          "Trecere la nivel cu o cale ferată fără bariere",
+          "Trecere la nivel cu cale ferată cu bariere",
+          "Traversare cale ferată simplă fără protecție"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/tunel.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Tunel",
+        "options": ["Tunel", "Pasaj suprateran", "Galerie rutieră"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/urcare_cu_inclinare_mare.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Urcare cu înclinare mare",
+        "options": [
+          "Urcare cu înclinare mare",
+          "Rampă descendentă",
+          "Pantă abruptă"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/vant_lateral.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Vânt lateral",
+        "options": [
+          "Vânt lateral",
+          "Rafale de viscol",
+          "Zonă cu eoliene în apropiere"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de avertizare"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/cedeaza_trecerea.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Cedează trecerea",
+        "options": [
+          "Cedează trecerea",
+          "Drum cu prioritate",
+          "Oprire obligatorie"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de prioritate"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/drum_cu_prioritate.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Drum cu prioritate",
+        "options": [
+          "Drum cu prioritate",
+          "Arteră principală",
+          "Sfârșitul drumului cu prioritate"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de prioritate"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/oprire.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Oprire",
+        "options": ["Oprire", "Cedează trecerea", "Interzis"]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de prioritate"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/prioritate_fata_circulatia_din_sens_invers.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Prioritate față de circulația din sens invers",
+        "options": [
+          "Prioritate față de circulația din sens invers",
+          "Cedează trecerea vehiculelor din față",
+          "Circulație în ambele sensuri"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de prioritate"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/prioritate_pentru_circulatia_din_sens_invers.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Prioritate pentru circulația din sens invers",
+        "options": [
+          "Prioritate pentru circulația din sens invers",
+          "Prioritate față de circulația din sens invers",
+          "Circulație în ambele sensuri"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de prioritate"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/indicatoare-si-marcaje-rutiere/sfarsitul_drumului_cu_prioritate.png",
+        "hints": [""]
+      },
+      "answer": {
+        "correct": "Sfârșitul drumului cu prioritate",
+        "options": [
+          "Sfârșitul drumului cu prioritate",
+          "Încetarea zonei de drum periculos",
+          "Final zonă interzisă circulației rutiere"
+        ]
+      },
+      "tags": {
+        "domain": ["Transport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": ["Indicatoare rutiere de prioritate"]
+      }
+    }
+  ]
+}

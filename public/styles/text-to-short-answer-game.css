@@ -40,9 +40,11 @@ body {
 
 #question-container {
   position: relative;
-  width: 100%;
-  max-width: 800px;
-  height: 500px;
+  width: 95%;
+  /* max-width: 900px; */
+  /* Increase height to accommodate options */
+  height: 70vh; /* Am adaugat aceasta proprietate pentru a se adapta inaltimea imaginii la ecran */
+  min-height: 300px;
   margin: 20px auto;
   padding: 20px;
   display: flex;

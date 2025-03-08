@@ -1,0 +1,1280 @@
+{
+  "name": "Simboluri electronice",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Afisaj_7_segmente.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Afișaj 7 segmente"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Ampermetru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ampermetru"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Amplificator_operational.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Amplificator operațional"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Antena.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Antenă"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Balans.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Balans"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Baterie_de_surse_de_tensiune_electromotoare.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Baterie de surse de tensiune electromotoare"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Bec.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bec"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Bistabil_D.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bistabil D"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Bistabil_JK.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bistabil JK"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Bistabil_RS.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bistabil RS"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Bistabil_T.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bistabil T"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Bobina.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bobină"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Buzer.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Buzer"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Condensator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Condensator"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Condensator_polarizat.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Condensator polarizat"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Condensator_semireglabil.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Condensator semireglabil"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Condensator_variabil.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Condensator variabil"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Contrast.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Contrast"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Cuart.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cuarț"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Dioda_redresoare.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Diodă redresoare"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Dioda_tunel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Diodă tunel"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Dioda_varactoare.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Diodă varactoare"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Dioda_Zener.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Diodă Zener"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Eclator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Eclator"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Eject.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Eject"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Element_de_incalzire.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Element de încălzire"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Fotodioda.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fotodiodă"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Fotorezistenta.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fotorezistență"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Fototranzistor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fototranzistor"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Frecventmetru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Frecvențmetru"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Hupa.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Hupă"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Inainte.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Înainte"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Inalte.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Înalte"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Inapoi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Înapoi"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Joase.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Joase"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/LED.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "LED"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Luminozitate.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Luminozitate"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Masa_GND.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Masa (GND)"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Microfon.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Microfon"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Pauza.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pauză"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Poarta_NU.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Poarta NU"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Poarta_SAU.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Poarta SAU"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Poarta_SAU_Exclusiv.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Poarta SAU Exclusiv"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Poarta_SAU_NU.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Poarta SAU NU"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Poarta_SI.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Poarta ȘI"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Poarta_SI_NU.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Poarta ȘI NU"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Potentiometru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Potențiometru"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Punte_de_diode.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Punte de diode"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Redare.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Redare"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Rezistor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rezistor"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Saturatie_culori.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Saturație culori"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Semireglabil.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Semireglabil"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Siguranta_fuzibila.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Siguranță fuzibilă"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Stop.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Stop"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Sursa_de_tensiune_electromotoare.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sursă de tensiune electromotoare"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_J_n.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC J n"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_J_p.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC J p"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_MOS_n.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC MOS n"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_MOS_N_canal_indus.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC MOS N canal indus"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_MOS_N_canal_initial.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC MOS N canal inițial"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_MOS_p.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC MOS p"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_MOS_P_canal_indus.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC MOS P canal indus"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/TEC_MOS_P_canal_initial.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "TEC MOS P canal inițial"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Termistor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Termistor"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Transformator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Transformator"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Transformator_cu_priza_mediana.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Transformator cu priză mediană"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Tranzistor_bipolar_npn.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tranzistor bipolar npn"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Tranzistor_bipolar_pnp.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tranzistor bipolar pnp"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Tranzistor_npn.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tranzistor npn"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Tranzistor_pnp.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tranzistor pnp"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Tranzistor_TEC_J1.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tranzistor TEC J1"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Tranzistor_TEC_J2.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tranzistor TEC J2"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Turometru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Turometru"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Voltmetru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Voltmetru"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Volum.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Volum"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/simboluri-electronică/Wattmetru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Wattmetru"
+      },
+      "tags": {
+        "domain": ["Știință"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    }
+  ]
+}

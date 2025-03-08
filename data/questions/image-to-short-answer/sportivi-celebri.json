@@ -1,0 +1,789 @@
+{
+  "name": "Sportivi celebri",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Caeleb_Dressel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Caeleb Dressel"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Carlos_Alcaraz.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Carlos Alcaraz"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Catalina_Ponor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Catalina Ponor"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Conor_McGregor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Conor McGregor"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Cristiano_Ronaldo.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cristiano Ronaldo"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Cristina_Neagu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cristina Neagu"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/David_Beckham.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "David Beckham"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/David_Popovici.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "David Popovici"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Diego_Maradona.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Diego Maradona"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Eddie_Hall.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Eddie Hall"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Erling_Haaland.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Erling Haaland"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Floyd_Mayweather.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Floyd Mayweather"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Gabriela_Szabo.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gabriela Szabo"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Gheorghe_Hagi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gheorghe Hagi"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Helmut_Duckadam.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Helmut Duckadam"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Ian_Thorpe.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ian Thorpe"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Ilie_Nastase.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ilie Nastase"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Katie_Ledecky.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Katie Ledecky"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Kelly_Slater.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kelly Slater"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Kylian_Mbappe.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kylian Mbappe"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Larisa_Iordache.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Larisa Iordache"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Lewis_Hamilton.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lewis Hamilton"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Lionel_Messi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lionel Messi"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Magnus_Carlsen.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Magnus Carlsen"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Marc_Marquez.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Marc Marquez"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Marius_Urzică.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Marius Urzică"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Martina_Navratilova.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Martina Navratilova"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Max_Verstappen.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Max Verstappen"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Michael_Phelps.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Michael Phelps"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Michael_Schumacher.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Michael Schumacher"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Nadia_Comaneci.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Nadia Comăneci"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Naomi_Osaka.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Naomi Osaka"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Neymar_Jr.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Neymar Jr"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Novak_Djokovic.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Novak Djokovic"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Pele.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pele"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Rafael_Nadal.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rafael Nadal"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Robert_Lewandowski.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Robert Lewandowski"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Roger_Federer.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Roger Federer"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Serena_Williams.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Serena Williams"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Shaun_White.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Shaun White"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Simona_Halep.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Simona Halep"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Simone_Biles.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Simone Biles"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Steffi_Graf.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Steffi Graf"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Tony_Hawk.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tony Hawk"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Tyson_Fury.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tyson Fury"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Usain_Bolt.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Usain Bolt"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Valentino_Rossi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Valentino Rossi"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Yuzuru_Hanyu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Yuzuru Hanyu"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/sportivi-celebri/Zinedine_Zidane.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Zinedine Zidane"
+      },
+      "tags": {
+        "domain": ["Sport"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    }
+  ]
+}

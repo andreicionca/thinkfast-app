@@ -27,8 +27,10 @@ body {
 #image-container {
   position: relative;
   width: 100%;
-  max-width: 500px;
-  height: 400px;
+  /* max-width: 500px;
+  height: 500px; */
+  height: 70vh; /* Am adaugat aceasta proprietate pentru a se adapta inaltimea imaginii la ecran */
+  min-height: 300px;
   display: flex;
   margin: 0 auto;
   padding: 10px;
@@ -38,8 +40,8 @@ body {
 }
 
 #current-image {
-  width: 100%;
-  max-width: 400px;
+  /* width: 100%; */
+  /* max-width: 500px; */
   height: 100%;
   object-fit: contain;
   display: none;

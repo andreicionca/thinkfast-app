@@ -7,7 +7,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/acura.jpg",
@@ -23,7 +23,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/alfa_romeo.jpg",
@@ -39,7 +39,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/aston_martin.jpg",
@@ -55,7 +55,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/audi.jpg",
@@ -71,7 +71,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/bentley.jpg",
@@ -87,7 +87,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/bmw.jpg",
@@ -103,7 +103,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/bugatti.jpg",
@@ -119,7 +119,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/cadillac.jpg",
@@ -135,7 +135,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/chevrolet.jpg",
@@ -151,7 +151,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/chrysler.jpg",
@@ -167,7 +167,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/citroen.jpg",
@@ -183,7 +183,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/dacia.jpg",
@@ -199,7 +199,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/dodge.jpg",
@@ -215,7 +215,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/ferrari.jpg",
@@ -231,7 +231,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/fiat.jpg",
@@ -247,7 +247,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/honda.jpg",
@@ -263,7 +263,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/hyundai.jpg",
@@ -279,7 +279,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/infiniti.jpg",
@@ -295,7 +295,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/jaguar.jpg",
@@ -311,7 +311,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/koenigsegg.jpg",
@@ -327,7 +327,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/lamborghini.jpg",
@@ -343,7 +343,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/land_rover.jpg",
@@ -359,7 +359,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/lexus.jpg",
@@ -375,7 +375,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/maserati.jpg",
@@ -391,7 +391,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/mazda.jpg",
@@ -407,7 +407,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/mercedes.jpg",
@@ -423,7 +423,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/mini.jpg",
@@ -439,7 +439,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/mitsubishi.jpg",
@@ -455,7 +455,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/nissan.jpg",
@@ -471,7 +471,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/pagani.jpg",
@@ -487,7 +487,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/peugeot.jpg",
@@ -503,7 +503,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/porsche.jpg",
@@ -519,7 +519,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/ram.jpg",
@@ -535,7 +535,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/renault.jpg",
@@ -551,7 +551,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/rolls_royce.jpg",
@@ -567,7 +567,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/saab.jpg",
@@ -583,7 +583,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/seat.jpg",
@@ -599,7 +599,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/skoda.jpg",
@@ -615,7 +615,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/subaru.jpg",
@@ -631,7 +631,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/suzuki.jpg",
@@ -647,7 +647,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/tesla.jpg",
@@ -663,7 +663,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/toyota.jpg",
@@ -679,7 +679,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/volkswagen.jpg",
@@ -695,7 +695,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["automobile", "logo-uri"]
+        "general": ["automobile", "logo-uri"]
       },
       "question": {
         "media": "/assets/database/images/logo-mașini/volvo.jpg",

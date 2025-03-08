@@ -7,7 +7,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Albania.png",
@@ -23,7 +23,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Andorra.png",
@@ -39,7 +39,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Argentina.png",
@@ -55,7 +55,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Armenia.png",
@@ -71,7 +71,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Australia.png",
@@ -87,7 +87,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Austria.png",
@@ -103,7 +103,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Belarus.png",
@@ -119,7 +119,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Belgium.png",
@@ -135,7 +135,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bosnia_and_Herzegovina.png",
@@ -151,7 +151,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Brazil.png",
@@ -167,7 +167,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bulgaria.png",
@@ -183,7 +183,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Canada.png",
@@ -199,7 +199,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Croatia.png",
@@ -215,7 +215,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cyprus.png",
@@ -231,7 +231,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Czech_Republic.png",
@@ -247,7 +247,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Denmark.png",
@@ -263,7 +263,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Estonia.png",
@@ -279,7 +279,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Finland.png",
@@ -295,7 +295,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/France.png",
@@ -311,7 +311,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Germany.png",
@@ -327,7 +327,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Great_Britain.png",
@@ -343,7 +343,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Greece.png",
@@ -359,7 +359,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Hungary.png",
@@ -375,7 +375,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Iceland.png",
@@ -391,7 +391,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/India.png",
@@ -407,7 +407,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Ireland.png",
@@ -423,7 +423,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Israel.png",
@@ -439,7 +439,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Italy.png",
@@ -455,7 +455,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Japan.png",
@@ -471,7 +471,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Latvia.png",
@@ -487,7 +487,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Liechtenstein.png",
@@ -503,7 +503,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Lithuania.png",
@@ -519,7 +519,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Luxembourg.png",
@@ -535,7 +535,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Malta.png",
@@ -551,7 +551,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Mexico.png",
@@ -567,7 +567,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Monaco.png",
@@ -583,7 +583,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Montenegro.png",
@@ -599,7 +599,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Netherlands.png",
@@ -615,7 +615,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/New_Zealand.png",
@@ -631,7 +631,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Norway.png",
@@ -647,7 +647,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Peoples_Republic_of_China.png",
@@ -663,7 +663,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Poland.png",
@@ -679,7 +679,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Portugal.png",
@@ -695,7 +695,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Republic_of_Korea.png",
@@ -711,7 +711,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Republic_of_Moldova.png",
@@ -727,7 +727,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Romania.png",
@@ -743,7 +743,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/San_Marino.png",
@@ -759,7 +759,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Serbia.png",
@@ -775,7 +775,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Slovakia.png",
@@ -791,7 +791,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Slovenia.png",
@@ -807,7 +807,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Spain.png",
@@ -823,7 +823,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Sweden.png",
@@ -839,7 +839,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Switzerland.png",
@@ -855,7 +855,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Turkey.png",
@@ -871,7 +871,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Ukraine.png",
@@ -887,7 +887,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "ușor",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/United_States_of_America.png",
@@ -903,7 +903,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Afghanistan.png",
@@ -919,7 +919,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Algeria.png",
@@ -935,7 +935,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Angola.png",
@@ -951,7 +951,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Azerbaijan.png",
@@ -967,7 +967,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bahamas.png",
@@ -983,7 +983,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bangladesh.png",
@@ -999,7 +999,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Chile.png",
@@ -1015,7 +1015,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Colombia.png",
@@ -1031,7 +1031,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Costa_Rica.png",
@@ -1047,7 +1047,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cuba.png",
@@ -1063,7 +1063,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Dominican_Republic.png",
@@ -1079,7 +1079,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Ecuador.png",
@@ -1095,7 +1095,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Egypt.png",
@@ -1111,7 +1111,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Georgia.png",
@@ -1127,7 +1127,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Ghana.png",
@@ -1143,7 +1143,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Indonesia.png",
@@ -1159,7 +1159,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Iraq.png",
@@ -1175,7 +1175,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Islamic_Republic_of_Iran.png",
@@ -1191,7 +1191,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Jamaica.png",
@@ -1207,7 +1207,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Jordan.png",
@@ -1223,7 +1223,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Kazakhstan.png",
@@ -1239,7 +1239,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Kenya.png",
@@ -1255,7 +1255,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Kosovo.png",
@@ -1271,7 +1271,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Kuwait.png",
@@ -1287,7 +1287,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Lebanon.png",
@@ -1303,7 +1303,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Libya.png",
@@ -1319,7 +1319,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Malaysia.png",
@@ -1335,7 +1335,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Morocco.png",
@@ -1351,7 +1351,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Nepal.png",
@@ -1367,7 +1367,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Nigeria.png",
@@ -1383,7 +1383,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/North_Macedonia.png",
@@ -1399,7 +1399,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/North_Macedonia.png",
@@ -1415,7 +1415,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Pakistan.png",
@@ -1431,7 +1431,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Palestine.png",
@@ -1447,7 +1447,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Panama.png",
@@ -1463,7 +1463,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Peru.png",
@@ -1479,7 +1479,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Philippines.png",
@@ -1495,7 +1495,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Qatar.png",
@@ -1511,7 +1511,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Saudi_Arabia.png",
@@ -1527,7 +1527,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Singapore.png",
@@ -1543,7 +1543,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/South_Africa.png",
@@ -1559,7 +1559,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Sri_Lanka.png",
@@ -1575,7 +1575,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Syrian_Arab_Republic.png",
@@ -1591,7 +1591,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Thailand.png",
@@ -1607,7 +1607,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Tunisia.png",
@@ -1623,7 +1623,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/United_Arab_Emirates.png",
@@ -1639,7 +1639,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Uruguay.png",
@@ -1655,7 +1655,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Venezuela.png",
@@ -1671,7 +1671,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Vietnam.png",
@@ -1687,7 +1687,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/American_Samoa.png",
@@ -1703,7 +1703,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Antigua_and_Barbuda.png",
@@ -1719,7 +1719,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Aruba.png",
@@ -1735,7 +1735,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bahrain.png",
@@ -1751,7 +1751,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Barbados.png",
@@ -1767,7 +1767,7 @@
         "period": [""],
         "region": ["America Centrală"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Belize.png",
@@ -1783,7 +1783,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Benin.png",
@@ -1799,7 +1799,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bermuda.png",
@@ -1815,7 +1815,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bhutan.png",
@@ -1831,7 +1831,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Bolivia.png",
@@ -1847,7 +1847,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Botswana.png",
@@ -1863,7 +1863,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Brunei_Darussalam.png",
@@ -1879,7 +1879,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Burkina_Faso.png",
@@ -1895,7 +1895,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Burundi.png",
@@ -1911,7 +1911,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cambodia.png",
@@ -1927,7 +1927,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cameroon.png",
@@ -1943,7 +1943,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cape_Verde.png",
@@ -1959,7 +1959,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cayman_Islands.png",
@@ -1975,7 +1975,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Central_African_Republic.png",
@@ -1991,7 +1991,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "mediu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Chad.png",
@@ -2007,7 +2007,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Taiwan.png",
@@ -2023,7 +2023,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Comoros.png",
@@ -2039,7 +2039,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Congo.png",
@@ -2055,7 +2055,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cook_Islands.png",
@@ -2071,7 +2071,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Cte_dIvoire.png",
@@ -2087,7 +2087,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Democratic_Republic_of_the_Congo.png",
@@ -2103,7 +2103,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Democratic_Republic_of_Timor_Leste.png",
@@ -2119,7 +2119,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Djibouti.png",
@@ -2135,7 +2135,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Dominica.png",
@@ -2151,7 +2151,7 @@
         "period": [""],
         "region": ["America Centrală"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/El_Salvador.png",
@@ -2167,7 +2167,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Equatorial_Guinea.png",
@@ -2183,7 +2183,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Eritrea.png",
@@ -2199,7 +2199,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Eswatini.png",
@@ -2215,7 +2215,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Ethiopia.png",
@@ -2231,7 +2231,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Federated_States_of_Micronesia.png",
@@ -2247,7 +2247,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Fiji.png",
@@ -2263,7 +2263,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Gabon.png",
@@ -2279,7 +2279,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Gambia.png",
@@ -2295,7 +2295,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Grenada.png",
@@ -2311,7 +2311,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Guam.png",
@@ -2327,7 +2327,7 @@
         "period": [""],
         "region": ["America Centrală"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Guatemala.png",
@@ -2343,7 +2343,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Guinea-Bissau.png",
@@ -2359,7 +2359,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Guinea.png",
@@ -2375,7 +2375,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Guyana.png",
@@ -2391,7 +2391,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Haiti.png",
@@ -2407,7 +2407,7 @@
         "period": [""],
         "region": ["America Centrală"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Honduras.png",
@@ -2423,7 +2423,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Hong_Kong_China.png",
@@ -2439,7 +2439,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Kiribati.png",
@@ -2455,7 +2455,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Kyrgyzstan.png",
@@ -2471,7 +2471,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Lao_Peoples_Democratic_Republic.png",
@@ -2487,7 +2487,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Lesotho.png",
@@ -2503,7 +2503,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Liberia.png",
@@ -2519,7 +2519,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Madagascar.png",
@@ -2535,7 +2535,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Malawi.png",
@@ -2551,7 +2551,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Maldives.png",
@@ -2567,7 +2567,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Mali.png",
@@ -2583,7 +2583,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Marshall_Islands.png",
@@ -2599,7 +2599,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Mauritania.png",
@@ -2615,7 +2615,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Mauritius.png",
@@ -2631,7 +2631,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Mongolia.png",
@@ -2647,7 +2647,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Mozambique.png",
@@ -2663,7 +2663,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Myanmar.png",
@@ -2679,7 +2679,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Namibia.png",
@@ -2695,7 +2695,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Nauru.png",
@@ -2711,7 +2711,7 @@
         "period": [""],
         "region": ["America Centrală"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Nicaragua.png",
@@ -2727,7 +2727,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Niger.png",
@@ -2743,7 +2743,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Oman.png",
@@ -2759,7 +2759,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Palau.png",
@@ -2775,7 +2775,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Papua_New_Guinea.png",
@@ -2791,7 +2791,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Paraguay.png",
@@ -2807,7 +2807,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Puerto_Rico.png",
@@ -2823,7 +2823,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Rwanda.png",
@@ -2839,7 +2839,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Saint_Kitts_and_Nevis.png",
@@ -2855,7 +2855,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Saint_Lucia.png",
@@ -2871,7 +2871,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Samoa.png",
@@ -2887,7 +2887,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Sao_Tome_and_Principe.png",
@@ -2903,7 +2903,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Senegal.png",
@@ -2919,7 +2919,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Seychelles.png",
@@ -2935,7 +2935,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Sierra_Leone.png",
@@ -2951,7 +2951,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Solomon_Islands.png",
@@ -2967,7 +2967,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Somalia.png",
@@ -2983,7 +2983,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/South_Sudan.png",
@@ -2999,7 +2999,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/St_Vincent_and_the_Grenadines.png",
@@ -3015,7 +3015,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Sudan.png",
@@ -3031,7 +3031,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Suriname.png",
@@ -3047,7 +3047,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Tajikistan.png",
@@ -3063,7 +3063,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Togo.png",
@@ -3079,7 +3079,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Tonga.png",
@@ -3095,7 +3095,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Trinidad_and_Tobago.png",
@@ -3111,7 +3111,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Turkmenistan.png",
@@ -3127,7 +3127,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Tuvalu.png",
@@ -3143,7 +3143,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Uganda.png",
@@ -3159,7 +3159,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/United_Republic_of_Tanzania.png",
@@ -3175,7 +3175,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Uzbekistan.png",
@@ -3191,7 +3191,7 @@
         "period": [""],
         "region": ["Oceania"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Vanuatu.png",
@@ -3207,7 +3207,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Virgin_Islands_British.png",
@@ -3223,7 +3223,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Virgin_Islands_US.png",
@@ -3239,7 +3239,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Yemen.png",
@@ -3255,7 +3255,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Zambia.png",
@@ -3271,7 +3271,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "greu",
-        "specific": ["steaguri"]
+        "general": ["steaguri"]
       },
       "question": {
         "media": "/assets/database/images/steaguri-țări/Zimbabwe.png",

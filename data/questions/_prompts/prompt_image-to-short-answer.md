@@ -20,20 +20,28 @@
 ["Astronomie"] - Ex: planete, constelații, fenomene cosmice
 ["Psihologie"] - Ex: comportament uman, dezvoltare personală
 ["Drept"] - Ex: legislație, concepte juridice
-["Limbi-străine"] - Ex: gramatică, vocabular, expresii>
+["Limbi-străine"] - Ex: gramatică, vocabular, expresii
+["Transport"] - Ex: educatie rutiera, indicatoare
+["Turism"] - Ex: educatie rutiera, indicatoare>
 
 --------------------------------------------------<Prompt Simplu>-------------------------------------
 Trebuie să configurezi o bază de date JSON pentru un set de întrebări de tip IMG_SA (Image to Short Answer) care vor fi folosite într-un quiz interactiv. În acest format, utilizatorului i se va arăta o imagine, iar acesta va trebui să ofere un răspuns scurt specific (de exemplu: să identifice ce reprezintă imaginea). Raspunsul corect se află în numele fisierului.
 
 Ce trebuie să faci:
 Vei primi o listă de fișiere de imagini din folderul "assets/database/images/<numele-categoriei>/"
-Setezi <numele-categoriei> = "fructe"
-Setezi "domain": ["Biologie"]
+
 Pentru fiecare imagine, trebuie să creezi o intrare în baza de date JSON folosind formatul specificat
 
-Foarte important: vei completa doar "domain": ["<numele domeniului>"], "media": "<locația imaginii>" si "answer": {
-"text": "<răspunsul corect>"
+Foarte important: vei completa doar "domain": ["<numele domeniului>"], "media": "<locația imaginii>", "difficulty": "" si "answer": {
+"text": "<Răspunsul corect>"
 }.
+
+\*Dificultate
+Exemple pentru "difficulty". Se va avea ca referinta faptul ca resondenții locuiesc in România - Europa.
+
+- "ușor" – Ex: întrebări foarte populare pentru un român (ex: "Care este capitala Franței?").
+- "mediu" – Ex: necesită cunoștințe moderate (ex: "Când a avut loc Revoluția Franceză?").
+- "greu" – Ex: întrebări de nișă (ex: "Care este formula chimică a clorurii de sodiu?").
 
 Toate celelalte atribute raman goale
 
@@ -45,13 +53,13 @@ Toate celelalte atribute raman goale
 "hints": [""]
 },
 "answer": {
-"text": "<răspunsul corect>"
+"text": "<Răspunsul corect>"
 },
 "tags": {
 "domain": ["<Domeniul>"],
 "period": [""],
 "region": [""],
-"difficulty": "",
+"difficulty": "<dificultate>",
 "general": [""]
 }
 }
@@ -70,7 +78,7 @@ Exemple concrete:
 "domain": ["Geografie"],
 "period": [""],
 "region": [""],
-"difficulty": "",
+"difficulty": "mediu",
 "general": [""]
 }
 },
@@ -86,28 +94,14 @@ Exemple concrete:
 "domain": ["Geografie"],
 "period": [""],
 "region": [""],
-"difficulty": "",
+"difficulty": "ușor",
 "general": [""]
 }
 }
 
-// Exemple pentru întrebări despre animale
-{
-"question": {
-"media": "/assets/database/images/animale/albină.jpg",
-"hints": [""]
-},
-"answer": {
-"text": "Albină"
-},
-"tags": {
-"domain": ["Biologie"],
-"period": [""],
-"region": [""],
-"difficulty": "",
-"general": [""]
-}
-}
+Date necesare:::
+Setezi <numele-categoriei> = "deserturi"
+Setezi "domain": ["Gastronomie"]
 <Lista de fisiere>:
 
 --------------------------------------------------<Prompt Specific>-------------------------------------
@@ -126,7 +120,7 @@ Pentru fiecare imagine, trebuie să creezi o intrare în baza de date JSON folos
 "hints": ["<Hint1>","<Hint2>" ]
 },
 "answer": {
-"text": "<răspunsul corect>"
+"text": "<Răspunsul corect>"
 },
 "tags": {
 "domain": ["<Domeniul>"],
@@ -306,6 +300,7 @@ Exemple pentru "general":
 }
 }
 
-Setezi <numele-categoriei> = "fructe"
-Setezi la toate "domain": ["Biologie"]
+Date necesare:::
+Setezi <numele-categoriei> = "scriitori_studiati"
+Setezi "domain": ["Literatură"]
 <Lista de fisiere>:

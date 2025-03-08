@@ -1,0 +1,693 @@
+{
+  "name": "Deserturi",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/amandine.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Amandine"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/baklava.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Baklava"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/bezele.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bezele"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/briose.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Briose"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/budinca_orez.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Budincă de orez"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/cannoli.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cannoli"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/chec_marmorat.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Chec marmorat"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/cheesecake.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cheesecake"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/churros.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Churros"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/clafoutis.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Clafoutis"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/clatite.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Clătite"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/coliva.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Colivă"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/cornulete.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cornulețe"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/cozonac.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cozonac"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/crema_zahar_ars.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cremă de zahăr ars"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/creme_brulee.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Crème brûlée"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/cremeș.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cremeș"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/crumble_fructe.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Crumble de fructe"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/ecler.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ecler"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/fursecuri.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fursecuri"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/galuste_prune.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Găluște cu prune"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/gogosi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gogoși"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/halva.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Halva"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/inghetata.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Înghețată"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/lava_cake.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lava cake"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/macarons.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Macarons"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/merdenele.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Merdenele"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/mucenicii.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mucenici"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/panna_cotta.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Panna cotta"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/papanasi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Papanași"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/pavlova.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pavlova"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/placinta_mere.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Plăcintă cu mere"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/prajituri_raffaello.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Prăjituri Raffaello"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/pricomigdale.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pricomigdale"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/profiterol.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Profiterol"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/rahat_turcesc.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rahat turcesc"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/rulouri_scortisoara.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Rulouri cu scorțișoară"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/salam_biscuiti.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Salam de biscuiți"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/savarine.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Savarine"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/strudel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Strudel"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/tiramisu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tiramisu"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/tort_ciocolata.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tort de ciocolată"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/deserturi/turta_dulce.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Turtă dulce"
+      },
+      "tags": {
+        "domain": ["Gastronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    }
+  ]
+}

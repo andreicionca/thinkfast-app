@@ -7,7 +7,7 @@
         "period": ["Mileniul I î.Hr."],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Iudaism", "Personaje biblice"]
+        "general": ["Creștinism", "Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Adam_si_Eva.jpg",
@@ -23,7 +23,7 @@
         "period": ["Secolul I"],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Apostoli"]
+        "general": ["Creștinism", "Apostoli"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Apostolul_Ioan.jpg",
@@ -39,7 +39,7 @@
         "period": ["Secolul I"],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Apostoli"]
+        "general": ["Creștinism", "Apostoli"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Apostolul_Pavel.jpg",
@@ -55,7 +55,7 @@
         "period": ["Secolul I"],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Apostoli"]
+        "general": ["Creștinism", "Apostoli"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Apostolul_Petru.jpg",
@@ -71,7 +71,7 @@
         "period": ["Secolul I"],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Apostoli"]
+        "general": ["Creștinism", "Apostoli"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Apostoul_Andrei.jpg",
@@ -87,7 +87,7 @@
         "period": ["Secolul IV", "Secolul V"],
         "region": ["Africa", "Algeria"],
         "difficulty": "mediu",
-        "specific": ["Creștinism", "Teologie"]
+        "general": ["Creștinism", "Teologie"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Augustin_de_Hipona.jpg",
@@ -103,7 +103,7 @@
         "period": ["Mileniul II î.Hr."],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Avraam.jpg",
@@ -119,7 +119,7 @@
         "period": ["Secolul VI î.Hr.", "Secolul V î.Hr."],
         "region": ["Asia", "India"],
         "difficulty": "ușor",
-        "specific": ["Budism", "Spiritualitate"]
+        "general": ["Budism", "Spiritualitate"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Buddha.jpg",
@@ -135,7 +135,7 @@
         "period": ["Secolul VI î.Hr.", "Secolul V î.Hr."],
         "region": ["Asia", "China"],
         "difficulty": "ușor",
-        "specific": ["Confucianism", "Filozofie"]
+        "general": ["Confucianism", "Filozofie"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Confucius.jpg",
@@ -151,7 +151,7 @@
         "period": ["Secolul XX", "Secolul XXI"],
         "region": ["Asia", "Tibet"],
         "difficulty": "ușor",
-        "specific": ["Budism", "Tibet"]
+        "general": ["Budism", "Tibet"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Dalai_Lama.jpg",
@@ -167,7 +167,7 @@
         "period": ["Secolul VI î.Hr."],
         "region": ["Asia", "Babilon"],
         "difficulty": "mediu",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Daniel.jpg",
@@ -183,7 +183,7 @@
         "period": ["Mileniul I î.Hr."],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Iudaism", "Personaje biblice", "Regalitate"]
+        "general": ["Iudaism", "Personaje biblice", "Regalitate"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/David.jpg",
@@ -199,7 +199,7 @@
         "period": ["Secolul XII", "Secolul XIII"],
         "region": ["Europa", "Italia"],
         "difficulty": "mediu",
-        "specific": ["Creștinism", "Catolicism"]
+        "general": ["Creștinism", "Catolicism"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Francisc_de_Assisi.jpg",
@@ -215,7 +215,7 @@
         "period": ["Mileniul II î.Hr."],
         "region": ["Asia", "Israel"],
         "difficulty": "mediu",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Iacov.jpg",
@@ -231,7 +231,7 @@
         "period": ["Secolul IX î.Hr."],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Iudaism", "Personaje biblice", "Profeți"]
+        "general": ["Iudaism", "Personaje biblice", "Profeți"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Ilie.jpg",
@@ -247,7 +247,7 @@
         "period": ["Secolul I"],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Personaje biblice"]
+        "general": ["Creștinism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Ioan_Botezatorul.jpg",
@@ -263,7 +263,7 @@
         "period": ["Secolul IV", "Secolul V"],
         "region": ["Asia", "Turcia"],
         "difficulty": "mediu",
-        "specific": ["Creștinism", "Teologie"]
+        "general": ["Creștinism", "Teologie"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Ioan_Gura_de_Aur.jpg",
@@ -279,7 +279,7 @@
         "period": ["Mileniul II î.Hr."],
         "region": ["Africa", "Egipt"],
         "difficulty": "ușor",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Iosif.jpg",
@@ -295,7 +295,7 @@
         "period": ["Mileniul I î.Hr."],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Iov.jpg",
@@ -311,7 +311,7 @@
         "period": ["Secolul XX"],
         "region": ["Asia", "India"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Catolicism", "Caritate"]
+        "general": ["Creștinism", "Catolicism", "Caritate"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Maica_Tereza.jpg",
@@ -327,7 +327,7 @@
         "period": ["Secolul I"],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Personaje biblice"]
+        "general": ["Creștinism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Maria.jpg",
@@ -343,7 +343,7 @@
         "period": ["Secolul XVI"],
         "region": ["Europa", "Germania"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Protestantism", "Reformă"]
+        "general": ["Creștinism", "Protestantism", "Reformă"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Martin_Luther.jpg",
@@ -359,7 +359,7 @@
         "period": ["Secolul XIII î.Hr."],
         "region": ["Africa", "Egipt"],
         "difficulty": "ușor",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Moise.jpg",
@@ -375,7 +375,7 @@
         "period": ["Mileniul III î.Hr."],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Noe.jpg",
@@ -391,7 +391,7 @@
         "period": ["Secolul XX", "1970-1980", "1980-1990", "1990-2000"],
         "region": ["Europa", "Vatican"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Catolicism", "Papă"]
+        "general": ["Creștinism", "Catolicism", "Papă"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Papa_Ioan_Paul_II.jpg",
@@ -407,7 +407,7 @@
         "period": ["Secolul VI", "Secolul VII"],
         "region": ["Asia", "Arabia Saudită"],
         "difficulty": "ușor",
-        "specific": ["Islam", "Profet"]
+        "general": ["Islam", "Profet"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Profetul_Mahomed.jpg",
@@ -423,7 +423,7 @@
         "period": ["Mileniul II î.Hr."],
         "region": ["Asia", "Israel"],
         "difficulty": "mediu",
-        "specific": ["Iudaism", "Personaje biblice"]
+        "general": ["Iudaism", "Personaje biblice"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Samson.jpg",
@@ -439,7 +439,7 @@
         "period": ["Secolul III", "Secolul IV"],
         "region": ["Asia", "Turcia"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Sfânt", "Martir"]
+        "general": ["Creștinism", "Sfânt", "Martir"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Sfantul_Gheorghe.jpg",
@@ -455,7 +455,7 @@
         "period": ["Secolul III", "Secolul IV"],
         "region": ["Asia", "Turcia"],
         "difficulty": "ușor",
-        "specific": ["Creștinism", "Sfânt"]
+        "general": ["Creștinism", "Sfânt"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Sfantul_Nicolae.jpg",
@@ -471,7 +471,7 @@
         "period": ["Mileniul I î.Hr."],
         "region": ["Asia", "Israel"],
         "difficulty": "ușor",
-        "specific": ["Iudaism", "Personaje biblice", "Regalitate"]
+        "general": ["Iudaism", "Personaje biblice", "Regalitate"]
       },
       "question": {
         "media": "/assets/database/images/personalități-religioase/Solomon.jpg",

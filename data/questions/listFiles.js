@@ -2,7 +2,9 @@ const fs = require("fs");
 const path = require("path");
 
 // Configurare folder - schimbați doar această variabilă
-const TARGET_FOLDER = "fructe"; // numele folderului din care vreți să listați fișierele (ex: 'animals', 'foods' etc.)
+const TARGET_FOLDER = "deserturi"; // numele folderului din care vreți să listați fișierele (ex: 'animals', 'foods' etc.)
+
+// apoi rulați scriptul cu `npm run list-files`
 
 // Căi relative
 const scriptDir = __dirname;

@@ -15,14 +15,15 @@ let gameData = {
     domain: [],
     period: [],
     region: [],
-    specific: [],
+    general: [],
   },
   selectedDifficulties: ["ușor", "mediu", "greu"], // by default toate sunt selectate
   filterLogic: "SAU", // sau 'AND'
+  distributionType: "NORMALĂ", // sau 'ECHILIBRATĂ'
 
   settings: {
-    playerTime: 50,
-    penaltyTime: 5,
+    playerTime: 60,
+    penaltyTime: 4,
     pauseTime: 2,
     player1Name: "",
     player2Name: "",
@@ -78,7 +79,7 @@ function extractUniqueTags(questions) {
     domain: new Set(),
     period: new Set(),
     region: new Set(),
-    specific: new Set(),
+    general: new Set(),
   };
 
   questions.forEach((question) => {
@@ -98,9 +99,9 @@ function extractUniqueTags(questions) {
         question.tags.region.forEach((region) => tags.region.add(region));
       }
 
-      // Process specific tags (unchanged as it was already array-based)
-      if (Array.isArray(question.tags.specific)) {
-        question.tags.specific.forEach((spec) => tags.specific.add(spec));
+      // Process general tags (unchanged as it was already array-based)
+      if (Array.isArray(question.tags.general)) {
+        question.tags.general.forEach((gen) => tags.general.add(gen));
       }
     }
   });
@@ -109,7 +110,7 @@ function extractUniqueTags(questions) {
     domain: Array.from(tags.domain),
     period: Array.from(tags.period),
     region: Array.from(tags.region),
-    specific: Array.from(tags.specific),
+    general: Array.from(tags.general),
   };
 }
 
@@ -118,13 +119,13 @@ function populateSearchSuggestions(uniqueTags) {
   const domainSearch = document.getElementById("domainSearch");
   const periodSearch = document.getElementById("periodSearch");
   const regionSearch = document.getElementById("regionSearch");
-  const specificSearch = document.getElementById("specificSearch");
+  const generalSearch = document.getElementById("generalSearch");
 
   // Setăm datele pentru autocomplete
   setupAutocomplete(domainSearch, "domainSuggestions", uniqueTags.domain);
   setupAutocomplete(periodSearch, "periodSuggestions", uniqueTags.period);
   setupAutocomplete(regionSearch, "regionSuggestions", uniqueTags.region);
-  setupAutocomplete(specificSearch, "specificSuggestions", uniqueTags.specific);
+  setupAutocomplete(generalSearch, "generalSuggestions", uniqueTags.general);
 }
 
 function setupAutocomplete(inputElement, suggestionsId, suggestions) {
@@ -246,6 +247,16 @@ function setupAutocomplete(inputElement, suggestionsId, suggestions) {
   });
 }
 
+function updateDistributionDescription(isBalanced) {
+  const normalDesc = document.querySelector(".normal-description");
+  const balancedDesc = document.querySelector(".balanced-description");
+  const distributionLabel = document.querySelector(".distribution-label");
+
+  distributionLabel.textContent = isBalanced ? "ECHILIBRATĂ" : "NORMALĂ";
+  normalDesc.style.display = isBalanced ? "none" : "block";
+  balancedDesc.style.display = isBalanced ? "block" : "none";
+}
+
 // Funcție pentru adăugarea unui tag
 function addTag(tag, type) {
   if (gameData.selectedTags[type].includes(tag)) return;
@@ -302,36 +313,193 @@ async function updateAvailableQuestionsCount() {
   }
 }
 
+// async function getSelectedQuestions() {
+//   // 1. Mai întâi obținem lista categoriilor
+//   const categoriesResponse = await fetch(
+//     `/api/categories/${gameData.selectedType}`
+//   );
+//   const categories = await categoriesResponse.json();
+
+//   // 2. Obținem toate întrebările din categoriile disponibile
+//   let allQuestions = [];
+//   for (const category of categories) {
+//     const response = await fetch(
+//       `/api/questions/${gameData.selectedType}/${category}`
+//     );
+//     const data = await response.json();
+
+//     // Adăugăm întrebările din această categorie
+//     const categoryQuestions = data.questions.map((q) => ({
+//       ...q,
+//       category: category,
+//       question: q.question,
+//       answer: q.answer,
+//       tags: q.tags,
+//     }));
+//     allQuestions = allQuestions.concat(categoryQuestions);
+//   }
+//   console.log("Initial questions:", allQuestions.length);
+
+//   let filteredQuestions = allQuestions.filter((question) => {
+//     if (!question.tags) {
+//       console.warn(
+//         'Întrebare fără tags, setăm difficulty implicit "ușor":',
+//         question
+//       );
+//       question.tags = { difficulty: "ușor" };
+//     } else if (!question.tags.difficulty) {
+//       console.warn(
+//         'Întrebare fără difficulty, setăm implicit "ușor":',
+//         question
+//       );
+//       question.tags.difficulty = "ușor";
+//     }
+
+//     return gameData.selectedDifficulties.includes(question.tags.difficulty);
+//   });
+//   console.log("After difficulty filter:", filteredQuestions.length);
+
+//   const hasSelectedTags = Object.values(gameData.selectedTags).some(
+//     (tags) => tags.length > 0
+//   );
+//   const hasSelectedCategories = gameData.selectedCategories.length > 0;
+
+//   if (!hasSelectedCategories && !hasSelectedTags) {
+//     return [];
+//   }
+
+//   let finalQuestions = [];
+
+//   if (gameData.filterLogic === "ȘI") {
+//     finalQuestions = filteredQuestions.filter((question) => {
+//       // Check category (if categories are selected)
+//       if (
+//         hasSelectedCategories &&
+//         !gameData.selectedCategories.includes(question.category)
+//       ) {
+//         return false;
+//       }
+
+//       // For AND logic, question must have all selected tags from each type
+//       if (hasSelectedTags) {
+//         for (const [tagType, selectedValues] of Object.entries(
+//           gameData.selectedTags
+//         )) {
+//           if (selectedValues.length === 0) continue;
+
+//           const questionTags = question.tags[tagType];
+//           if (!Array.isArray(questionTags)) {
+//             return false;
+//           }
+
+//           const hasAllTags = selectedValues.every((tag) =>
+//             questionTags.includes(tag)
+//           );
+//           if (!hasAllTags) {
+//             return false;
+//           }
+//         }
+//       }
+
+//       return true;
+//     });
+//   } else {
+//     // OR logic
+//     const selectedQuestionTexts = new Set();
+//     const addIfNotExists = (q) => {
+//       const identifier =
+//         q.question.text || q.question.media || JSON.stringify(q.question.hints);
+//       if (!selectedQuestionTexts.has(identifier)) {
+//         selectedQuestionTexts.add(identifier);
+//         finalQuestions.push(q);
+//       }
+//     };
+
+//     if (hasSelectedCategories) {
+//       filteredQuestions
+//         .filter((q) => gameData.selectedCategories.includes(q.category))
+//         .forEach((q) => addIfNotExists(q));
+//     }
+
+//     if (hasSelectedTags) {
+//       filteredQuestions.forEach((question) => {
+//         for (const [tagType, selectedValues] of Object.entries(
+//           gameData.selectedTags
+//         )) {
+//           if (selectedValues.length === 0) continue;
+
+//           const questionTags = question.tags[tagType];
+//           if (!Array.isArray(questionTags)) continue;
+
+//           const hasMatch = selectedValues.some((tag) =>
+//             questionTags.includes(tag)
+//           );
+
+//           if (hasMatch) {
+//             addIfNotExists(question);
+//             break;
+//           }
+//         }
+//       });
+//     }
+//   }
+
+//   // Adăugăm aici logica pentru distribuția echilibrată
+//   if (
+//     gameData.distributionType === "ECHILIBRATĂ" &&
+//     gameData.selectedCategories.length > 1
+//   ) {
+//     // Grupăm întrebările pe categorii
+//     const questionsByCategory = {};
+//     gameData.selectedCategories.forEach((category) => {
+//       questionsByCategory[category] = finalQuestions.filter(
+//         (q) => q.category === category
+//       );
+//     });
+
+//     // Găsim numărul minim de întrebări per categorie
+//     const minQuestions = Math.min(
+//       ...Object.values(questionsByCategory).map(
+//         (categoryQuestions) => categoryQuestions.length
+//       )
+//     );
+
+//     // Selectăm același număr de întrebări din fiecare categorie
+//     const balancedQuestions = [];
+//     Object.values(questionsByCategory).forEach((categoryQuestions) => {
+//       // Amestecăm întrebările din categorie și selectăm primele minQuestions
+//       const shuffled = [...categoryQuestions].sort(() => Math.random() - 0.5);
+//       balancedQuestions.push(...shuffled.slice(0, minQuestions));
+//     });
+
+//     return balancedQuestions;
+//   }
+
+//   return finalQuestions;
+// }
+
 async function getSelectedQuestions() {
-  // 1. Mai întâi obținem lista categoriilor
   const categoriesResponse = await fetch(
     `/api/categories/${gameData.selectedType}`
   );
   const categories = await categoriesResponse.json();
 
-  // 2. Obținem toate întrebările din categoriile disponibile
   let allQuestions = [];
   for (const category of categories) {
     const response = await fetch(
       `/api/questions/${gameData.selectedType}/${category}`
     );
     const data = await response.json();
-
-    // Adăugăm întrebările din această categorie
-    const categoryQuestions = data.questions.map((q) => ({
-      ...q,
-      category: category,
-      question: q.question,
-      answer: q.answer,
-      tags: q.tags,
-    }));
-    allQuestions = allQuestions.concat(categoryQuestions);
+    allQuestions = allQuestions.concat(
+      data.questions.map((q) => ({
+        ...q,
+        category: category,
+        question: q.question,
+        answer: q.answer,
+        tags: q.tags || { difficulty: "ușor" },
+      }))
+    );
   }
-
-  // Filter by difficulty (always AND)
-  let filteredQuestions = allQuestions.filter((question) =>
-    gameData.selectedDifficulties.includes(question.tags.difficulty)
-  );
 
   const hasSelectedTags = Object.values(gameData.selectedTags).some(
     (tags) => tags.length > 0
@@ -339,93 +507,57 @@ async function getSelectedQuestions() {
   const hasSelectedCategories = gameData.selectedCategories.length > 0;
 
   if (!hasSelectedCategories && !hasSelectedTags) {
-    return [];
+    return allQuestions;
   }
 
-  let finalQuestions = [];
+  let filteredQuestions = allQuestions;
 
-  if (gameData.filterLogic === "ȘI") {
-    finalQuestions = filteredQuestions.filter((question) => {
-      // Check category (if categories are selected)
-      if (
-        hasSelectedCategories &&
-        !gameData.selectedCategories.includes(question.category)
-      ) {
-        return false;
+  if (hasSelectedCategories) {
+    filteredQuestions = filteredQuestions.filter((q) =>
+      gameData.selectedCategories.includes(q.category)
+    );
+  }
+
+  if (hasSelectedTags) {
+    filteredQuestions = filteredQuestions.filter((question) => {
+      if (gameData.filterLogic === "ȘI") {
+        return Object.entries(gameData.selectedTags).every(([type, tags]) => {
+          if (tags.length === 0) return true;
+          return tags.every((tag) => question.tags[type]?.includes(tag));
+        });
+      } else {
+        return Object.entries(gameData.selectedTags).some(([type, tags]) => {
+          if (tags.length === 0) return false;
+          return tags.some((tag) => question.tags[type]?.includes(tag));
+        });
       }
-
-      // For AND logic, question must have all selected tags from each type
-      if (hasSelectedTags) {
-        for (const [tagType, selectedValues] of Object.entries(
-          gameData.selectedTags
-        )) {
-          if (selectedValues.length === 0) continue;
-
-          const questionTags = question.tags[tagType];
-          if (!Array.isArray(questionTags)) {
-            return false;
-          }
-
-          // For all tag types, check if all selected values are present
-          const hasAllTags = selectedValues.every((tag) =>
-            questionTags.includes(tag)
-          );
-          if (!hasAllTags) {
-            return false;
-          }
-        }
-      }
-
-      return true;
     });
-  } else {
-    // OR logic
-    // Noul cod poate folosi calea media ca identificator unic
-    const selectedQuestionTexts = new Set();
-    // În funcția getSelectedQuestions() -> OR logic
-    const addIfNotExists = (q) => {
-      // Adăugăm verificare pentru hints
-      const identifier =
-        q.question.text || q.question.media || JSON.stringify(q.question.hints);
-      if (!selectedQuestionTexts.has(identifier)) {
-        selectedQuestionTexts.add(identifier);
-        finalQuestions.push(q);
-      }
-    };
-
-    // Add questions matching selected categories
-    if (hasSelectedCategories) {
-      filteredQuestions
-        .filter((q) => gameData.selectedCategories.includes(q.category))
-        .forEach((q) => addIfNotExists(q));
-    }
-
-    // Add questions matching tags
-    if (hasSelectedTags) {
-      filteredQuestions.forEach((question) => {
-        for (const [tagType, selectedValues] of Object.entries(
-          gameData.selectedTags
-        )) {
-          if (selectedValues.length === 0) continue;
-
-          const questionTags = question.tags[tagType];
-          if (!Array.isArray(questionTags)) continue;
-
-          // For OR logic, check if any selected tag matches
-          const hasMatch = selectedValues.some((tag) =>
-            questionTags.includes(tag)
-          );
-
-          if (hasMatch) {
-            addIfNotExists(question);
-            break;
-          }
-        }
-      });
-    }
   }
 
-  return finalQuestions;
+  if (
+    gameData.distributionType === "ECHILIBRATĂ" &&
+    gameData.selectedCategories.length > 1
+  ) {
+    const questionsByCategory = {};
+    gameData.selectedCategories.forEach((category) => {
+      questionsByCategory[category] = filteredQuestions.filter(
+        (q) => q.category === category
+      );
+    });
+
+    const minQuestions = Math.min(
+      ...Object.values(questionsByCategory).map((questions) => questions.length)
+    );
+
+    const balancedQuestions = [];
+    Object.values(questionsByCategory).forEach((questions) => {
+      balancedQuestions.push(...questions.slice(0, minQuestions));
+    });
+
+    return balancedQuestions;
+  }
+
+  return filteredQuestions;
 }
 
 async function loadGameData() {
@@ -507,7 +639,7 @@ function handleGameTypeChange(event) {
   gameData.selectedType = event.target.value;
   localStorage.setItem("lastGameType", event.target.value);
   gameData.selectedCategories = [];
-  gameData.selectedTags = { domain: [], period: [], region: [], specific: [] };
+  gameData.selectedTags = { domain: [], period: [], region: [], general: [] };
   updateSelectedTagsDisplay(); // Actualizează afișajul tag-urilor
 
   loadGameData();
@@ -571,6 +703,7 @@ async function handleGameLoad() {
   try {
     updateGameSettings();
     const selectedQuestions = await getSelectedQuestions();
+    // Add debug logs
 
     const shuffledQuestions = shuffleQuestions(selectedQuestions);
     // Verifică structura întrebărilor
@@ -597,11 +730,13 @@ async function handleGameLoad() {
     await preloadResources(shuffledQuestions);
 
     // Deschidem fereastra pentru organizatori
-    window.organizerWindow = window.open(
-      `/organizer/${gameData.selectedType}-organizer.html`,
-      "organizerWindow",
-      "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
-    );
+    if (!gameData.selectedType.includes("multiple-choice")) {
+      window.organizerWindow = window.open(
+        `/organizer/${gameData.selectedType}-organizer.html`,
+        "organizerWindow",
+        "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
+      );
+    }
 
     // Redirecționăm către pagina corespunzătoare tipului de joc
     window.location.href = `/${gameData.selectedType}-game.html`;
@@ -746,6 +881,17 @@ function setupEventListeners() {
     updateLogicDescription(e.target.checked);
     updateAvailableQuestionsCount();
   });
+
+  // Inițializare switch pentru distribuție intrebări
+  const distributionSwitch = document.getElementById("distributionSwitch");
+  distributionSwitch.checked = gameData.distributionType === "ECHILIBRATĂ";
+  updateDistributionDescription(distributionSwitch.checked);
+
+  distributionSwitch.addEventListener("change", (e) => {
+    gameData.distributionType = e.target.checked ? "ECHILIBRATĂ" : "NORMALĂ";
+    updateDistributionDescription(e.target.checked);
+    updateAvailableQuestionsCount();
+  });
   // Event listeners pentru dificultate
   document
     .querySelectorAll('.difficulty-checkbox input[type="checkbox"]')
@@ -756,18 +902,47 @@ function setupEventListeners() {
   loadGameBtn.addEventListener("click", handleGameLoad);
 }
 
-// Inițializare la încărcarea paginii
-document.addEventListener("DOMContentLoaded", () => {
-  loadGameData();
-  setupEventListeners();
-  setupTabs();
+// Funcție separată pentru actualizarea tuturor stărilor vizuale
+function forceUpdateVisualStates() {
+  // Actualizare switch-uri
+  const logicSwitch = document.getElementById("filterLogicSwitch");
+  const distributionSwitch = document.getElementById("distributionSwitch");
+  updateLogicDescription(logicSwitch.checked);
+  updateDistributionDescription(distributionSwitch.checked);
 
-  // Setăm radio button-ul corect în funcție de lastGameType
+  // Actualizare dificultate
+  const difficultyCheckboxes = document.querySelectorAll(
+    '.difficulty-checkbox input[type="checkbox"]'
+  );
+  difficultyCheckboxes.forEach((checkbox) => {
+    checkbox.checked = gameData.selectedDifficulties.includes(checkbox.value);
+  });
+  handleDifficultySelection();
+
+  // Actualizare tip joc
   const savedType = localStorage.getItem("lastGameType");
   if (savedType) {
     const radioButton = document.querySelector(`input[value="${savedType}"]`);
     if (radioButton && !radioButton.disabled) {
       radioButton.checked = true;
+      handleGameTypeChange({ target: radioButton });
     }
   }
+}
+
+// Inițializare la încărcarea paginii
+
+// În loc de DOMContentLoaded, folosim pageshow
+window.addEventListener("pageshow", (event) => {
+  // verificăm dacă pagina vine din cache
+  if (event.persisted) {
+    // dacă da, forțăm reîncărcarea stărilor
+    forceUpdateVisualStates();
+  }
+
+  // oricum executăm inițializarea normală
+  loadGameData();
+  setupEventListeners();
+  setupTabs();
+  forceUpdateVisualStates();
 });

@@ -1,0 +1,1477 @@
+{
+  "name": "Meserii",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Actor_film.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Actor de film"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Actor_teatru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Actor de teatru"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Agent_de_Vânzări.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Agent de vânzări"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Agricultor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Agricultor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Analist_de_Date.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Analist de date"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Antrenor_Sportiv.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Antrenor sportiv"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Arhitect.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Arhitect"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Astronaut.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Astronaut"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Avocat.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Avocat"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Bijutier.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bijutier"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Bioinginer.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bioinginer"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Broker_Imobiliar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Broker imobiliar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Brutar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Brutar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Bucătar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bucătar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Casier.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Casier"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Chelner.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Chelner"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Cioban.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cioban"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Clovn.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Clovn"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Cofetar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cofetar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Comentator_Sportiv.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Comentator sportiv"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Contabil.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Contabil"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Curier.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Curier"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Dentist.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Dentist"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Detectiv_Particular.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Detectiv particular"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Electrician.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Electrician"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Fierar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fierar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Fotbalist.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fotbalist"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Frizer.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Frizer"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Gropar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gropar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Gunoier.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Gunoier"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Inginer_Aeronautic.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Inginer aeronautic"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Inginer_Constructor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Inginer constructor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Inginer_Electronist.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Inginer electronist"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Instalator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Instalator"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Judecător.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Judecător"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Jurnalist.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Jurnalist"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Marinar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Marinar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Mecanic_auto.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mecanic auto"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Medic.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Medic"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Meteorolog.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Meteorolog"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Militar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Militar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Muzician.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Muzician"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Măcelar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Măcelar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Notar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Notar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Paznic.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Paznic"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Pescar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pescar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Pictor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pictor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Pilot_de_Avion.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pilot de avion"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Polițist.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Polițist"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Pompier.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pompier"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Preot.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Preot"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Prezentator_TV.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Prezentator TV"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Profesor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Profesor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Programator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Programator"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Pshiholog.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Psiholog"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Pădurar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pădurar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Recepționer.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Recepționer"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Regizor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Regizor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Scafandru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Scafandru"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Scriitor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Scriitor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Stewardesă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Stewardesă"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Sudor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sudor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Taximetrist.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Taximetrist"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Tehnician_Telecomunicații.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tehnician telecomunicații"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Tâmplar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tâmplar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Veterinar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Veterinar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Vânzător.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Vânzător"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Zugrav.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Zugrav"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Șofer_de_Camion.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Șofer de camion"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Administrator_Retea.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Administrator rețea"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Agent_Asigurari.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Agent asigurări"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Agent_Turism.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Agent turism"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Arbitru.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Arbitru"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Arheolog.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Arheolog"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Asistent_Medical.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Asistent medical"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Bancher.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bancher"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Bibliotecar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bibliotecar"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Cercetator_Stiintific.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cercetător științific"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Compozitor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Compozitor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Cosmetician.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cosmetician"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Dansator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Dansator"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Designer_Grafic.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Designer grafic"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Designer_Interior.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Designer interior"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Educator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Educator"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Farmacist.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Farmacist"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Fotograf.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fotograf"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Ghid_Turistic.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ghid turistic"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Instructor_Auto.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Instructor auto"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Instructor_Fitness.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Instructor fitness"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Kinetoterapeut.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Kinetoterapeut"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Sculptor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sculptor"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/meserii/Tehnician_Radiolog.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tehnician radiolog"
+      },
+      "tags": {
+        "domain": ["Dezvoltare personală"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    }
+  ]
+}

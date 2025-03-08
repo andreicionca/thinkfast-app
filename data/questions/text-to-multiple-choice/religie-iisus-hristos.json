@@ -6,7 +6,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -23,7 +23,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -40,7 +40,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -57,7 +57,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -74,7 +74,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -91,7 +91,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "mediu"
       },
       "question": {
@@ -108,7 +108,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "mediu"
       },
       "question": {
@@ -125,7 +125,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "sărbători"],
+        "general": ["creștinism", "sărbători"],
         "difficulty": "mediu"
       },
       "question": {
@@ -146,7 +146,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -163,7 +163,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -180,7 +180,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "greu"
       },
       "question": {
@@ -197,7 +197,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -214,7 +214,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "învățături"],
+        "general": ["creștinism", "învățături"],
         "difficulty": "mediu"
       },
       "question": {

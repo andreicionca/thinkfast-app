@@ -1,0 +1,241 @@
+{
+  "name": "Scriitori români",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Mihai_Eminescu.jpg",
+        "hints": ["Poet național al României", "Autorul poeziei Luceafărul"]
+      },
+      "answer": {
+        "text": "Mihai Eminescu"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XIX"],
+        "region": ["România"],
+        "difficulty": "ușor",
+        "general": ["poezie", "romantism"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Ion_Creangă.jpg",
+        "hints": [
+          "Author al Amintirilor din copilărie",
+          "Povestitor din Moldova"
+        ]
+      },
+      "answer": {
+        "text": "Ion Creangă"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XIX"],
+        "region": ["România", "Moldova"],
+        "difficulty": "ușor",
+        "general": ["proză"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Ion_Luca_Caragiale.jpg",
+        "hints": ["Dramaturg celebru", "Autorul comediei O scrisoare pierdută"]
+      },
+      "answer": {
+        "text": "Ion Luca Caragiale"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XIX", "Secolul XX"],
+        "region": ["România"],
+        "difficulty": "ușor",
+        "general": ["teatru", "comedie"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/George_Coșbuc.jpg",
+        "hints": ["Poet al țărănimii", "Autorul poeziei Nunta Zamfirei"]
+      },
+      "answer": {
+        "text": "George Coșbuc"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XIX", "Secolul XX"],
+        "region": ["România", "Transilvania"],
+        "difficulty": "mediu",
+        "general": ["poezie"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Vasile_Alecsandri.jpg",
+        "hints": [
+          "Poet și dramaturg pașoptist",
+          "Colecționar de poezii populare"
+        ]
+      },
+      "answer": {
+        "text": "Vasile Alecsandri"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XIX"],
+        "region": ["România", "Moldova"],
+        "difficulty": "mediu",
+        "general": ["poezie", "teatru"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Ioan_Slavici.jpg",
+        "hints": ["Autorul nuvelei Moara cu noroc", "Scriitor ardelean"]
+      },
+      "answer": {
+        "text": "Ioan Slavici"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XIX", "Secolul XX"],
+        "region": ["România", "Transilvania"],
+        "difficulty": "mediu",
+        "general": ["proză"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/George_Bacovia.jpg",
+        "hints": ["Poet simbolist", "Autorul volumului Plumb"]
+      },
+      "answer": {
+        "text": "George Bacovia"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX"],
+        "region": ["România"],
+        "difficulty": "mediu",
+        "general": ["poezie", "simbolism"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Tudor_Arghezi.jpg",
+        "hints": ["Poet modernist", "Autorul volumului Cuvinte potrivite"]
+      },
+      "answer": {
+        "text": "Tudor Arghezi"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX"],
+        "region": ["România"],
+        "difficulty": "mediu",
+        "general": ["poezie", "modernism"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Lucian_Blaga.jpg",
+        "hints": ["Poet și filozof", "Autorul trilogiilor culturale"]
+      },
+      "answer": {
+        "text": "Lucian Blaga"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX"],
+        "region": ["România", "Transilvania"],
+        "difficulty": "mediu",
+        "general": ["poezie", "filozofie"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Liviu_Rebreanu.jpg",
+        "hints": [
+          "Autorul romanului Ion",
+          "Creator al romanului românesc modern"
+        ]
+      },
+      "answer": {
+        "text": "Liviu Rebreanu"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX"],
+        "region": ["România", "Transilvania"],
+        "difficulty": "mediu",
+        "general": ["proză", "roman"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Camil_Petrescu.jpg",
+        "hints": [
+          "Romancier modernist",
+          "Autorul romanului Ultima noapte de dragoste, întâia noapte de război"
+        ]
+      },
+      "answer": {
+        "text": "Camil Petrescu"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX"],
+        "region": ["România"],
+        "difficulty": "mediu",
+        "general": ["proză", "modernism"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Mihail_Sadoveanu.jpg",
+        "hints": ["Prozator istoric", "Autorul romanului Baltagul"]
+      },
+      "answer": {
+        "text": "Mihail Sadoveanu"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX"],
+        "region": ["România", "Moldova"],
+        "difficulty": "mediu",
+        "general": ["proză", "istoric"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Marin_Preda.jpg",
+        "hints": ["Autorul romanului Moromeții", "Prozator realist"]
+      },
+      "answer": {
+        "text": "Marin Preda"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX"],
+        "region": ["România"],
+        "difficulty": "mediu",
+        "general": ["proză", "realism"]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/scriitori_studiati/Mircea_Cărtărescu.jpg",
+        "hints": ["Autor contemporan", "Reprezentant al postmodernismului"]
+      },
+      "answer": {
+        "text": "Mircea Cărtărescu"
+      },
+      "tags": {
+        "domain": ["Literatură"],
+        "period": ["Secolul XX", "Secolul XXI"],
+        "region": ["România"],
+        "difficulty": "mediu",
+        "general": ["proză", "postmodernism"]
+      }
+    }
+  ]
+}

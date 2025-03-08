@@ -547,8 +547,15 @@ input:invalid {
   background: rgba(6, 182, 212, 0.1);
 }
 
-.filter-logic-switch {
+.switches-container {
+  display: flex;
+  gap: 1rem;
   margin: 1rem 0;
+}
+
+.filter-logic-switch {
+  margin: 0;
+  flex: 1;
   padding: 1rem;
   background: rgba(15, 23, 42, 0.6);
   border-radius: 8px;
@@ -629,6 +636,15 @@ input:invalid {
   ~ .logic-description
   .and-description {
   display: block;
+}
+
+.distribution-label {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.balanced-description {
+  display: none;
 }
 
 /* Stilizare pentru elementele din filtre */

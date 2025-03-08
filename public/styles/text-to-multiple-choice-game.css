@@ -40,10 +40,11 @@ body {
 
 #question-container {
   position: relative;
-  width: 100%;
-  max-width: 900px;
+  width: 95%;
+  /* max-width: 900px; */
   /* Increase height to accommodate options */
-  height: 500px;
+  height: 70vh; /* Am adaugat aceasta proprietate pentru a se adapta inaltimea imaginii la ecran */
+  min-height: 300px;
   margin: 10px auto;
   padding: 20px;
   display: flex;
@@ -233,6 +234,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  white-space: normal; /* Permite împărțirea textului */
+  hyphens: auto; /* Adaugă cratime pentru împărțirea cuvintelor lungi */
 }
 
 .option.correct {

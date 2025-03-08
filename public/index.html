@@ -35,18 +35,16 @@
             </div>
           </label>
 
-          <label class="mode-card disabled">
+          <label class="mode-card">
             <input
               type="radio"
               name="gameType"
               value="image-to-multiple-choice"
-              disabled
             />
             <div class="card-content">
               <span class="icon">🎯</span>
               <h3>Imagine ➡️ Variante de răspuns</h3>
               <p>Recunoaște imaginea și alege răspunsul</p>
-              <span class="badge">În curând</span>
             </div>
           </label>
           <label class="mode-card">
@@ -173,8 +171,8 @@
               </div>
               
               <div class="search-group">
-                <input type="text" id="specificSearch" class="tag-search" placeholder="Specific...">
-                <div class="search-suggestions" id="specificSuggestions"></div>
+                <input type="text" id="generalSearch" class="tag-search" placeholder="Specific...">
+                <div class="search-suggestions" id="generalSuggestions"></div>
               </div>
             </div>
           </div>
@@ -210,7 +208,7 @@
             </div>
           </div>
         </div>
-      
+        <div class="switches-container">
         <div class="filter-logic-switch">
           <label class="switch-container">
             <input type="checkbox" id="filterLogicSwitch">
@@ -218,10 +216,22 @@
             <span class="logic-label">SAU</span>
           </label>
           <div class="logic-description">
-            <span class="or-description">SAU - Încarcă întrebările care conțin cel puțin unul dintre filtrele selectate</span>
-            <span class="and-description">ȘI - Încarcă întrebările care conțin toate filtrele selectate.</span>
+            <span class="or-description">SAU - se încarcă întrebările care conțin cel puțin unul dintre filtrele selectate</span>
+            <span class="and-description">ȘI - se încarcă doar întrebările care conțin toate filtrele selectate.</span>
           </div>
         </div>
+        <div class="filter-logic-switch">
+          <label class="switch-container">
+            <input type="checkbox" id="distributionSwitch">
+            <span class="switch-label">Distribuție întrebări:</span>
+            <span class="distribution-label">NORMALĂ</span>
+          </label>
+          <div class="logic-description">
+            <span class="normal-description">NORMALĂ - se încarcă toate întrebările disponibile din categoriile selectate</span>
+            <span class="balanced-description">ECHILIBRATĂ - se încarcă același număr de întrebări din fiecare categorie selectată</span>
+          </div>
+        </div>
+      </div>
       
         <div class="selected-tags-grid" id="selectedTags">
           <!-- Tags will be populated here -->
@@ -235,7 +245,7 @@
             <div class="setting-item">
               <label for="playerTime">Timp Jucător</label>
               <div class="input-group">
-                <input type="number" id="playerTime" value="50" />
+                <input type="number" id="playerTime" value="60" />
                 <span>sec</span>
               </div>
             </div>
@@ -243,7 +253,7 @@
             <div class="setting-item">
               <label for="penaltyTime">Penalizare răspuns greșit</label>
               <div class="input-group">
-                <input type="number" id="penaltyTime" value="5" />
+                <input type="number" id="penaltyTime" value="4" />
                 <span>sec</span>
               </div>
             </div>

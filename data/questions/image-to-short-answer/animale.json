@@ -14,7 +14,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       }
     },
     {
@@ -23,7 +23,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/aligator.jpg",
@@ -39,7 +39,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/anaconda.jpg",
@@ -55,7 +55,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/antilope.jpg",
@@ -71,7 +71,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/arici.jpg",
@@ -87,7 +87,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["amfibian"]
+        "general": ["amfibian"]
       },
       "question": {
         "media": "/assets/database/images/animale/axolotl.jpg",
@@ -103,7 +103,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/balenă.jpg",
@@ -119,7 +119,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/barză.jpg",
@@ -135,7 +135,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/broască_țestoasă.jpg",
@@ -151,7 +151,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["amfibian"]
+        "general": ["amfibian"]
       },
       "question": {
         "media": "/assets/database/images/animale/broască.jpg",
@@ -167,7 +167,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/buburuză.jpg",
@@ -183,7 +183,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/bufniță.jpg",
@@ -199,7 +199,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/câine.jpg",
@@ -215,7 +215,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/cal.jpg",
@@ -231,7 +231,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["moluscă"]
+        "general": ["moluscă"]
       },
       "question": {
         "media": "/assets/database/images/animale/calamar.jpg",
@@ -247,7 +247,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/cameleon.jpg",
@@ -263,7 +263,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/cangur.jpg",
@@ -279,7 +279,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/capră.jpg",
@@ -295,7 +295,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/căprioară.jpg",
@@ -311,7 +311,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/cărăbuș.jpg",
@@ -327,7 +327,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["moluscă"]
+        "general": ["moluscă"]
       },
       "question": {
         "media": "/assets/database/images/animale/caracatiță.jpg",
@@ -343,7 +343,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/cârtiță.jpg",
@@ -359,7 +359,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/castor.jpg",
@@ -375,7 +375,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/cerb.jpg",
@@ -391,7 +391,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/cimpanzeu.jpg",
@@ -407,7 +407,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/ciocănitoare.jpg",
@@ -423,7 +423,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/cobră.jpg",
@@ -439,7 +439,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/cocor.jpg",
@@ -455,7 +455,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/corb.jpg",
@@ -471,7 +471,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["crustaceu"]
+        "general": ["crustaceu"]
       },
       "question": {
         "media": "/assets/database/images/animale/crab.jpg",
@@ -487,7 +487,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pește"]
+        "general": ["pește"]
       },
       "question": {
         "media": "/assets/database/images/animale/crap.jpg",
@@ -503,7 +503,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["crustaceu"]
+        "general": ["crustaceu"]
       },
       "question": {
         "media": "/assets/database/images/animale/creveți.jpg",
@@ -519,7 +519,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/crocodil.jpg",
@@ -535,7 +535,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/delfin.jpg",
@@ -551,7 +551,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/elefant.jpg",
@@ -567,7 +567,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/flamingo.jpg",
@@ -583,7 +583,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/fluture.jpg",
@@ -599,7 +599,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/focă.jpg",
@@ -615,7 +615,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/furnică.jpg",
@@ -631,7 +631,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/găină.jpg",
@@ -647,7 +647,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/gândac.jpg",
@@ -663,7 +663,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/gâscă.jpg",
@@ -679,7 +679,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/girafă.jpg",
@@ -695,7 +695,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/gorilă.jpg",
@@ -711,7 +711,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/greiere.jpg",
@@ -727,7 +727,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/hamster.jpg",
@@ -743,7 +743,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/hipopotam.jpg",
@@ -759,7 +759,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["crustaceu"]
+        "general": ["crustaceu"]
       },
       "question": {
         "media": "/assets/database/images/animale/homar.jpg",
@@ -775,7 +775,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/iepure.jpg",
@@ -791,7 +791,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/iguana.jpg",
@@ -807,7 +807,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/koala.jpg",
@@ -823,7 +823,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/lăcustă.jpg",
@@ -839,7 +839,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/lebădă.jpg",
@@ -855,7 +855,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/lemur.jpg",
@@ -871,7 +871,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/libelulă.jpg",
@@ -887,7 +887,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/liliac.jpg",
@@ -903,7 +903,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/lup.jpg",
@@ -919,7 +919,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/măgar.jpg",
@@ -935,7 +935,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/maimuță.jpg",
@@ -951,7 +951,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["meduză"]
+        "general": ["meduză"]
       },
       "question": {
         "media": "/assets/database/images/animale/meduză.jpg",
@@ -967,7 +967,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/mistreț.jpg",
@@ -983,7 +983,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/molie.jpg",
@@ -999,7 +999,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/morsă.jpg",
@@ -1015,7 +1015,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/oaie.jpg",
@@ -1031,7 +1031,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/omidă.jpg",
@@ -1047,7 +1047,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/orangutan.jpg",
@@ -1063,7 +1063,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/ornitorinc.jpg",
@@ -1079,7 +1079,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["arahnid"]
+        "general": ["arahnid"]
       },
       "question": {
         "media": "/assets/database/images/animale/păianjen.jpg",
@@ -1095,7 +1095,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/panda.jpg",
@@ -1111,7 +1111,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/pangolin.jpg",
@@ -1127,7 +1127,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/papagal.jpg",
@@ -1143,7 +1143,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/pasărea_colibri.jpg",
@@ -1159,7 +1159,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/pelican.jpg",
@@ -1175,7 +1175,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/pescăruș.jpg",
@@ -1191,7 +1191,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/pinguin.jpg",
@@ -1207,7 +1207,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/pisică.jpg",
@@ -1223,7 +1223,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/porc.jpg",
@@ -1239,7 +1239,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/python.jpg",
@@ -1255,7 +1255,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/rândunică.jpg",
@@ -1271,7 +1271,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/rață.jpg",
@@ -1287,7 +1287,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["pește"]
+        "general": ["pește"]
       },
       "question": {
         "media": "/assets/database/images/animale/rechin.jpg",
@@ -1303,7 +1303,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/rinocer.jpg",
@@ -1319,7 +1319,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["amfibian"]
+        "general": ["amfibian"]
       },
       "question": {
         "media": "/assets/database/images/animale/salamandră.jpg",
@@ -1335,7 +1335,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/șarpe.jpg",
@@ -1351,7 +1351,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["arahnid"]
+        "general": ["arahnid"]
       },
       "question": {
         "media": "/assets/database/images/animale/scorpion.jpg",
@@ -1367,7 +1367,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/șoarece.jpg",
@@ -1383,7 +1383,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/șobolan.jpg",
@@ -1399,7 +1399,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pește"]
+        "general": ["pește"]
       },
       "question": {
         "media": "/assets/database/images/animale/somon.jpg",
@@ -1415,7 +1415,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/șopârlă.jpg",
@@ -1431,7 +1431,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["echinoderm"]
+        "general": ["echinoderm"]
       },
       "question": {
         "media": "/assets/database/images/animale/stea_de_mare.jpg",
@@ -1447,7 +1447,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/struț.jpg",
@@ -1463,7 +1463,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/tapir.jpg",
@@ -1479,7 +1479,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["pește"]
+        "general": ["pește"]
       },
       "question": {
         "media": "/assets/database/images/animale/ton.jpg",
@@ -1495,7 +1495,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/urs_brun.jpg",
@@ -1511,7 +1511,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/urs_polar.jpg",
@@ -1527,7 +1527,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/vacă.jpg",
@@ -1543,7 +1543,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/veveriță.jpg",
@@ -1559,7 +1559,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/vidră.jpg",
@@ -1575,7 +1575,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["insectă"]
+        "general": ["insectă"]
       },
       "question": {
         "media": "/assets/database/images/animale/viespe.jpg",
@@ -1591,7 +1591,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["reptilă"]
+        "general": ["reptilă"]
       },
       "question": {
         "media": "/assets/database/images/animale/viperă.jpg",
@@ -1607,7 +1607,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/vrabie.jpg",
@@ -1623,7 +1623,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/vulpe.jpg",
@@ -1639,7 +1639,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["pasăre"]
+        "general": ["pasăre"]
       },
       "question": {
         "media": "/assets/database/images/animale/vultur.jpg",
@@ -1655,7 +1655,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["mamifer"]
+        "general": ["mamifer"]
       },
       "question": {
         "media": "/assets/database/images/animale/zebră.jpg",
@@ -1671,7 +1671,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["pești", "apă dulce"]
+        "general": ["pești", "apă dulce"]
       },
       "question": {
         "media": "/assets/database/images/animale/anghilă.jpg",
@@ -1687,7 +1687,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "carnivor"]
+        "general": ["mamifere", "carnivor"]
       },
       "question": {
         "media": "/assets/database/images/animale/binturong.jpg",
@@ -1703,7 +1703,7 @@
         "period": [""],
         "region": ["America de Nord"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "erbivore"]
+        "general": ["mamifere", "erbivore"]
       },
       "question": {
         "media": "/assets/database/images/animale/bizon.jpg",
@@ -1719,7 +1719,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["insecte", "prădător"]
+        "general": ["insecte", "prădător"]
       },
       "question": {
         "media": "/assets/database/images/animale/călugăriță.jpg",
@@ -1735,7 +1735,7 @@
         "period": [""],
         "region": ["Oceanele Lumii"],
         "difficulty": "ușor",
-        "specific": ["pești", "marin"]
+        "general": ["pești", "marin"]
       },
       "question": {
         "media": "/assets/database/images/animale/căluț_de_mare.jpg",
@@ -1751,7 +1751,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "rozătoare"]
+        "general": ["mamifere", "rozătoare"]
       },
       "question": {
         "media": "/assets/database/images/animale/capibara.jpg",
@@ -1767,7 +1767,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["pești", "apă dulce"]
+        "general": ["pești", "apă dulce"]
       },
       "question": {
         "media": "/assets/database/images/animale/caras.jpg",
@@ -1781,25 +1781,9 @@
       "tags": {
         "domain": ["biologie"],
         "period": [""],
-        "region": ["Europa"],
-        "difficulty": "ușor",
-        "specific": ["păsări", "urban"]
-      },
-      "question": {
-        "media": "/assets/database/images/animale/coțofană.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Coțofană"
-      }
-    },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
         "region": ["Asia", "Oceanele Lumii"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "marin"]
+        "general": ["mamifere", "marin"]
       },
       "question": {
         "media": "/assets/database/images/animale/dugong.jpg",
@@ -1809,29 +1793,14 @@
         "text": "Dugong"
       }
     },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
-        "region": ["Australia"],
-        "difficulty": "mediu",
-        "specific": ["mamifere", "monotreme"]
-      },
-      "question": {
-        "media": "/assets/database/images/animale/echidnă.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Echidnă"
-      }
-    },
+
     {
       "tags": {
         "domain": ["biologie"],
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["păsări", "apă"]
+        "general": ["păsări", "apă"]
       },
       "question": {
         "media": "/assets/database/images/animale/egretă.jpg",
@@ -1847,7 +1816,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["păsări", "colorat"]
+        "general": ["păsări", "colorat"]
       },
       "question": {
         "media": "/assets/database/images/animale/fazan.jpg",
@@ -1857,45 +1826,14 @@
         "text": "Fazan"
       }
     },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
-        "region": ["Europa"],
-        "difficulty": "mediu",
-        "specific": ["păsări", "pădure"]
-      },
-      "question": {
-        "media": "/assets/database/images/animale/gaiță.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Gaiță"
-      }
-    },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
-        "region": ["Asia", "India"],
-        "difficulty": "mediu",
-        "specific": ["mamifere", "bovine"]
-      },
-      "question": {
-        "media": "/assets/database/images/animale/gaur.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Gaur"
-      }
-    },
+
     {
       "tags": {
         "domain": ["biologie"],
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "ușor",
-        "specific": ["mamifere", "felină"]
+        "general": ["mamifere", "felină"]
       },
       "question": {
         "media": "/assets/database/images/animale/jaguar.jpg",
@@ -1911,7 +1849,7 @@
         "period": [""],
         "region": ["Africa", "Asia"],
         "difficulty": "ușor",
-        "specific": ["mamifere", "felină"]
+        "general": ["mamifere", "felină"]
       },
       "question": {
         "media": "/assets/database/images/animale/leopard.jpg",
@@ -1927,7 +1865,7 @@
         "period": [""],
         "region": ["Africa"],
         "difficulty": "ușor",
-        "specific": ["mamifere", "felină"]
+        "general": ["mamifere", "felină"]
       },
       "question": {
         "media": "/assets/database/images/animale/leu.jpg",
@@ -1943,7 +1881,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insecte", "luminos"]
+        "general": ["insecte", "luminos"]
       },
       "question": {
         "media": "/assets/database/images/animale/licurici.jpg",
@@ -1959,7 +1897,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["moluște", "gastropod"]
+        "general": ["moluște", "gastropod"]
       },
       "question": {
         "media": "/assets/database/images/animale/melc.jpg",
@@ -1969,45 +1907,14 @@
         "text": "Melc"
       }
     },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
-        "region": ["Europa", "Asia"],
-        "difficulty": "mediu",
-        "specific": ["mamifere", "erbivore"]
-      },
-      "question": {
-        "media": "/assets/database/images/animale/muflon.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Muflon"
-      }
-    },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
-        "region": ["Arctic"],
-        "difficulty": "mediu",
-        "specific": ["mamifere", "marin"]
-      },
-      "question": {
-        "media": "/assets/database/images/animale/narval.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Narval"
-      }
-    },
+
     {
       "tags": {
         "domain": ["biologie"],
         "period": [""],
         "region": ["Australia"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "marsupial"]
+        "general": ["mamifere", "marsupial"]
       },
       "question": {
         "media": "/assets/database/images/animale/numbat.jpg",
@@ -2023,7 +1930,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "rozătoare"]
+        "general": ["mamifere", "rozătoare"]
       },
       "question": {
         "media": "/assets/database/images/animale/nutria.jpg",
@@ -2039,7 +1946,7 @@
         "period": [""],
         "region": ["Africa", "Congo"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "erbivore"]
+        "general": ["mamifere", "erbivore"]
       },
       "question": {
         "media": "/assets/database/images/animale/okapi.jpg",
@@ -2055,7 +1962,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "ușor",
-        "specific": ["pești", "prădător"]
+        "general": ["pești", "prădător"]
       },
       "question": {
         "media": "/assets/database/images/animale/piranha.jpg",
@@ -2071,7 +1978,7 @@
         "period": [""],
         "region": ["America Centrală"],
         "difficulty": "mediu",
-        "specific": ["păsări", "colorat"]
+        "general": ["păsări", "colorat"]
       },
       "question": {
         "media": "/assets/database/images/animale/quetzal.jpg",
@@ -2087,7 +1994,7 @@
         "period": [""],
         "region": ["Australia"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "marsupial"]
+        "general": ["mamifere", "marsupial"]
       },
       "question": {
         "media": "/assets/database/images/animale/quokka.jpg",
@@ -2103,7 +2010,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "felină"]
+        "general": ["mamifere", "felină"]
       },
       "question": {
         "media": "/assets/database/images/animale/râs.jpg",
@@ -2113,29 +2020,14 @@
         "text": "Râs"
       }
     },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
-        "region": ["Africa"],
-        "difficulty": "ușor",
-        "specific": ["insecte", "gândaci"]
-      },
-      "question": {
-        "media": "/assets/database/images/animale/scarabeu.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Scarabeu"
-      }
-    },
+
     {
       "tags": {
         "domain": ["biologie"],
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["păsări", "prădător"]
+        "general": ["păsări", "prădător"]
       },
       "question": {
         "media": "/assets/database/images/animale/șoim.jpg",
@@ -2151,7 +2043,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "ușor",
-        "specific": ["pești", "prădător"]
+        "general": ["pești", "prădător"]
       },
       "question": {
         "media": "/assets/database/images/animale/știucă.jpg",
@@ -2167,7 +2059,7 @@
         "period": [""],
         "region": ["Asia", "Himalaya"],
         "difficulty": "mediu",
-        "specific": ["mamifere", "erbivore"]
+        "general": ["mamifere", "erbivore"]
       },
       "question": {
         "media": "/assets/database/images/animale/takin.jpg",
@@ -2183,7 +2075,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insecte", "zburător"]
+        "general": ["insecte", "zburător"]
       },
       "question": {
         "media": "/assets/database/images/animale/țânțar.jpg",
@@ -2199,7 +2091,7 @@
         "period": [""],
         "region": ["Asia"],
         "difficulty": "ușor",
-        "specific": ["mamifere", "felină"]
+        "general": ["mamifere", "felină"]
       },
       "question": {
         "media": "/assets/database/images/animale/tigru.jpg",
@@ -2215,7 +2107,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["pești", "apă dulce"]
+        "general": ["pești", "apă dulce"]
       },
       "question": {
         "media": "/assets/database/images/animale/țipar.jpg",
@@ -2231,7 +2123,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["amfibieni", "salamandre"]
+        "general": ["amfibieni", "salamandre"]
       },
       "question": {
         "media": "/assets/database/images/animale/triton.jpg",
@@ -2247,7 +2139,7 @@
         "period": [""],
         "region": ["America de Sud"],
         "difficulty": "ușor",
-        "specific": ["păsări", "colorat"]
+        "general": ["păsări", "colorat"]
       },
       "question": {
         "media": "/assets/database/images/animale/tucan.jpg",
@@ -2263,7 +2155,7 @@
         "period": [""],
         "region": ["Europa"],
         "difficulty": "mediu",
-        "specific": ["păsări", "prădător"]
+        "general": ["păsări", "prădător"]
       },
       "question": {
         "media": "/assets/database/images/animale/uliu.jpg",
@@ -2279,7 +2171,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["insecte", "nocturn"]
+        "general": ["insecte", "nocturn"]
       },
       "question": {
         "media": "/assets/database/images/animale/urechelniță.jpg",
@@ -2295,7 +2187,7 @@
         "period": [""],
         "region": ["Asia", "Australia"],
         "difficulty": "ușor",
-        "specific": ["reptile", "șopârle"]
+        "general": ["reptile", "șopârle"]
       },
       "question": {
         "media": "/assets/database/images/animale/varan.jpg",
@@ -2311,7 +2203,7 @@
         "period": [""],
         "region": ["Australia"],
         "difficulty": "ușor",
-        "specific": ["mamifere", "marsupial"]
+        "general": ["mamifere", "marsupial"]
       },
       "question": {
         "media": "/assets/database/images/animale/wombat.jpg",

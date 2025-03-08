@@ -142,6 +142,7 @@ let gameState = {
   penaltyTimer: null,
   penaltyTimeLeft: 0,
   correctOptionIndex: null, // Poziția răspunsului corect după amestecare
+  isLoadingQuestion: false,
 };
 
 // Flags pentru diverse stări
@@ -216,13 +217,13 @@ async function initGame() {
     );
 
     // Inițializăm fereastra organizatorului dacă nu există
-    if (!organizerWindow || organizerWindow.closed) {
-      organizerWindow = window.open(
-        "/organizer/text-to-multiple-choice-organizer.html",
-        "organizerWindow",
-        "width=1200,height=800, menubar=no,toolbar=no,location=no,status=no"
-      );
-    }
+    // if (!organizerWindow || organizerWindow.closed) {
+    //   organizerWindow = window.open(
+    //     "/organizer/text-to-multiple-choice-organizer.html",
+    //     "organizerWindow",
+    //     "width=1200,height=800, menubar=no,toolbar=no,location=no,status=no"
+    //   );
+    // }
 
     await audioManager.init();
     setupUI();
@@ -251,12 +252,18 @@ function setupEventListeners() {
 function handleKeyPress(event) {
   if (gameEnded) return;
 
-  if (event.key.toLowerCase() === "p") {
+  if (event.key.toLowerCase() === "p" && !gameState.isLoadingQuestion) {
     togglePause();
     return;
   }
 
-  if (penaltyActive || answerDisplaying || gameState.isPaused) return;
+  if (
+    penaltyActive ||
+    answerDisplaying ||
+    gameState.isPaused ||
+    gameState.isLoadingQuestion
+  )
+    return;
 
   const currentTime = Date.now();
   let selectedOption;
@@ -342,6 +349,8 @@ function showCurrentQuestion() {
   currentText.style.display = "flex";
   optionsContainer.style.display = "none";
   gameState.isPaused = true;
+  gameState.isLoadingQuestion = true; // adăugat
+
   audioManager.stopTick();
 
   const words = currentQuestion.question.text.split(" ");
@@ -380,6 +389,7 @@ function showCurrentQuestion() {
         optionsContainer.style.display = "flex";
         setTimeout(() => {
           gameState.isPaused = false;
+          gameState.isLoadingQuestion = false; // adăugat
           audioManager.startTick();
           resetIndicii();
         }, 1000);
@@ -671,6 +681,7 @@ function resetGameState() {
   gameState.currentQuestionIndex = 0;
   gameState.currentPlayer = Math.random() < 0.5 ? 1 : 2;
   gameState.indiciiFolosite = { player1: 0, player2: 0 };
+  gameState.isLoadingQuestion = false; // adăugat
 
   // Resetăm display-ul
   player1Timer.textContent = gameState.timeLeft1;
@@ -718,13 +729,13 @@ playAgainButton.addEventListener("click", () => {
   localStorage.setItem("gameConfig", JSON.stringify(gameConfig));
 
   // Dacă fereastra organizatorului nu există, o deschidem
-  if (!organizerWindow || organizerWindow.closed) {
-    organizerWindow = window.open(
-      "/organizer/text-to-multiple-choice-organizer.html",
-      "organizerWindow",
-      "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
-    );
-  }
+  // if (!organizerWindow || organizerWindow.closed) {
+  //   organizerWindow = window.open(
+  //     "/organizer/text-to-multiple-choice-organizer.html",
+  //     "organizerWindow",
+  //     "width=1200,height=800,menubar=no,toolbar=no,location=no,status=no"
+  //   );
+  // }
 
   startGame();
 });

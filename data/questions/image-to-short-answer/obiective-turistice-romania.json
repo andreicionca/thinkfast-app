@@ -1,0 +1,1002 @@
+{
+  "name": "Obiective turistice - Romania",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Biserica_Neagra.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Biserica Neagră"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Canionul_7_Scari.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Canionul 7 Scări"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cascada_Bigar.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cascada Bigăr"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cascada_Cailor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cascada Cailor"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Castelul_Bran.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Castelul Bran"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Castelul_Corvinilor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Castelul Corvinilor"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Castelul_Karolyi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Castelul Karolyi"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Castelul_Peles.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Castelul Peleș"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cazanele_Dunarii.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cazanele Dunării"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cetatea_Alba_Iulia.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cetatea Alba Iulia"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cetatea_Enisala.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cetatea Enisala"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cetatea_Fagaras.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cetatea Făgăraș"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cetatea_Neamtului.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cetatea Neamțului"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cetatea_Poenari.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cetatea Poenari"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cetatea_Rasnov.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cetatea Râșnov"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cetatea_Slimnic.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cetatea Slimnic"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cheile_Bicazului.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cheile Bicazului"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cheile_Gradistei.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cheile Grădiștei"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cheile_Turzii.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cheile Turzii"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Cimitirul_Vesel.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cimitirul Vesel"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Costinesti.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Costinești"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Delta_Dunarii.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Delta Dunării"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Domeniul_Cantacuzino.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Domeniul Cantacuzino"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Fundata.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fundata"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Ghetarul_Scarisoara.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Ghețarul Scărișoara"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Gradina_Botanica_Cluj.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Grădina Botanică Cluj"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Gradina_Zmeilor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Grădina Zmeilor"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Lacul_Colibita.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lacul Colibița"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Lacul_Rosu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lacul Roșu"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Lacul_Sfanta_Ana.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lacul Sfânta Ana"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Manastirea_Barsana.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mănăstirea Bârsana"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Manastirea_Corbii_de_Piatra.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mănăstirea Corbii de Piatră"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Manastirea_Curtea_de_Arges.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mănăstirea Curtea de Argeș"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Manastirea_Voronet.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mănăstirea Voroneț"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Mausoleul_Marasesti.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mausoleul Mărășești"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Muntele_Ceahlau.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Muntele Ceahlău"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Muntii_Macinului.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Munții Măcinului"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Muzeul_ASTRA_Sibiu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Muzeul ASTRA Sibiu"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Padurea_Hoia_Baciu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pădurea Hoia-Baciu"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Palatul_Parlamentului.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Palatul Parlamentului"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Parcul_National_Cheile_Nerei.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Parcul Național Cheile Nerei"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Parcul_National_Cozia.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Parcul Național Cozia"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Parcul_National_Retezat.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Parcul Național Retezat"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Manastirea_Pestera_Ialomitei.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Peștera Ialomiței"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Pestera_Polovragi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Peștera Polovragi"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Pestera_Ursilor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Peștera Urșilor"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Piatra_Craiului.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Piatra Craiului"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Podul_lui_Dumnezeu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Podul lui Dumnezeu"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Salina_Turda.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Salina Turda"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Sanctuarul_Ursilor_Zarnesti.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sanctuarul Urșilor Zărnești"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Sarmizegetusa_Regia.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sarmizegetusa Regia"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Satul_Scufundat_Geamana.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Satul Scufundat Geamăna"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Sfinxul_si_Babele.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sfinxul și Babele"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Sibiu.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sibiu"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Sighisoara.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sighișoara"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Stejarii_Seculari_Breite.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Stejarii Seculari Breite"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Transalpina.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Transalpina"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Transfagarasan.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Transfăgărășan"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Turnul_Chindiei.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Turnul Chindiei"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Valea_Vaserului.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Valea Vaserului"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Viscri.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Viscri"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiective-turistice-romania/Vulcanii_Noroiosi.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Vulcanii Noroioși"
+      },
+      "tags": {
+        "domain": ["Turism"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    }
+  ]
+}

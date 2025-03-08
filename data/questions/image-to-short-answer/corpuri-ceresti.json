@@ -1,0 +1,261 @@
+{
+  "name": "Corpuri cerești",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Aurora_Boreala.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Aurora Boreală"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Cometa.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cometă"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Constelatie_Orion.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Constelația Orion"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Europa.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Europa (satelit al lui Jupiter)"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Jupiter.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Jupiter"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Luna.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Luna"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Marte.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Marte"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Mercur.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mercur"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Meteor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Meteor"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Neptun.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Neptun"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Pleiade.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Pleiade  (roi stelar)"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Saturn.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Saturn"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Stea_Polara.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Steaua Polară"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Titan.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Titan (satelit al lui Saturn)"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Uranus.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Uranus"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/corpuri-ceresti/Venus.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Venus"
+      },
+      "tags": {
+        "domain": ["Astronomie"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    }
+  ]
+}

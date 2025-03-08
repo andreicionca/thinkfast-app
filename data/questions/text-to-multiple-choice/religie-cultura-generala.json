@@ -6,7 +6,7 @@
         "domain": ["religie"],
         "period": ["Mileniul III î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "biblic"],
+        "general": ["iudaism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -23,7 +23,7 @@
         "domain": ["religie"],
         "period": ["Mileniul II î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "biblic"],
+        "general": ["iudaism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -40,7 +40,7 @@
         "domain": ["religie"],
         "period": ["Mileniul II î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "patriarhi"],
+        "general": ["iudaism", "patriarhi"],
         "difficulty": "mediu"
       },
       "question": {
@@ -57,7 +57,7 @@
         "domain": ["religie"],
         "period": ["Mileniul II î.Hr."],
         "region": ["Egipt"],
-        "specific": ["iudaism", "istorie biblică"],
+        "general": ["iudaism", "istorie biblică"],
         "difficulty": "mediu"
       },
       "question": {
@@ -74,7 +74,7 @@
         "domain": ["religie"],
         "period": ["Mileniul II î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "istorie biblică"],
+        "general": ["iudaism", "istorie biblică"],
         "difficulty": "mediu"
       },
       "question": {
@@ -91,7 +91,7 @@
         "domain": ["religie"],
         "period": ["Mileniul I î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "istorie biblică"],
+        "general": ["iudaism", "istorie biblică"],
         "difficulty": "ușor"
       },
       "question": {
@@ -108,7 +108,7 @@
         "domain": ["religie"],
         "period": ["Mileniul I î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "istorie biblică"],
+        "general": ["iudaism", "istorie biblică"],
         "difficulty": "mediu"
       },
       "question": {
@@ -125,7 +125,7 @@
         "domain": ["religie"],
         "period": ["Mileniul I î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "istorie biblică"],
+        "general": ["iudaism", "istorie biblică"],
         "difficulty": "mediu"
       },
       "question": {
@@ -142,7 +142,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "biblic"],
+        "general": ["creștinism", "biblic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -159,7 +159,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "istorie biblică"],
+        "general": ["creștinism", "istorie biblică"],
         "difficulty": "mediu"
       },
       "question": {
@@ -180,7 +180,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "istorie biblică"],
+        "general": ["creștinism", "istorie biblică"],
         "difficulty": "ușor"
       },
       "question": {
@@ -201,7 +201,7 @@
         "domain": ["istorie"],
         "period": ["Secolul IV"],
         "region": ["Europa"],
-        "specific": ["creștinism", "imperiu roman"],
+        "general": ["creștinism", "imperiu roman"],
         "difficulty": "mediu"
       },
       "question": {
@@ -218,7 +218,7 @@
         "domain": ["istorie"],
         "period": ["Secolul III", "Secolul IV"],
         "region": ["Europa"],
-        "specific": ["creștinism", "imperiu roman"],
+        "general": ["creștinism", "imperiu roman"],
         "difficulty": "ușor"
       },
       "question": {
@@ -235,7 +235,7 @@
         "domain": ["religie"],
         "period": ["Secolul XI"],
         "region": ["Europa"],
-        "specific": ["creștinism", "istorie bisericească"],
+        "general": ["creștinism", "istorie bisericească"],
         "difficulty": "mediu"
       },
       "question": {
@@ -252,7 +252,7 @@
         "domain": ["istorie"],
         "period": ["Secolul XI", "Secolul XIII"],
         "region": ["Europa", "Orientul Apropiat"],
-        "specific": ["cruciade", "istorie medievală"],
+        "general": ["cruciade", "istorie medievală"],
         "difficulty": "ușor"
       },
       "question": {
@@ -269,7 +269,7 @@
         "domain": ["istorie"],
         "period": ["Secolul XVI"],
         "region": ["Europa"],
-        "specific": ["reformă religioasă", "istorie creștinism"],
+        "general": ["reformă religioasă", "istorie creștinism"],
         "difficulty": "mediu"
       },
       "question": {
@@ -286,7 +286,7 @@
         "domain": ["religie"],
         "period": ["Geneza"],
         "region": ["Orientul Apropiat"],
-        "specific": ["biblic", "creație"],
+        "general": ["biblic", "creație"],
         "difficulty": "ușor"
       },
       "question": {
@@ -303,7 +303,7 @@
         "domain": ["religie"],
         "period": ["Exod"],
         "region": ["Orientul Apropiat"],
-        "specific": ["biblic", "mozaic"],
+        "general": ["biblic", "mozaic"],
         "difficulty": "ușor"
       },
       "question": {
@@ -324,7 +324,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "sărbători"],
+        "general": ["creștinism", "sărbători"],
         "difficulty": "ușor"
       },
       "question": {
@@ -341,7 +341,7 @@
         "domain": ["religie"],
         "period": ["Mileniul II î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "istorie biblică"],
+        "general": ["iudaism", "istorie biblică"],
         "difficulty": "ușor"
       },
       "question": {
@@ -362,7 +362,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "sărbători"],
+        "general": ["creștinism", "sărbători"],
         "difficulty": "ușor"
       },
       "question": {
@@ -383,7 +383,7 @@
         "domain": ["religie"],
         "period": ["Mileniul I î.Hr."],
         "region": ["Orientul Apropiat"],
-        "specific": ["iudaism", "patriarhi"],
+        "general": ["iudaism", "patriarhi"],
         "difficulty": "mediu"
       },
       "question": {
@@ -400,7 +400,7 @@
         "domain": ["religie"],
         "period": ["Secolul IV"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "simboluri"],
+        "general": ["creștinism", "simboluri"],
         "difficulty": "ușor"
       },
       "question": {
@@ -417,7 +417,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "rugăciuni"],
+        "general": ["creștinism", "rugăciuni"],
         "difficulty": "ușor"
       },
       "question": {
@@ -434,7 +434,7 @@
         "domain": ["religie"],
         "period": ["Secolul I"],
         "region": ["Orientul Apropiat"],
-        "specific": ["creștinism", "sărbători"],
+        "general": ["creștinism", "sărbători"],
         "difficulty": "ușor"
       },
       "question": {

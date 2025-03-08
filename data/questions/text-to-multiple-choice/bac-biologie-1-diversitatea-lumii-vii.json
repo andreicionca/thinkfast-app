@@ -6,7 +6,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "clasificare"],
+        "general": ["bac", "biologie", "clasificare"],
         "difficulty": "ușor"
       },
       "question": {
@@ -23,7 +23,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "clasificare"],
+        "general": ["bac", "biologie", "clasificare"],
         "difficulty": "ușor"
       },
       "question": {
@@ -40,7 +40,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "clasificare"],
+        "general": ["bac", "biologie", "clasificare"],
         "difficulty": "mediu"
       },
       "question": {
@@ -61,7 +61,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "taxonomie"],
+        "general": ["bac", "biologie", "taxonomie"],
         "difficulty": "ușor"
       },
       "question": {
@@ -78,7 +78,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "clasificare"],
+        "general": ["bac", "biologie", "clasificare"],
         "difficulty": "mediu"
       },
       "question": {
@@ -99,7 +99,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "virusuri"],
+        "general": ["bac", "biologie", "virusuri"],
         "difficulty": "ușor"
       },
       "question": {
@@ -116,7 +116,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "virusuri"],
+        "general": ["bac", "biologie", "virusuri"],
         "difficulty": "mediu"
       },
       "question": {
@@ -133,7 +133,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "virusuri"],
+        "general": ["bac", "biologie", "virusuri"],
         "difficulty": "greu"
       },
       "question": {
@@ -150,7 +150,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "virusuri"],
+        "general": ["bac", "biologie", "virusuri"],
         "difficulty": "ușor"
       },
       "question": {
@@ -167,7 +167,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "virusuri"],
+        "general": ["bac", "biologie", "virusuri"],
         "difficulty": "greu"
       },
       "question": {
@@ -184,7 +184,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "bacterii"],
+        "general": ["bac", "biologie", "bacterii"],
         "difficulty": "ușor"
       },
       "question": {
@@ -201,7 +201,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "bacterii"],
+        "general": ["bac", "biologie", "bacterii"],
         "difficulty": "mediu"
       },
       "question": {
@@ -222,7 +222,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "bacterii"],
+        "general": ["bac", "biologie", "bacterii"],
         "difficulty": "ușor"
       },
       "question": {
@@ -239,7 +239,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "bacterii"],
+        "general": ["bac", "biologie", "bacterii"],
         "difficulty": "ușor"
       },
       "question": {
@@ -256,7 +256,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "bacterii"],
+        "general": ["bac", "biologie", "bacterii"],
         "difficulty": "mediu"
       },
       "question": {
@@ -273,7 +273,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "protiste"],
+        "general": ["bac", "biologie", "protiste"],
         "difficulty": "mediu"
       },
       "question": {
@@ -290,7 +290,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "protiste"],
+        "general": ["bac", "biologie", "protiste"],
         "difficulty": "ușor"
       },
       "question": {
@@ -307,7 +307,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "protiste"],
+        "general": ["bac", "biologie", "protiste"],
         "difficulty": "ușor"
       },
       "question": {
@@ -324,7 +324,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "protiste"],
+        "general": ["bac", "biologie", "protiste"],
         "difficulty": "mediu"
       },
       "question": {
@@ -341,7 +341,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "protiste"],
+        "general": ["bac", "biologie", "protiste"],
         "difficulty": "ușor"
       },
       "question": {
@@ -358,7 +358,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "fungi"],
+        "general": ["bac", "biologie", "fungi"],
         "difficulty": "ușor"
       },
       "question": {
@@ -375,7 +375,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "fungi"],
+        "general": ["bac", "biologie", "fungi"],
         "difficulty": "mediu"
       },
       "question": {
@@ -392,7 +392,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "fungi"],
+        "general": ["bac", "biologie", "fungi"],
         "difficulty": "ușor"
       },
       "question": {
@@ -409,7 +409,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "fungi"],
+        "general": ["bac", "biologie", "fungi"],
         "difficulty": "mediu"
       },
       "question": {
@@ -426,7 +426,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "fungi"],
+        "general": ["bac", "biologie", "fungi"],
         "difficulty": "ușor"
       },
       "question": {
@@ -443,7 +443,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "plante avasculare"],
+        "general": ["bac", "biologie", "plante avasculare"],
         "difficulty": "ușor"
       },
       "question": {
@@ -464,7 +464,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "plante avasculare"],
+        "general": ["bac", "biologie", "plante avasculare"],
         "difficulty": "ușor"
       },
       "question": {
@@ -481,7 +481,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "plante gimnosperme"],
+        "general": ["bac", "biologie", "plante gimnosperme"],
         "difficulty": "ușor"
       },
       "question": {
@@ -498,7 +498,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "plante"],
+        "general": ["bac", "biologie", "plante"],
         "difficulty": "mediu"
       },
       "question": {
@@ -515,7 +515,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "plante angiosperme"],
+        "general": ["bac", "biologie", "plante angiosperme"],
         "difficulty": "mediu"
       },
       "question": {
@@ -532,7 +532,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "mamifere"],
+        "general": ["bac", "biologie", "mamifere"],
         "difficulty": "ușor"
       },
       "question": {
@@ -553,7 +553,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "vertebrate"],
+        "general": ["bac", "biologie", "vertebrate"],
         "difficulty": "ușor"
       },
       "question": {
@@ -570,7 +570,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "păsări"],
+        "general": ["bac", "biologie", "păsări"],
         "difficulty": "mediu"
       },
       "question": {
@@ -591,7 +591,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "reptile"],
+        "general": ["bac", "biologie", "reptile"],
         "difficulty": "ușor"
       },
       "question": {
@@ -608,7 +608,7 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "specific": ["bac", "biologie", "păsări"],
+        "general": ["bac", "biologie", "păsări"],
         "difficulty": "mediu"
       },
       "question": {

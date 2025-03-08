@@ -137,6 +137,7 @@ let gameState = {
   },
   penaltyTimer: null,
   penaltyTimeLeft: 0,
+  isLoadingQuestion: false,
 };
 
 // Flags pentru diverse stări
@@ -241,12 +242,18 @@ function setupEventListeners() {
 function handleKeyPress(event) {
   if (gameEnded) return; // Dacă jocul s-a terminat, nu mai procesăm nicio tastă
 
-  if (event.key.toLowerCase() === "p") {
+  if (event.key.toLowerCase() === "p" && !gameState.isLoadingQuestion) {
     togglePause();
     return;
   }
 
-  if (penaltyActive || answerDisplaying || gameState.isPaused) return;
+  if (
+    penaltyActive ||
+    answerDisplaying ||
+    gameState.isPaused ||
+    gameState.isLoadingQuestion
+  )
+    return;
 
   const currentTime = Date.now();
   switch (event.key.toLowerCase()) {
@@ -349,6 +356,8 @@ function showCurrentQuestion() {
   currentText.textContent = "";
   currentText.style.display = "flex";
   gameState.isPaused = true;
+  gameState.isLoadingQuestion = true; // adăugat
+
   audioManager.stopTick();
 
   const words = currentQuestion.question.text.split(" ");
@@ -364,6 +373,8 @@ function showCurrentQuestion() {
       setTimeout(() => {
         setTimeout(() => {
           gameState.isPaused = false;
+          gameState.isLoadingQuestion = false; // adăugat
+
           audioManager.startTick();
           resetIndicii();
         }, 500);
@@ -514,7 +525,6 @@ function updatePlayerStatus() {
   }
 }
 
-// Pauză joc
 function togglePause() {
   gameState.isPaused = !gameState.isPaused;
 
@@ -546,16 +556,18 @@ function togglePause() {
         answerDisplay.textContent = "";
         answerDisplay.className = "";
         currentText.className = "";
+        questionContainer.className = ""; // ADĂUGAT
         answerDisplaying = false;
         nextQuestion();
         switchPlayer();
         startTimer();
         audioManager.startTick();
       }, gameState.settings.pauseTime * 1000);
+    } else {
+      audioManager.startTick(); // ADĂUGAT
     }
   }
 }
-
 // Sfârșit joc
 // Modifică funcția endGame pentru a seta flag-ul
 function endGame(winner) {
@@ -610,6 +622,7 @@ function resetGameState() {
   gameState.currentQuestionIndex = 0;
   gameState.currentPlayer = Math.random() < 0.5 ? 1 : 2;
   gameState.indiciiFolosite = { player1: 0, player2: 0 };
+  gameState.isLoadingQuestion = false; // adăugat
 
   // Resetăm display-ul
   player1Timer.textContent = gameState.timeLeft1;

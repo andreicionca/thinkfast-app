@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagine ➡️ Variante de răspuns</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/image-to-multiple-choice-game.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/app/img/image-to-multiple-choice-game.ico"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="question-container">
+        <div id="image-section">
+          <img id="current-image" alt="Quiz Image" style="display: none" />
+          <div id="countdown" class="countdown"></div>
+        </div>
+        <div id="options-section">
+          <div id="options-container" style="display: none">
+            <div id="option1" class="option"></div>
+            <div id="option2" class="option"></div>
+            <div id="option3" class="option"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hints-container"></div>
+
+      <div class="players-section">
+        <div class="players-names">
+          <div id="player1-name" class="player-name">Concurent 1</div>
+          <div id="player2-name" class="player-name">Concurent 2</div>
+        </div>
+
+        <div class="game-stats">
+          <div class="player1-stats">
+            <div id="player1-timer" class="timer timer-inactive">40</div>
+            <div class="player1-hints-counter">Indicii: 0/2</div>
+          </div>
+          <div class="player2-stats">
+            <div class="player2-hints-counter">Indicii: 0/2</div>
+            <div id="player2-timer" class="timer timer-inactive">40</div>
+          </div>
+        </div>
+
+        <div class="game-action">
+          <button id="start-game">Start Game</button>
+        </div>
+        <div class="end-game-buttons" style="display: none">
+          <button id="play-again">Joacă din nou</button>
+          <button id="reset-game">Resetează jocul</button>
+        </div>
+      </div>
+
+      <audio
+        id="background-music"
+        src="assets/app/sounds/background.mp3"
+        loop
+      ></audio>
+    </div>
+
+    <script src="scripts/audio-manager.js"></script>
+    <script src="scripts/image-to-multiple-choice-game.js"></script>
+  </body>
+</html>

@@ -6,8 +6,8 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "difficulty": "greu",
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/afine.jpg",
@@ -22,8 +22,8 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "difficulty": "greu",
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/ananas.jpg",
@@ -38,8 +38,8 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "difficulty": "greu",
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/avocado.jpg",
@@ -54,8 +54,8 @@
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
-        "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "difficulty": "greu",
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/banană.jpg",
@@ -71,7 +71,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/caise.jpg",
@@ -87,7 +87,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/căpșuni.jpg",
@@ -103,7 +103,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/cireșe.jpg",
@@ -119,7 +119,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/clementină.jpg",
@@ -135,7 +135,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/cocos.jpg",
@@ -151,7 +151,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/curmale.jpg",
@@ -167,7 +167,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/durian.jpg",
@@ -183,7 +183,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/fructe_de_acai.jpg",
@@ -199,7 +199,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/fructul_pasiunii.jpg",
@@ -215,7 +215,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/goji.jpg",
@@ -225,29 +225,14 @@
         "text": "Goji"
       }
     },
+
     {
       "tags": {
         "domain": ["biologie"],
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
-      },
-      "question": {
-        "media": "/assets/database/images/fructe/granadilla.jpg",
-        "hints": [""]
-      },
-      "answer": {
-        "text": "Granadilla"
-      }
-    },
-    {
-      "tags": {
-        "domain": ["biologie"],
-        "period": [""],
-        "region": [""],
-        "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/guava.jpg",
@@ -263,7 +248,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/kaki.jpg",
@@ -279,7 +264,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/kiwi.jpg",
@@ -295,7 +280,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/lămâie.jpg",
@@ -311,7 +296,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/litchi.jpg",
@@ -327,7 +312,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/mandarină.jpg",
@@ -343,7 +328,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/mango.jpg",
@@ -359,7 +344,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/mangustan.jpg",
@@ -375,7 +360,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/măr.jpg",
@@ -391,7 +376,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/mure.jpg",
@@ -407,7 +392,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/nectarine.jpg",
@@ -423,7 +408,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/papaya.jpg",
@@ -439,7 +424,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/pepene_galben.jpg",
@@ -455,7 +440,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/pepene_verde.jpg",
@@ -471,7 +456,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/pere.jpg",
@@ -487,7 +472,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/physalis.jpg",
@@ -503,7 +488,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/piersici.jpg",
@@ -519,7 +504,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/portocală.jpg",
@@ -535,7 +520,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/prune.jpg",
@@ -551,7 +536,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/rambutan.jpg",
@@ -567,7 +552,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/rodie.jpg",
@@ -583,7 +568,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "mediu",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/smochine.jpg",
@@ -599,7 +584,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/struguri.jpg",
@@ -615,7 +600,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/vișine.jpg",
@@ -631,7 +616,7 @@
         "period": [""],
         "region": [""],
         "difficulty": "ușor",
-        "specific": ["aliment", "natural"]
+        "general": ["aliment", "natural"]
       },
       "question": {
         "media": "/assets/database/images/fructe/zmeură.jpg",

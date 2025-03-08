@@ -1,0 +1,501 @@
+{
+  "name": "Obiecte din gospodărie",
+  "questions": [
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Adăpătoare_Păsări.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Adăpătoare pentru păsări"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Balot_Fân.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Balot de fân"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Baros.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Baros"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/bici.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Bici"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Caruta.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Căruță"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Coasa.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Coasă"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Cuptor_Exterior.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Cuptor exterior"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Căldare.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Căldare"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Drujba.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Drujbă"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Fierastrau.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fierăstrău"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Fântână.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Fântână"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Generator.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Generator"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Grebla.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Greblă"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Harlet.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Hârleț"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Jug.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Jug"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/lopată.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Lopată"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Masina_Tuns_Iarba.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Mașină de tuns iarba"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Moara_Cereale.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Moară de cereale"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Moară_de_apă.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Moară de apă"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Motocoasa.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Motocoasă"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Motocultor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Motocultor"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Plug.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Plug"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Razboi_tesut.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Război de țesut"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "greu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Roaba.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Roabă"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Sapa.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Sapă"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Scara.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Scară"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Secera.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Seceră"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Seră.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Seră"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Topor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Topor"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Tractor.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Tractor"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "ușor",
+        "general": [""]
+      }
+    },
+    {
+      "question": {
+        "media": "/assets/database/images/obiecte-din-gospodarie-de-la-țară/Troita.jpg",
+        "hints": [""]
+      },
+      "answer": {
+        "text": "Troiță"
+      },
+      "tags": {
+        "domain": ["Divertisment"],
+        "period": [""],
+        "region": [""],
+        "difficulty": "mediu",
+        "general": [""]
+      }
+    }
+  ]
+}
